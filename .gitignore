@@ -1,0 +1,7 @@
+node_modules/
+_ic3_themes/
+data/students.json
+data/admin-config.json
+*.log
+.DS_Store
+Thumbs.db

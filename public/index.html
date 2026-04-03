@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IC3 Spark Level 1 — Luyện thi Thông minh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-layout" id="appLayout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">IC3</div>
+                <span class="sidebar-logo-text">Spark</span>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#/" class="nav-link active" data-route="dashboard">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    <span>Trang chủ</span>
+                </a>
+                <a href="#/exam" class="nav-link" data-route="exam">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    <span>Thi thử</span>
+                </a>
+                <a href="#/history" class="nav-link" data-route="history">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Lịch sử</span>
+                </a>
+                <a href="#/admin" class="nav-link nav-link-admin" data-route="admin" style="display:none;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Quản trị</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-modules">
+                <div class="sidebar-modules-title">Danh sách Module</div>
+                <ul id="moduleList" class="module-list">
+                    <li class="module-item-loading">Đang tải dữ liệu...</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Exam Mode Header (hidden by default, shown during exam) -->
+        <div class="exam-top-bar" id="examTopBar" style="display:none;">
+            <div class="exam-top-bar-logo">
+                <div class="exam-top-bar-icon">IC3</div>
+                <span class="exam-top-bar-text">Spark</span>
+            </div>
+            <div class="exam-top-bar-right">
+                <div class="exam-top-bar-nav">
+                    <a href="#/" class="exam-top-link">Trang chủ</a>
+                    <a href="#/exam" class="exam-top-link exam-top-link-active">Thi thử</a>
+                    <a href="#/history" class="exam-top-link">Lịch sử</a>
+                </div>
+                <div id="timerDisplay" class="timer-display" style="display:none;">
+                    <span class="timer-icon">⏱️</span>
+                    <span id="timerText" class="timer-text">50:00</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <main class="main-content" id="mainContent">
+            <div id="app" class="app-container">
+                <div class="welcome-message">
+                    <div class="welcome-icon">🚀</div>
+                    <h1>Chào mừng đến với IC3 Spark!</h1>
+                    <p>Hệ thống luyện thi IC3 GS6 Spark Level 1 thông minh</p>
+                    <p class="welcome-sub">Chọn một module bên trái để bắt đầu ôn tập nhé!</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts: modules first, then views, then main entry -->
+    <script src="router.js"></script>
+    <script src="storageManager.js"></script>
+    <script src="timer.js"></script>
+    <script src="questionRenderer.js"></script>
+    <script src="views/dashboard.js"></script>
+    <script src="views/reviewMode.js"></script>
+    <script src="views/examMode.js"></script>
+    <script src="views/historyView.js"></script>
+    <script src="views/adminView.js"></script>
+    <script src="studentNameDialog.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
