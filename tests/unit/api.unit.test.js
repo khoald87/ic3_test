@@ -329,7 +329,7 @@ describe('GET /api/questions/stats', () => {
     const res = await fetch(`${baseUrl}/api/questions/stats`);
     expect(res.status).toBe(200);
     const data = await res.json();
-    expect(data.total).toBe(120);
+    expect(data.total).toBe(300);
     expect(data.byModule).toBeDefined();
     expect(data.byDifficulty).toBeDefined();
     expect(data.byType).toBeDefined();

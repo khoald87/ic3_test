@@ -1,11 +1,35 @@
 {
   "modules": [
-    { "id": "module_1", "title": "Module 1: Căn bản về Công nghệ", "icon": "💻" },
-    { "id": "module_2", "title": "Module 2: Công dân số & An toàn", "icon": "🛡️" },
-    { "id": "module_3", "title": "Module 3: Mạng & Truyền thông", "icon": "🌐" },
-    { "id": "module_4", "title": "Module 4: Hệ điều hành", "icon": "🖥️" },
-    { "id": "module_5", "title": "Module 5: Bảo mật", "icon": "🔒" },
-    { "id": "module_6", "title": "Module 6: Quản lý Thông tin", "icon": "📁" }
+    {
+      "id": "module_1",
+      "title": "Module 1: Căn bản về Công nghệ",
+      "icon": "💻"
+    },
+    {
+      "id": "module_2",
+      "title": "Module 2: Công dân số & An toàn",
+      "icon": "🛡️"
+    },
+    {
+      "id": "module_3",
+      "title": "Module 3: Mạng & Truyền thông",
+      "icon": "🌐"
+    },
+    {
+      "id": "module_4",
+      "title": "Module 4: Hệ điều hành",
+      "icon": "🖥️"
+    },
+    {
+      "id": "module_5",
+      "title": "Module 5: Bảo mật",
+      "icon": "🔒"
+    },
+    {
+      "id": "module_6",
+      "title": "Module 6: Quản lý Thông tin",
+      "icon": "📁"
+    }
   ],
   "questions": [
     {
@@ -344,7 +368,6 @@
       "domain": "software",
       "module": "module_6"
     },
-
     {
       "id": "m1_q006",
       "q": "Máy in (Printer) là thiết bị thuộc loại nào?",
@@ -365,7 +388,10 @@
       "id": "m1_q007",
       "q": "Bàn phím và chuột là thiết bị nhập (Input device).",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng rồi! Bàn phím và chuột là thiết bị nhập vì chúng giúp em đưa thông tin vào máy tính. Bàn phím để gõ chữ, chuột để chỉ và nhấp — cả hai đều gửi lệnh từ em đến máy tính.",
       "difficulty": "dễ",
@@ -376,7 +402,10 @@
       "id": "m1_q008",
       "q": "Ổ cứng (Hard Drive) dùng để lưu trữ dữ liệu vĩnh viễn, ngay cả khi tắt máy tính.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Ổ cứng giống như tủ sách của máy tính — nó giữ lại tất cả tệp tin, hình ảnh, chương trình ngay cả khi em tắt máy. Khác với RAM chỉ nhớ tạm thời, ổ cứng nhớ lâu dài.",
       "difficulty": "dễ",
@@ -393,7 +422,11 @@
         "Chuột (Mouse)",
         "Máy quét (Scanner)"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Bàn phím, chuột và máy quét đều là thiết bị nhập vì chúng đưa thông tin vào máy tính. Màn hình là thiết bị xuất vì nó hiển thị thông tin ra cho em xem.",
       "difficulty": "trung bình",
       "domain": "hardware",
@@ -409,7 +442,12 @@
         "Chờ máy tính nhận diện máy in",
         "In thử một trang để kiểm tra"
       ],
-      "correct": [1, 0, 2, 3],
+      "correct": [
+        1,
+        0,
+        2,
+        3
+      ],
       "explanation": "Thứ tự đúng: Cắm dây USB → Bật máy in → Chờ máy tính nhận diện → In thử. Giống như khi em cắm sạc điện thoại: cắm dây trước, rồi mới bật lên kiểm tra.",
       "difficulty": "trung bình",
       "domain": "hardware",
@@ -435,7 +473,10 @@
       "id": "m1_q012",
       "q": "RAM có dung lượng càng lớn thì máy tính chạy càng nhanh.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! RAM nhiều hơn giúp máy tính mở được nhiều chương trình cùng lúc mà không bị chậm. Giống như bàn học rộng hơn thì em để được nhiều sách vở hơn mà không bị chật.",
       "difficulty": "trung bình",
@@ -468,7 +509,11 @@
         "Microsoft Excel",
         "Microsoft PowerPoint"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Word, Excel và PowerPoint đều thuộc bộ Microsoft Office. Google Chrome là trình duyệt web của Google, không phải phần mềm Office. Bộ Office giúp em soạn văn bản, tính toán và làm bài trình chiếu.",
       "difficulty": "trung bình",
       "domain": "software",
@@ -484,7 +529,12 @@
         "Đặt tên cho tệp tin",
         "Nhấn nút Save để xác nhận"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự lưu tệp: Nhấn Save → Chọn thư mục → Đặt tên → Nhấn Save xác nhận. Giống như khi em cất sách: quyết định cất → chọn ngăn tủ → dán nhãn tên → đặt vào.",
       "difficulty": "trung bình",
       "domain": "software",
@@ -494,7 +544,10 @@
       "id": "m1_q016",
       "q": "Máy tính bảng (Tablet) có thể dùng màn hình cảm ứng thay cho chuột và bàn phím.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Máy tính bảng có màn hình cảm ứng nên em có thể chạm, vuốt, gõ chữ trực tiếp trên màn hình mà không cần chuột hay bàn phím rời. Tuy nhiên, em vẫn có thể kết nối thêm bàn phím nếu muốn.",
       "difficulty": "dễ",
@@ -543,7 +596,11 @@
         "Màn hình (Monitor)",
         "Máy in (Printer)"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Loa, màn hình và máy in đều là thiết bị xuất vì chúng đưa thông tin từ máy tính ra cho em: loa phát âm thanh, màn hình hiển thị hình ảnh, máy in in ra giấy. Bàn phím là thiết bị nhập.",
       "difficulty": "trung bình",
       "domain": "hardware",
@@ -559,13 +616,17 @@
         "Nhập mật khẩu đăng nhập (nếu có)",
         "Nhấp đúp chuột vào biểu tượng chương trình trên Desktop"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự đúng: Bật nguồn → Chờ Windows khởi động → Đăng nhập → Mở chương trình. Giống như khi em vào lớp: mở cửa → vào phòng → ngồi vào chỗ → lấy sách ra học.",
       "difficulty": "khó",
       "domain": "hardware",
       "module": "module_1"
     },
-
     {
       "id": "m2_q005",
       "q": "Cyberbullying (bắt nạt trực tuyến) là hành vi gì?",
@@ -586,7 +647,10 @@
       "id": "m2_q006",
       "q": "Em nên chia sẻ mật khẩu tài khoản của mình với bạn thân.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Em không nên chia sẻ mật khẩu với bất kỳ ai, kể cả bạn thân. Mật khẩu giống như chìa khóa nhà — nếu cho người khác thì họ có thể vào tài khoản của em bất cứ lúc nào. Chỉ ba mẹ mới nên biết mật khẩu của em.",
       "difficulty": "dễ",
@@ -603,7 +667,11 @@
         "Số điện thoại của ba mẹ",
         "Tên trường và lớp học"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Địa chỉ nhà, số điện thoại và tên trường là thông tin riêng tư — nếu người xấu biết được, họ có thể tìm đến em. Sở thích đọc sách thì an toàn để chia sẻ vì không tiết lộ em ở đâu.",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -661,7 +729,10 @@
       "id": "m2_q011",
       "q": "Tất cả thông tin trên Internet đều chính xác và đáng tin cậy.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Không phải mọi thứ trên Internet đều đúng. Bất kỳ ai cũng có thể đăng thông tin lên mạng, kể cả thông tin sai. Em nên kiểm tra từ nhiều nguồn khác nhau và hỏi người lớn khi không chắc chắn.",
       "difficulty": "dễ",
@@ -678,7 +749,12 @@
         "Kiểm tra xem có hoạt động lạ nào trên tài khoản không",
         "Bật xác thực hai bước (2FA) nếu có"
       ],
-      "correct": [1, 0, 2, 3],
+      "correct": [
+        1,
+        0,
+        2,
+        3
+      ],
       "explanation": "Thứ tự đúng: Báo người lớn → Đổi mật khẩu → Kiểm tra hoạt động lạ → Bật bảo mật thêm. Điều quan trọng nhất là báo cho ba mẹ biết ngay để được giúp đỡ!",
       "difficulty": "khó",
       "domain": "software",
@@ -694,7 +770,11 @@
         "Xin phép trước khi chia sẻ ảnh của người khác",
         "Không spam (gửi tin nhắn lặp lại nhiều lần)"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Phép lịch sự trên mạng gồm: viết lịch sự, xin phép khi chia sẻ ảnh người khác, không spam. Viết HOA toàn bộ giống như la hét — không lịch sự đâu nhé!",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -736,7 +816,10 @@
       "id": "m2_q016",
       "q": "Em có thể sao chép bài văn từ Internet và nộp cho thầy cô như bài của mình.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Sao chép bài của người khác và nói là của mình gọi là đạo văn (plagiarism) — đây là hành vi không trung thực. Em nên tự viết bài và nếu tham khảo thì phải ghi rõ nguồn.",
       "difficulty": "dễ",
@@ -753,7 +836,12 @@
         "Thêm số và ký tự đặc biệt: Mcyc@2024!",
         "Kiểm tra độ dài ít nhất 8 ký tự"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Cách tạo mật khẩu an toàn: Nghĩ câu dễ nhớ → Lấy chữ cái đầu → Thêm số và ký tự đặc biệt → Kiểm tra độ dài. Như vậy em có mật khẩu vừa mạnh vừa dễ nhớ!",
       "difficulty": "khó",
       "domain": "software",
@@ -785,7 +873,11 @@
         "Đăng ảnh xấu của bạn lên mạng để chế giễu",
         "Tạo tài khoản giả mạo tên bạn"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Đe dọa, đăng ảnh xấu để chế giễu và giả mạo tài khoản đều là cyberbullying. Chia sẻ và khen ngợi bạn là hành vi tốt. Nếu em gặp cyberbullying, hãy báo ngay cho người lớn!",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -807,7 +899,6 @@
       "domain": "software",
       "module": "module_2"
     },
-
     {
       "id": "m3_q004",
       "q": "Wi-Fi là gì?",
@@ -844,7 +935,10 @@
       "id": "m3_q006",
       "q": "Email là viết tắt của Electronic Mail, nghĩa là thư điện tử.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Email = Electronic Mail = Thư điện tử. Giống như gửi thư qua bưu điện nhưng nhanh hơn nhiều — email đến nơi chỉ trong vài giây thay vì vài ngày!",
       "difficulty": "dễ",
@@ -855,7 +949,10 @@
       "id": "m3_q007",
       "q": "Bluetooth dùng để kết nối các thiết bị ở khoảng cách xa hàng trăm mét.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Bluetooth chỉ hoạt động ở khoảng cách ngắn, thường dưới 10 mét. Nó dùng để kết nối tai nghe, loa, bàn phím không dây với điện thoại hoặc máy tính ở gần nhau.",
       "difficulty": "trung bình",
@@ -872,7 +969,11 @@
         "Mozilla Firefox",
         "Microsoft Edge"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Chrome, Firefox và Edge đều là trình duyệt web phổ biến dùng để lướt Internet. Microsoft Word là phần mềm soạn thảo văn bản, không phải trình duyệt web.",
       "difficulty": "dễ",
       "domain": "networking",
@@ -904,7 +1005,12 @@
         "Nhập mật khẩu Wi-Fi",
         "Nhấn nút Connect (Kết nối)"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự kết nối Wi-Fi: Nhấp biểu tượng Wi-Fi → Chọn tên mạng → Nhập mật khẩu → Nhấn Connect. Sau vài giây, máy tính sẽ kết nối Internet!",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -930,7 +1036,10 @@
       "id": "m3_q012",
       "q": "Cloud Storage (lưu trữ đám mây) cho phép em lưu tệp tin trên Internet và truy cập từ bất kỳ thiết bị nào.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Lưu trữ đám mây (như Google Drive, OneDrive) giống như tủ đồ trên mạng — em lưu tệp tin lên đó và có thể mở từ máy tính, điện thoại hay máy tính bảng ở bất cứ đâu có Internet.",
       "difficulty": "trung bình",
@@ -963,7 +1072,11 @@
         "OneDrive",
         "Dropbox"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Google Drive, OneDrive và Dropbox đều là dịch vụ lưu trữ đám mây — em lưu tệp tin lên Internet và truy cập từ mọi nơi. Microsoft Word là phần mềm soạn thảo, không phải dịch vụ lưu trữ đám mây.",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -1011,7 +1124,12 @@
         "Nhấn nút đính kèm (Attach) và chọn tệp tin",
         "Viết nội dung email và nhấn Gửi (Send)"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự gửi email có đính kèm: Soạn thư mới → Nhập địa chỉ người nhận → Đính kèm tệp → Viết nội dung và Gửi. Giống như gửi thư: lấy phong bì → viết địa chỉ → bỏ tài liệu vào → gửi đi.",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -1027,7 +1145,11 @@
         "Máy in",
         "Micro (microphone)"
       ],
-      "correct": [0, 1, 3],
+      "correct": [
+        0,
+        1,
+        3
+      ],
       "explanation": "Gọi video cần: Internet (để truyền dữ liệu), camera (để quay hình), micro (để thu âm thanh). Máy in không cần thiết cho video call. Loa hoặc tai nghe cũng cần để nghe người khác nói.",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -1053,14 +1175,16 @@
       "id": "m3_q020",
       "q": "Modem là thiết bị chuyển đổi tín hiệu Internet từ nhà mạng để máy tính có thể sử dụng.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Modem giống như người phiên dịch — nó chuyển đổi tín hiệu từ đường dây điện thoại hoặc cáp quang thành tín hiệu mà máy tính hiểu được. Không có modem thì máy tính không thể kết nối Internet.",
       "difficulty": "khó",
       "domain": "networking",
       "module": "module_3"
     },
-
     {
       "id": "m4_q004",
       "q": "Desktop (Màn hình nền) là gì?",
@@ -1097,7 +1221,10 @@
       "id": "m4_q006",
       "q": "Hệ điều hành (Operating System) là phần mềm quan trọng nhất trên máy tính.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Hệ điều hành (như Windows, macOS) là phần mềm quan trọng nhất — nó quản lý toàn bộ phần cứng và cho phép các phần mềm khác chạy được. Không có hệ điều hành thì máy tính không thể hoạt động.",
       "difficulty": "trung bình",
@@ -1130,7 +1257,11 @@
         "Alt+F4 (Đóng cửa sổ)",
         "Ctrl+Z (Hoàn tác)"
       ],
-      "correct": [0, 1, 3],
+      "correct": [
+        0,
+        1,
+        3
+      ],
       "explanation": "Ctrl+C (sao chép), Ctrl+V (dán) và Ctrl+Z (hoàn tác) đều dùng để thao tác với văn bản. Alt+F4 dùng để đóng cửa sổ chương trình, không phải thao tác văn bản.",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1162,7 +1293,12 @@
         "Chọn Folder (Thư mục)",
         "Gõ tên thư mục và nhấn Enter"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự tạo thư mục: Nhấp chuột phải → Chọn New → Chọn Folder → Đặt tên. Giống như khi em muốn có hộp đựng đồ mới: chọn chỗ đặt → lấy hộp → dán nhãn tên lên.",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1220,7 +1356,10 @@
       "id": "m4_q014",
       "q": "Multitasking (đa nhiệm) nghĩa là máy tính có thể chạy nhiều chương trình cùng một lúc.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Đa nhiệm nghĩa là máy tính chạy nhiều chương trình cùng lúc. Ví dụ: em có thể vừa nghe nhạc, vừa soạn bài Word, vừa mở trình duyệt web — tất cả cùng một lúc!",
       "difficulty": "trung bình",
@@ -1237,7 +1376,12 @@
         "Làm theo hướng dẫn trên màn hình (nhấn Next, Accept)",
         "Chờ cài đặt hoàn tất và nhấn Finish"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự cài phần mềm: Tải về → Mở tệp cài đặt → Làm theo hướng dẫn → Hoàn tất. Luôn tải từ trang chính thức để tránh vi-rút nhé!",
       "difficulty": "khó",
       "domain": "software",
@@ -1253,7 +1397,11 @@
         "macOS (Apple)",
         "Linux"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Windows, macOS và Linux đều là hệ điều hành. Google Chrome là trình duyệt web, không phải hệ điều hành. Windows phổ biến nhất trên máy tính, macOS dùng cho máy Mac của Apple.",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1279,7 +1427,10 @@
       "id": "m4_q018",
       "q": "Screensaver (trình bảo vệ màn hình) giúp bảo vệ màn hình khỏi bị cháy điểm ảnh khi không sử dụng.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Screensaver hiển thị hình ảnh chuyển động khi em không dùng máy tính trong một thời gian. Ngày xưa nó giúp bảo vệ màn hình CRT, ngày nay nó chủ yếu dùng để trang trí và bảo mật.",
       "difficulty": "khó",
@@ -1296,7 +1447,11 @@
         "Đổi tên tệp tin",
         "Tắt máy tính"
       ],
-      "correct": [0, 1, 2],
+      "correct": [
+        0,
+        1,
+        2
+      ],
       "explanation": "Nhấp chuột phải mở menu ngữ cảnh với nhiều tùy chọn: sao chép, dán, đổi tên, xóa... Tắt máy tính thì dùng nút Start → Shutdown, không phải chuột phải.",
       "difficulty": "dễ",
       "domain": "software",
@@ -1312,13 +1467,17 @@
         "Chọn Rename (Đổi tên) từ menu",
         "Gõ tên mới và nhấn Enter"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự đổi tên tệp: Mở File Explorer → Nhấp chuột phải → Chọn Rename → Gõ tên mới. Em cũng có thể nhấp chọn tệp rồi nhấn phím F2 để đổi tên nhanh hơn!",
       "difficulty": "khó",
       "domain": "software",
       "module": "module_4"
     },
-
     {
       "id": "m5_q004",
       "q": "Virus máy tính là gì?",
@@ -1355,7 +1514,10 @@
       "id": "m5_q006",
       "q": "Cập nhật phần mềm thường xuyên giúp bảo vệ máy tính khỏi các lỗ hổng bảo mật.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Cập nhật phần mềm giống như vá lỗ trên áo — các bản cập nhật sửa những lỗ hổng mà kẻ xấu có thể lợi dụng để tấn công máy tính. Hãy luôn cập nhật phần mềm khi có thông báo nhé!",
       "difficulty": "dễ",
@@ -1372,7 +1534,11 @@
         "Trojan (ngựa thành Troy)",
         "Spyware (phần mềm gián điệp)"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Virus, Trojan và Spyware đều là malware (phần mềm độc hại). Microsoft Word là phần mềm soạn thảo hợp pháp. Trojan giả dạng phần mềm tốt, Spyware theo dõi hoạt động của em trên máy tính.",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1398,7 +1564,10 @@
       "id": "m5_q009",
       "q": "Mạng Wi-Fi công cộng (quán cà phê, sân bay) luôn an toàn để sử dụng.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Wi-Fi công cộng không an toàn vì kẻ xấu có thể theo dõi thông tin em gửi qua mạng. Em không nên đăng nhập tài khoản ngân hàng hoặc nhập mật khẩu quan trọng khi dùng Wi-Fi công cộng.",
       "difficulty": "trung bình",
@@ -1415,7 +1584,12 @@
         "Xóa hoặc cách ly các tệp tin bị nhiễm",
         "Cập nhật phần mềm chống vi-rút và quét lại lần nữa"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự xử lý vi-rút: Ngắt Internet → Quét vi-rút → Xóa/cách ly tệp nhiễm → Cập nhật và quét lại. Ngắt Internet trước để vi-rút không lây sang máy khác!",
       "difficulty": "khó",
       "domain": "software",
@@ -1447,7 +1621,11 @@
         "Màn hình hiển thị hình nền đẹp",
         "Các tệp tin bị xóa hoặc thay đổi mà em không làm"
       ],
-      "correct": [0, 1, 3],
+      "correct": [
+        0,
+        1,
+        3
+      ],
       "explanation": "Máy chạy chậm, pop-up lạ và tệp tin bị thay đổi là dấu hiệu nhiễm vi-rút. Hình nền đẹp là bình thường. Nếu thấy dấu hiệu lạ, hãy báo ba mẹ và chạy phần mềm diệt vi-rút ngay!",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1473,7 +1651,10 @@
       "id": "m5_q014",
       "q": "Pop-up (cửa sổ bật lên) trên trang web luôn an toàn để nhấp vào.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Nhiều pop-up chứa quảng cáo lừa đảo hoặc link tải vi-rút. Đặc biệt cẩn thận với pop-up nói 'Máy tính bị vi-rút, nhấp để sửa!' — đó thường là lừa đảo. Hãy đóng pop-up bằng nút X.",
       "difficulty": "dễ",
@@ -1490,7 +1671,12 @@
         "Sao chép dữ liệu sang thiết bị lưu trữ",
         "Kiểm tra bản sao lưu có đầy đủ không"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự sao lưu: Chọn tệp quan trọng → Chuẩn bị nơi lưu → Sao chép → Kiểm tra. Em nên sao lưu thường xuyên để không bị mất bài tập hay ảnh kỷ niệm!",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1522,7 +1708,11 @@
         "Cập nhật hệ điều hành thường xuyên",
         "Sử dụng mật khẩu mạnh"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "Cài antivirus, cập nhật hệ điều hành và dùng mật khẩu mạnh đều giúp bảo vệ máy tính. Tải phần mềm từ trang web lạ rất nguy hiểm vì có thể chứa vi-rút!",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1548,7 +1738,10 @@
       "id": "m5_q019",
       "q": "Khi tạo tài khoản trực tuyến, em nên dùng cùng một mật khẩu cho tất cả tài khoản.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Nếu dùng cùng mật khẩu cho mọi tài khoản, khi một tài khoản bị lộ thì tất cả đều bị nguy hiểm. Giống như dùng cùng một chìa khóa cho nhà, xe, tủ — mất chìa là mất hết!",
       "difficulty": "dễ",
@@ -1565,13 +1758,17 @@
         "Meo@Con#2024",
         "Tr0ng!Hieu@2024$Vn"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự từ yếu đến mạnh: '123456' (rất yếu, dễ đoán) → 'matkhau2024' (yếu, chỉ có chữ thường và số) → 'Meo@Con#2024' (khá mạnh) → 'Tr0ng!Hieu@2024$Vn' (rất mạnh, đủ loại ký tự và dài).",
       "difficulty": "khó",
       "domain": "networking",
       "module": "module_5"
     },
-
     {
       "id": "m6_q004",
       "q": "Bookmark (Dấu trang) trong trình duyệt web dùng để làm gì?",
@@ -1592,7 +1789,10 @@
       "id": "m6_q005",
       "q": "Công cụ tìm kiếm (Search Engine) giúp em tìm thông tin trên Internet bằng cách gõ từ khóa.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 0,
       "explanation": "Đúng! Công cụ tìm kiếm (như Google, Bing) giống như thủ thư siêu giỏi — em chỉ cần gõ từ khóa và nó sẽ tìm ra hàng triệu trang web liên quan trong vài giây.",
       "difficulty": "dễ",
@@ -1625,7 +1825,11 @@
         "Tên miền (domain), ví dụ: gmail.com",
         "Số điện thoại"
       ],
-      "correct": [0, 1, 2],
+      "correct": [
+        0,
+        1,
+        2
+      ],
       "explanation": "Địa chỉ email gồm 3 phần: tên người dùng + @ + tên miền. Ví dụ: hocsinh@gmail.com. Số điện thoại không phải là phần của email. Ký hiệu @ đọc là 'at' (tại).",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -1657,7 +1861,12 @@
         "Đọc tiêu đề và mô tả các kết quả để chọn trang phù hợp",
         "Kiểm tra thông tin từ nhiều nguồn khác nhau để đảm bảo chính xác"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự tìm kiếm hiệu quả: Mở Google → Gõ từ khóa → Đọc kết quả → Kiểm tra nhiều nguồn. Luôn kiểm tra thông tin từ ít nhất 2-3 trang web khác nhau để chắc chắn nhé!",
       "difficulty": "trung bình",
       "domain": "networking",
@@ -1683,7 +1892,10 @@
       "id": "m6_q011",
       "q": "Tệp tin có phần mở rộng .pdf có thể chỉnh sửa dễ dàng như tệp .docx.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Tệp PDF được thiết kế để xem và in, không dễ chỉnh sửa như Word (.docx). PDF giữ nguyên định dạng trên mọi máy tính — giống như ảnh chụp tài liệu, ai xem cũng thấy giống nhau.",
       "difficulty": "trung bình",
@@ -1700,7 +1912,11 @@
         ".png",
         ".gif"
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "JPG, PNG và GIF đều là định dạng hình ảnh. DOCX là định dạng văn bản Word. JPG dùng cho ảnh chụp, PNG cho ảnh có nền trong suốt, GIF cho ảnh động.",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1732,7 +1948,12 @@
         "Thêm các slide mới với hình ảnh và văn bản",
         "Lưu bài trình chiếu và chạy thử (Slideshow)"
       ],
-      "correct": [0, 1, 2, 3],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explanation": "Thứ tự tạo bài trình chiếu: Mở PowerPoint → Thêm tiêu đề → Thêm nội dung các slide → Lưu và chạy thử. Hãy nhớ không viết quá nhiều chữ trên mỗi slide nhé!",
       "difficulty": "trung bình",
       "domain": "software",
@@ -1742,7 +1963,10 @@
       "id": "m6_q015",
       "q": "Wikipedia là nguồn thông tin đáng tin cậy 100% cho bài tập ở trường.",
       "type": "true-false",
-      "options": ["Đúng", "Sai"],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
       "correct": 1,
       "explanation": "Sai! Wikipedia là bách khoa toàn thư mở — bất kỳ ai cũng có thể chỉnh sửa nội dung. Nó hữu ích để tìm hiểu ban đầu, nhưng em nên kiểm tra lại thông tin từ sách giáo khoa hoặc trang web chính thức.",
       "difficulty": "trung bình",
@@ -1775,7 +1999,11 @@
         "Tệp nén (.zip)",
         "Tất cả các loại tệp trên"
       ],
-      "correct": [0, 1, 2],
+      "correct": [
+        0,
+        1,
+        2
+      ],
       "explanation": "Em có thể đính kèm nhiều loại tệp trong email: văn bản, hình ảnh, tệp nén và nhiều loại khác. Tuy nhiên, hầu hết email giới hạn kích thước tệp đính kèm (thường 25MB). Nếu tệp quá lớn, em có thể dùng Google Drive.",
       "difficulty": "dễ",
       "domain": "networking",
@@ -1807,7 +2035,12 @@
         "Di chuyển các tệp tin vào đúng thư mục tương ứng",
         "Đặt tên tệp tin rõ ràng, dễ hiểu"
       ],
-      "correct": [0, 1, 3, 2],
+      "correct": [
+        0,
+        1,
+        3,
+        2
+      ],
       "explanation": "Thứ tự tổ chức tệp: Tạo thư mục chính → Tạo thư mục con → Đặt tên rõ ràng → Di chuyển tệp vào đúng chỗ. Giống như sắp xếp tủ quần áo: chia ngăn → phân loại → gấp gọn → cất vào.",
       "difficulty": "khó",
       "domain": "software",
@@ -1827,6 +2060,3073 @@
       "explanation": "Print Preview cho em xem trước tài liệu sẽ trông ra sao khi in — kiểm tra lề, cỡ chữ, hình ảnh có đúng không. Giống như thử quần áo trước khi mua — xem trước để không phí giấy in!",
       "difficulty": "dễ",
       "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m1_q021",
+      "q": "Cổng USB trên máy tính dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ để sạc điện thoại",
+        "Kết nối các thiết bị ngoại vi như chuột, bàn phím, USB vào máy tính",
+        "Kết nối Internet không dây",
+        "Hiển thị hình ảnh lên màn hình"
+      ],
+      "correct": 1,
+      "explanation": "Cổng USB giống như ổ cắm đa năng — em có thể cắm chuột, bàn phím, USB, máy in và nhiều thiết bị khác vào đó. USB là viết tắt của Universal Serial Bus (cổng nối tiếp đa năng).",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q022",
+      "q": "Màn hình cảm ứng (Touchscreen) vừa là thiết bị nhập vừa là thiết bị xuất.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Màn hình cảm ứng vừa hiển thị hình ảnh (xuất) vừa nhận lệnh khi em chạm tay vào (nhập). Giống như bảng thông minh ở trường — vừa hiện bài vừa cho em viết lên đó.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q023",
+      "q": "Driver (trình điều khiển) là phần mềm giúp hệ điều hành giao tiếp với phần cứng.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Driver giống như phiên dịch viên — nó giúp hệ điều hành (Windows) hiểu và điều khiển các thiết bị phần cứng như máy in, card màn hình. Không có driver, máy tính không biết cách dùng thiết bị đó.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q024",
+      "q": "Thiết bị nào dưới đây là thiết bị lưu trữ (Storage device)?",
+      "type": "single-choice",
+      "options": [
+        "Chuột (Mouse)",
+        "Loa (Speaker)",
+        "Ổ cứng SSD",
+        "Webcam"
+      ],
+      "correct": 2,
+      "explanation": "Ổ cứng SSD (Solid State Drive) là thiết bị lưu trữ — nó giữ lại tất cả dữ liệu, chương trình, hình ảnh của em ngay cả khi tắt máy. SSD nhanh hơn ổ cứng HDD truyền thống rất nhiều.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q025",
+      "q": "Smartphone (điện thoại thông minh) có thể làm được những gì? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Gọi điện thoại và nhắn tin",
+        "Chụp ảnh và quay video",
+        "Truy cập Internet và dùng ứng dụng",
+        "Thay thế hoàn toàn máy tính để bàn trong mọi công việc"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Smartphone có thể gọi điện, nhắn tin, chụp ảnh, quay video, lướt web và dùng ứng dụng. Tuy nhiên, nó không thể thay thế hoàn toàn máy tính để bàn trong các công việc nặng như thiết kế đồ họa.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q026",
+      "q": "Cổng HDMI trên máy tính dùng để kết nối với thiết bị nào?",
+      "type": "single-choice",
+      "options": [
+        "Máy in",
+        "Màn hình hoặc máy chiếu (projector)",
+        "Bàn phím",
+        "Ổ đĩa USB"
+      ],
+      "correct": 1,
+      "explanation": "Cổng HDMI dùng để truyền hình ảnh và âm thanh từ máy tính đến màn hình, TV hoặc máy chiếu. HDMI giống như đường ống dẫn hình ảnh chất lượng cao từ máy tính ra màn hình lớn.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q027",
+      "q": "Phần mềm nào dưới đây là hệ điều hành (Operating System)?",
+      "type": "single-choice",
+      "options": [
+        "Microsoft Word",
+        "Google Chrome",
+        "Windows 11",
+        "Minecraft"
+      ],
+      "correct": 2,
+      "explanation": "Windows 11 là hệ điều hành — phần mềm quan trọng nhất giúp máy tính hoạt động. Word là phần mềm soạn văn bản, Chrome là trình duyệt web, Minecraft là trò chơi — tất cả đều cần hệ điều hành để chạy được.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q028",
+      "q": "Tệp tin có đuôi .jpg hoặc .png thường là loại tệp gì?",
+      "type": "single-choice",
+      "options": [
+        "Tệp văn bản",
+        "Tệp hình ảnh",
+        "Tệp âm thanh",
+        "Tệp video"
+      ],
+      "correct": 1,
+      "explanation": "Đuôi .jpg và .png cho biết đây là tệp hình ảnh. Giống như nhìn bìa sách biết loại sách, đuôi tệp giúp em biết loại tệp: .jpg/.png = ảnh, .mp3 = nhạc, .mp4 = video, .docx = văn bản Word.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q029",
+      "q": "Sắp xếp các thiết bị từ nhỏ nhất đến lớn nhất.",
+      "type": "drag-drop",
+      "options": [
+        "Smartphone (Điện thoại thông minh)",
+        "Máy tính bảng (Tablet)",
+        "Laptop (Máy tính xách tay)",
+        "Máy tính để bàn (Desktop)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự từ nhỏ đến lớn: Smartphone → Tablet → Laptop → Desktop. Mỗi loại có ưu điểm riêng: smartphone nhỏ gọn mang theo dễ, desktop mạnh mẽ nhất để làm việc nặng.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q030",
+      "q": "Khi cài đặt phần mềm mới, em nên tải từ đâu là an toàn nhất?",
+      "type": "single-choice",
+      "options": [
+        "Từ bất kỳ trang web nào trên Google",
+        "Từ trang web chính thức của nhà sản xuất hoặc cửa hàng ứng dụng (App Store, Microsoft Store)",
+        "Từ email của người lạ gửi đến",
+        "Từ quảng cáo pop-up trên mạng"
+      ],
+      "correct": 1,
+      "explanation": "Luôn tải phần mềm từ nguồn chính thức như trang web nhà sản xuất, Microsoft Store hoặc App Store. Phần mềm từ nguồn lạ có thể chứa vi-rút. Giống như mua đồ ăn — em nên mua ở cửa hàng uy tín.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q031",
+      "q": "Những loại cáp kết nối nào thường dùng với máy tính? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Cáp USB",
+        "Cáp HDMI",
+        "Cáp Ethernet (mạng LAN)",
+        "Cáp nước"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Cáp USB kết nối thiết bị ngoại vi, cáp HDMI truyền hình ảnh đến màn hình, cáp Ethernet kết nối mạng Internet có dây. Không có 'cáp nước' trong máy tính đâu nhé!",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q032",
+      "q": "GPU (Graphics Processing Unit) là bộ phận chuyên xử lý hình ảnh và đồ họa trên máy tính.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! GPU là bộ xử lý đồ họa — nó chuyên vẽ hình ảnh, video, trò chơi lên màn hình. Nếu CPU là bộ não chung, thì GPU là 'họa sĩ' chuyên vẽ tranh cho máy tính.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q033",
+      "q": "Phần mềm nào dùng để tạo bảng tính và tính toán số liệu?",
+      "type": "single-choice",
+      "options": [
+        "Microsoft PowerPoint",
+        "Microsoft Excel",
+        "Paint",
+        "Notepad"
+      ],
+      "correct": 1,
+      "explanation": "Microsoft Excel là phần mềm bảng tính — em dùng nó để nhập số liệu, tính toán, tạo biểu đồ. PowerPoint làm trình chiếu, Paint vẽ tranh, Notepad soạn văn bản đơn giản.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q034",
+      "q": "Sắp xếp đúng thứ tự các bước để cài đặt một phần mềm mới trên máy tính.",
+      "type": "drag-drop",
+      "options": [
+        "Tải tệp cài đặt từ nguồn chính thức",
+        "Nhấp đúp vào tệp cài đặt để mở",
+        "Làm theo hướng dẫn trên màn hình (nhấn Next, Accept)",
+        "Chờ cài đặt hoàn tất và mở phần mềm"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự cài phần mềm: Tải về → Mở tệp cài đặt → Làm theo hướng dẫn → Hoàn tất. Giống như lắp đồ chơi mới: mở hộp → đọc hướng dẫn → lắp từng bước → chơi!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q035",
+      "q": "Bluetooth là công nghệ dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Kết nối không dây giữa các thiết bị ở khoảng cách gần",
+        "Tăng dung lượng ổ cứng",
+        "Làm mát CPU",
+        "Sạc pin cho laptop"
+      ],
+      "correct": 0,
+      "explanation": "Bluetooth giúp kết nối không dây giữa các thiết bị gần nhau — như tai nghe, loa, chuột không dây với máy tính hoặc điện thoại. Giống như nói chuyện với bạn ngồi cạnh mà không cần dây.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q036",
+      "q": "Khi cập nhật (update) phần mềm, điều gì sẽ xảy ra?",
+      "type": "single-choice",
+      "options": [
+        "Phần mềm bị xóa khỏi máy tính",
+        "Phần mềm được sửa lỗi, thêm tính năng mới và bảo mật hơn",
+        "Máy tính sẽ chạy chậm hơn vĩnh viễn",
+        "Tất cả dữ liệu trong phần mềm bị mất"
+      ],
+      "correct": 1,
+      "explanation": "Cập nhật phần mềm giống như tiêm vắc-xin cho máy tính — nó sửa lỗi cũ, thêm tính năng mới và bảo vệ máy tính tốt hơn. Em nên cập nhật phần mềm thường xuyên nhé!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q037",
+      "q": "Laptop có thể hoạt động bằng pin mà không cần cắm điện.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Laptop có pin bên trong nên em có thể mang đi học, đi chơi mà vẫn dùng được. Khi hết pin thì cắm sạc lại, giống như điện thoại vậy.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q038",
+      "q": "Thiết bị ngoại vi (Peripheral) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Bộ phận bên trong máy tính như CPU và RAM",
+        "Thiết bị kết nối bên ngoài máy tính như chuột, bàn phím, máy in",
+        "Phần mềm cài trên máy tính",
+        "Hệ điều hành Windows"
+      ],
+      "correct": 1,
+      "explanation": "Thiết bị ngoại vi là những thiết bị kết nối bên ngoài máy tính: chuột, bàn phím, máy in, loa, webcam... Chúng giống như phụ kiện giúp máy tính làm được nhiều việc hơn.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q039",
+      "q": "Những đuôi tệp nào dưới đây là tệp video? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        ".mp4",
+        ".docx",
+        ".avi",
+        ".xlsx"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": ".mp4 và .avi là đuôi tệp video. .docx là tệp Word (văn bản), .xlsx là tệp Excel (bảng tính). Nhớ đuôi tệp giúp em biết mở bằng phần mềm nào nhé!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q040",
+      "q": "Sắp xếp các bước đúng để kết nối tai nghe Bluetooth với máy tính.",
+      "type": "drag-drop",
+      "options": [
+        "Bật Bluetooth trên máy tính",
+        "Bật chế độ ghép nối (pairing) trên tai nghe",
+        "Tìm tên tai nghe trong danh sách thiết bị Bluetooth",
+        "Nhấn kết nối (Connect) và chờ ghép nối thành công"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự kết nối Bluetooth: Bật Bluetooth trên máy tính → Bật pairing trên tai nghe → Tìm thiết bị → Nhấn kết nối. Giống như bắt tay làm quen — cả hai bên đều phải sẵn sàng!",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q041",
+      "q": "Mainboard (bo mạch chủ) là bảng mạch chính kết nối tất cả các linh kiện bên trong máy tính.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Mainboard giống như đường phố chính trong thành phố — nó kết nối CPU, RAM, ổ cứng và tất cả linh kiện khác lại với nhau để chúng có thể 'nói chuyện' và làm việc cùng nhau.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q042",
+      "q": "Phần mềm nào dùng để vẽ tranh và chỉnh sửa hình ảnh đơn giản trên Windows?",
+      "type": "single-choice",
+      "options": [
+        "Calculator (Máy tính)",
+        "Paint",
+        "Notepad",
+        "File Explorer"
+      ],
+      "correct": 1,
+      "explanation": "Paint là phần mềm vẽ tranh đơn giản có sẵn trên Windows. Em có thể dùng Paint để vẽ, tô màu và chỉnh sửa hình ảnh cơ bản.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q043",
+      "q": "Những thiết bị nào có thể kết nối Internet? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Máy tính để bàn (Desktop)",
+        "Smartphone",
+        "Máy tính bảng (Tablet)",
+        "Máy tính cầm tay (Calculator)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Desktop, smartphone và tablet đều có thể kết nối Internet qua Wi-Fi hoặc cáp mạng. Máy tính cầm tay (calculator) chỉ dùng để tính toán, không kết nối Internet được.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q044",
+      "q": "Nguồn điện (Power Supply Unit - PSU) trong máy tính để bàn có chức năng gì?",
+      "type": "single-choice",
+      "options": [
+        "Xử lý dữ liệu giống CPU",
+        "Cung cấp điện năng cho tất cả các linh kiện bên trong máy tính",
+        "Lưu trữ dữ liệu vĩnh viễn",
+        "Kết nối Internet"
+      ],
+      "correct": 1,
+      "explanation": "PSU giống như trái tim bơm máu cho cơ thể — nó chuyển đổi điện từ ổ cắm thành dòng điện phù hợp để nuôi CPU, RAM, ổ cứng và tất cả linh kiện khác hoạt động.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q045",
+      "q": "Sắp xếp đúng thứ tự dung lượng lưu trữ từ nhỏ nhất đến lớn nhất.",
+      "type": "drag-drop",
+      "options": [
+        "1 KB (Kilobyte)",
+        "1 MB (Megabyte)",
+        "1 GB (Gigabyte)",
+        "1 TB (Terabyte)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự từ nhỏ đến lớn: KB → MB → GB → TB. 1 MB = 1.000 KB, 1 GB = 1.000 MB, 1 TB = 1.000 GB. Giống như: giọt nước → ly nước → xô nước → bể nước!",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q046",
+      "q": "Microphone (micro) là thiết bị nhập hay thiết bị xuất?",
+      "type": "single-choice",
+      "options": [
+        "Thiết bị xuất (Output device)",
+        "Thiết bị nhập (Input device)",
+        "Thiết bị lưu trữ (Storage device)",
+        "Thiết bị xử lý (Processing device)"
+      ],
+      "correct": 1,
+      "explanation": "Microphone là thiết bị nhập vì nó đưa âm thanh (giọng nói của em) vào máy tính. Ngược lại, loa là thiết bị xuất vì phát âm thanh từ máy tính ra ngoài.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q047",
+      "q": "Cloud storage (lưu trữ đám mây) cho phép em lưu tệp tin trên Internet thay vì chỉ trên máy tính.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Lưu trữ đám mây (như Google Drive, OneDrive) giống như tủ đồ trên mạng — em có thể lưu tệp lên đó và mở từ bất kỳ thiết bị nào có Internet.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q048",
+      "q": "Hệ điều hành nào thường được dùng trên điện thoại iPhone?",
+      "type": "single-choice",
+      "options": [
+        "Windows",
+        "Android",
+        "iOS",
+        "Linux"
+      ],
+      "correct": 2,
+      "explanation": "iPhone sử dụng hệ điều hành iOS do Apple tạo ra. Android dùng cho điện thoại Samsung, Xiaomi... Windows dùng cho máy tính, Linux dùng cho máy chủ.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q049",
+      "q": "Những phần mềm nào là hệ điều hành? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Windows 11",
+        "macOS",
+        "Microsoft Word",
+        "Android"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Windows 11, macOS và Android đều là hệ điều hành — phần mềm nền tảng giúp thiết bị hoạt động. Microsoft Word là phần mềm ứng dụng, cần có hệ điều hành mới chạy được.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q050",
+      "q": "Sắp xếp các bước đúng để gỡ cài đặt (uninstall) một phần mềm trên Windows.",
+      "type": "drag-drop",
+      "options": [
+        "Mở Settings (Cài đặt) trên Windows",
+        "Chọn mục Apps (Ứng dụng)",
+        "Tìm phần mềm cần gỡ trong danh sách",
+        "Nhấn Uninstall (Gỡ cài đặt) và xác nhận"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự gỡ phần mềm: Mở Settings → Chọn Apps → Tìm phần mềm → Nhấn Uninstall. Đừng xóa thư mục phần mềm trực tiếp vì sẽ để lại rác trong máy tính!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m2_q021",
+      "q": "Creative Commons là gì?",
+      "type": "single-choice",
+      "options": [
+        "Một mạng xã hội dành cho trẻ em",
+        "Loại giấy phép cho phép chia sẻ tác phẩm với điều kiện nhất định",
+        "Phần mềm chống vi-rút",
+        "Một trò chơi sáng tạo trực tuyến"
+      ],
+      "correct": 1,
+      "explanation": "Creative Commons là loại giấy phép mà tác giả dùng để cho phép người khác sử dụng tác phẩm của mình với một số điều kiện (như ghi tên tác giả). Giống như cho bạn mượn đồ chơi nhưng phải nói 'cảm ơn' vậy.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q022",
+      "q": "Đạo văn (Plagiarism) là hành vi gì?",
+      "type": "single-choice",
+      "options": [
+        "Viết bài tập bằng chính suy nghĩ của mình",
+        "Sao chép bài của người khác rồi nói là của mình",
+        "Tìm kiếm thông tin trên Internet để tham khảo",
+        "Trích dẫn nguồn tài liệu đúng cách"
+      ],
+      "correct": 1,
+      "explanation": "Đạo văn là sao chép bài, ý tưởng của người khác rồi giả vờ là của mình — giống như chép bài kiểm tra của bạn vậy. Em nên tự viết bằng lời của mình và ghi rõ nguồn nếu tham khảo.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q023",
+      "q": "Khi tạo tài khoản trực tuyến, em nên dùng cùng một mật khẩu cho tất cả tài khoản.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai! Nếu dùng cùng một mật khẩu cho tất cả tài khoản, khi bị lộ một mật khẩu thì kẻ xấu có thể vào tất cả tài khoản của em. Giống như dùng cùng một chìa khóa cho nhà, xe, tủ — mất chìa là mất hết!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q024",
+      "q": "Khi em muốn sử dụng hình ảnh từ Internet cho bài tập, em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Tải bất kỳ hình nào em thích mà không cần quan tâm",
+        "Tìm hình ảnh có giấy phép Creative Commons hoặc miễn phí bản quyền",
+        "Chụp màn hình trang web và dùng luôn",
+        "Nhờ bạn tải hình cho mình"
+      ],
+      "correct": 1,
+      "explanation": "Em nên dùng hình ảnh có giấy phép Creative Commons hoặc miễn phí bản quyền. Hình ảnh trên mạng cũng có chủ sở hữu — em không được lấy mà không xin phép, giống như không lấy đồ của người khác vậy.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q025",
+      "q": "Dấu chân kỹ thuật số (Digital footprint) có thể bị xóa hoàn toàn khỏi Internet.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai! Một khi em đăng gì đó lên mạng, rất khó để xóa hoàn toàn vì người khác có thể đã lưu lại, chụp màn hình hoặc chia sẻ. Hãy suy nghĩ kỹ trước khi đăng bất cứ điều gì lên mạng nhé!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q026",
+      "q": "Hành vi nào dưới đây thể hiện phép lịch sự trên mạng (Netiquette)?",
+      "type": "single-choice",
+      "options": [
+        "Viết bình luận bằng CHỮ HOA toàn bộ",
+        "Chia sẻ ảnh của bạn mà không xin phép",
+        "Trả lời tin nhắn một cách lịch sự và tôn trọng",
+        "Gửi cùng một tin nhắn nhiều lần (spam)"
+      ],
+      "correct": 2,
+      "explanation": "Phép lịch sự trên mạng bao gồm viết lịch sự, tôn trọng người khác. Viết HOA giống như la hét, chia sẻ ảnh không xin phép là xâm phạm quyền riêng tư, spam là gây phiền cho người khác.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q027",
+      "q": "Những thông tin nào em KHÔNG nên chia sẻ khi chơi game trực tuyến? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Tên thật và tuổi",
+        "Địa chỉ nhà",
+        "Tên nhân vật trong game",
+        "Mật khẩu tài khoản game"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Khi chơi game online, em không nên chia sẻ tên thật, tuổi, địa chỉ nhà hay mật khẩu. Tên nhân vật trong game thì an toàn vì nó không tiết lộ thông tin thật của em.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q028",
+      "q": "Xác thực hai bước (Two-Factor Authentication - 2FA) giúp bảo vệ tài khoản bằng cách nào?",
+      "type": "single-choice",
+      "options": [
+        "Tự động đổi mật khẩu mỗi ngày",
+        "Yêu cầu thêm một bước xác nhận ngoài mật khẩu (như mã gửi qua điện thoại)",
+        "Khóa tài khoản vĩnh viễn sau 3 lần nhập sai",
+        "Chỉ cho phép đăng nhập vào ban ngày"
+      ],
+      "correct": 1,
+      "explanation": "2FA giống như cửa nhà có hai ổ khóa — ngoài mật khẩu, em cần thêm một mã xác nhận (gửi qua điện thoại hoặc email). Dù kẻ xấu biết mật khẩu, họ vẫn không vào được nếu không có mã thứ hai.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q029",
+      "q": "Khi em nhận được tin nhắn từ người lạ trên mạng nói rằng em đã trúng thưởng, em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Nhấn vào đường link để nhận thưởng ngay",
+        "Gửi thông tin cá nhân để nhận quà",
+        "Không tin, không nhấn link và báo cho ba mẹ biết",
+        "Chuyển tiếp tin nhắn cho bạn bè cùng nhận thưởng"
+      ],
+      "correct": 2,
+      "explanation": "Đây là trò lừa đảo phổ biến! Không ai cho quà miễn phí trên mạng cả. Em đừng nhấn link, đừng gửi thông tin cá nhân, và hãy báo ngay cho ba mẹ. Giống như người lạ cho kẹo ngoài đường — đừng nhận!",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q030",
+      "q": "Sắp xếp các bước đúng khi em muốn đăng một bức ảnh lên mạng xã hội một cách an toàn.",
+      "type": "drag-drop",
+      "options": [
+        "Kiểm tra ảnh không chứa thông tin cá nhân (địa chỉ, tên trường)",
+        "Hỏi ý kiến ba mẹ trước khi đăng",
+        "Chọn chế độ riêng tư phù hợp (chỉ bạn bè xem)",
+        "Đăng ảnh và kiểm tra lại bình luận"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Trước khi đăng ảnh: Kiểm tra ảnh an toàn → Hỏi ba mẹ → Chọn chế độ riêng tư → Đăng và theo dõi. Luôn cẩn thận với những gì em chia sẻ trên mạng nhé!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q031",
+      "q": "Trang web nào dưới đây có thể đáng tin cậy nhất khi tìm thông tin cho bài tập?",
+      "type": "single-choice",
+      "options": [
+        "Một blog cá nhân không rõ tác giả",
+        "Trang web Wikipedia (cần kiểm tra thêm nguồn khác)",
+        "Bình luận trên mạng xã hội",
+        "Quảng cáo trên Internet"
+      ],
+      "correct": 1,
+      "explanation": "Wikipedia có thể là điểm bắt đầu tốt nhưng em nên kiểm tra thêm từ nguồn khác vì ai cũng có thể chỉnh sửa Wikipedia. Blog cá nhân, bình luận mạng xã hội và quảng cáo thường không đáng tin cậy.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q032",
+      "q": "Em có quyền sao chép và sử dụng bất kỳ hình ảnh nào tìm thấy trên Google.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai! Hình ảnh trên Google đều có chủ sở hữu và bản quyền. Em cần xin phép hoặc tìm hình ảnh có giấy phép miễn phí (Creative Commons) trước khi sử dụng.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q033",
+      "q": "Khi bị bắt nạt trên mạng, em nên làm những gì? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Báo cho ba mẹ hoặc thầy cô biết",
+        "Chặn (block) người bắt nạt",
+        "Bắt nạt lại người đó",
+        "Lưu lại bằng chứng (chụp màn hình)"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Khi bị bắt nạt trên mạng: báo người lớn, chặn người bắt nạt và lưu bằng chứng. Đừng bắt nạt lại vì sẽ làm tình hình tệ hơn. Hãy nhớ: em không có lỗi khi bị bắt nạt!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q034",
+      "q": "Quyền riêng tư (Privacy) trên mạng có nghĩa là gì?",
+      "type": "single-choice",
+      "options": [
+        "Mọi người đều có thể xem thông tin của em",
+        "Quyền kiểm soát ai được xem thông tin cá nhân của em",
+        "Chỉ dùng Internet vào ban đêm",
+        "Không bao giờ sử dụng Internet"
+      ],
+      "correct": 1,
+      "explanation": "Quyền riêng tư trên mạng là quyền của em được kiểm soát thông tin cá nhân — ai được xem, ai không. Giống như em có quyền đóng cửa phòng khi muốn riêng tư vậy.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q035",
+      "q": "Sắp xếp các bước đúng để tạo một mật khẩu an toàn.",
+      "type": "drag-drop",
+      "options": [
+        "Nghĩ ra một câu dễ nhớ (ví dụ: 'Mèo con thích ăn cá')",
+        "Lấy chữ cái đầu mỗi từ (Mctac)",
+        "Thêm số và ký tự đặc biệt (Mctac@2024)",
+        "Viết hoa một số chữ cái (McTac@2024)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Cách tạo mật khẩu an toàn: Nghĩ câu dễ nhớ → Lấy chữ cái đầu → Thêm số và ký tự đặc biệt → Viết hoa một số chữ. Như vậy mật khẩu vừa mạnh vừa dễ nhớ!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q036",
+      "q": "Khi em tải một ứng dụng trên điện thoại, ứng dụng yêu cầu quyền truy cập danh bạ, camera và vị trí. Em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Đồng ý tất cả để dùng nhanh",
+        "Hỏi ba mẹ và chỉ cho phép những quyền cần thiết cho ứng dụng",
+        "Từ chối tất cả và không dùng ứng dụng",
+        "Không quan tâm vì điện thoại tự bảo vệ"
+      ],
+      "correct": 1,
+      "explanation": "Em nên hỏi ba mẹ và chỉ cho phép quyền truy cập cần thiết. Ví dụ: ứng dụng chụp ảnh cần camera nhưng không cần danh bạ. Cho quá nhiều quyền giống như đưa chìa khóa nhà cho người lạ vậy.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q037",
+      "q": "Grooming trực tuyến là khi người lớn lạ cố gắng kết bạn và lấy lòng tin của trẻ em trên mạng với mục đích xấu.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Grooming là khi người lớn lạ giả vờ tốt bụng, tặng quà, khen ngợi để lấy lòng tin trẻ em trên mạng. Nếu có người lạ quá thân thiện trên mạng, hãy báo ngay cho ba mẹ nhé!",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q038",
+      "q": "Điều gì KHÔNG phải là dấu hiệu của email lừa đảo (phishing)?",
+      "type": "single-choice",
+      "options": [
+        "Email có lỗi chính tả và ngữ pháp nhiều",
+        "Email yêu cầu nhập mật khẩu gấp",
+        "Email từ địa chỉ lạ với đường link đáng ngờ",
+        "Email từ thầy cô gửi bài tập về nhà qua hệ thống trường"
+      ],
+      "correct": 3,
+      "explanation": "Email từ thầy cô qua hệ thống trường là bình thường và an toàn. Các dấu hiệu lừa đảo gồm: lỗi chính tả nhiều, yêu cầu nhập mật khẩu gấp, địa chỉ email lạ và đường link đáng ngờ.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q039",
+      "q": "Những hành vi nào là vi phạm bản quyền? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Tải nhạc miễn phí từ trang web lậu",
+        "Sao chép nguyên bài văn của bạn nộp cho thầy cô",
+        "Đọc sách ở thư viện",
+        "Dùng hình ảnh Creative Commons và ghi nguồn"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Tải nhạc lậu và sao chép bài của bạn đều vi phạm bản quyền. Đọc sách ở thư viện là hợp pháp, dùng hình Creative Commons có ghi nguồn cũng được phép.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q040",
+      "q": "Sắp xếp mức độ an toàn của mật khẩu từ yếu nhất đến mạnh nhất.",
+      "type": "drag-drop",
+      "options": [
+        "123456",
+        "matkhau",
+        "MaTkHaU2024",
+        "Mk@2024!Abc#"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "123456 yếu nhất (toàn số đơn giản), 'matkhau' yếu (chỉ chữ thường), 'MaTkHaU2024' khá hơn (có hoa, thường, số), 'Mk@2024!Abc#' mạnh nhất (đủ hoa, thường, số, ký tự đặc biệt).",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q041",
+      "q": "Khi em thấy một trang web yêu cầu nhập số thẻ ngân hàng của ba mẹ để nhận quà miễn phí, em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Nhập thông tin để nhận quà",
+        "Đóng trang web ngay và báo cho ba mẹ",
+        "Hỏi bạn bè xem có nên nhập không",
+        "Ghi lại thông tin thẻ để nhập sau"
+      ],
+      "correct": 1,
+      "explanation": "Đây là trò lừa đảo! Không bao giờ nhập thông tin thẻ ngân hàng trên trang web lạ. Đóng trang web ngay và báo cho ba mẹ. Quà miễn phí trên mạng thường là bẫy để lấy tiền.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q042",
+      "q": "Trẻ em dưới 13 tuổi có thể tự tạo tài khoản mạng xã hội mà không cần sự đồng ý của phụ huynh.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai! Hầu hết mạng xã hội (Facebook, Instagram, TikTok) yêu cầu người dùng ít nhất 13 tuổi. Trẻ em dưới 13 tuổi cần sự đồng ý và giám sát của ba mẹ khi sử dụng mạng xã hội.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q043",
+      "q": "Khi em muốn trích dẫn thông tin từ một trang web cho bài tập, em cần ghi lại những gì? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Tên trang web hoặc tên tác giả",
+        "Địa chỉ URL của trang web",
+        "Ngày em truy cập trang web",
+        "Mật khẩu Wi-Fi em đang dùng"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Khi trích dẫn nguồn, em cần ghi: tên trang web/tác giả, địa chỉ URL và ngày truy cập. Mật khẩu Wi-Fi không liên quan đến việc trích dẫn nguồn.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q044",
+      "q": "Chia sẻ thông tin sai lệch (fake news) trên mạng có thể gây hại cho người khác.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Tin giả có thể gây hoang mang, sợ hãi và làm tổn thương người khác. Trước khi chia sẻ bất kỳ thông tin nào, em nên kiểm tra xem nó có đúng không bằng cách xem từ nhiều nguồn tin cậy.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q045",
+      "q": "Sắp xếp các bước đúng khi em phát hiện một trang web có nội dung không phù hợp.",
+      "type": "drag-drop",
+      "options": [
+        "Đóng trang web ngay lập tức",
+        "Không nhấn vào bất kỳ đường link nào trên trang",
+        "Báo cho ba mẹ hoặc thầy cô biết",
+        "Không quay lại trang web đó nữa"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Khi gặp trang web xấu: Đóng ngay → Không nhấn link → Báo người lớn → Không quay lại. Em không có lỗi khi vô tình vào trang web xấu, điều quan trọng là báo cho người lớn biết.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q046",
+      "q": "Hành vi nào thể hiện em là công dân số tốt?",
+      "type": "single-choice",
+      "options": [
+        "Chia sẻ mật khẩu với bạn thân",
+        "Tôn trọng người khác và sử dụng Internet có trách nhiệm",
+        "Tải phần mềm lậu để tiết kiệm tiền",
+        "Đăng ảnh chế giễu bạn lên mạng"
+      ],
+      "correct": 1,
+      "explanation": "Công dân số tốt là người sử dụng Internet có trách nhiệm: tôn trọng người khác, bảo vệ thông tin cá nhân, tuân thủ bản quyền và giúp đỡ bạn bè trên mạng.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q047",
+      "q": "Cookie trên trình duyệt web là gì?",
+      "type": "single-choice",
+      "options": [
+        "Một loại vi-rút máy tính",
+        "Tệp nhỏ lưu thông tin về hoạt động duyệt web của em",
+        "Phần mềm chống vi-rút",
+        "Hình ảnh quảng cáo trên trang web"
+      ],
+      "correct": 1,
+      "explanation": "Cookie là tệp nhỏ mà trang web lưu trên máy tính em để nhớ thông tin (như đăng nhập, giỏ hàng). Cookie không phải vi-rút nhưng em nên xóa cookie định kỳ để bảo vệ quyền riêng tư.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q048",
+      "q": "Những dấu hiệu nào cho thấy một trang web có thể không an toàn? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Địa chỉ web bắt đầu bằng http:// thay vì https://",
+        "Trang web có nhiều quảng cáo pop-up",
+        "Trang web yêu cầu tải phần mềm lạ",
+        "Trang web có biểu tượng ổ khóa trên thanh địa chỉ"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Trang web không an toàn thường: dùng http (không có 's'), nhiều pop-up quảng cáo, yêu cầu tải phần mềm lạ. Biểu tượng ổ khóa (https) cho thấy trang web an toàn hơn.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q049",
+      "q": "Em nên sử dụng Internet bao lâu mỗi ngày?",
+      "type": "single-choice",
+      "options": [
+        "Càng nhiều càng tốt",
+        "Theo thời gian ba mẹ và em thỏa thuận, có giờ nghỉ ngơi",
+        "Chỉ 5 phút mỗi ngày",
+        "Suốt cả ngày không cần nghỉ"
+      ],
+      "correct": 1,
+      "explanation": "Em nên sử dụng Internet theo thời gian ba mẹ và em thỏa thuận, có giờ nghỉ ngơi cho mắt và cơ thể. Dùng Internet quá nhiều có thể ảnh hưởng đến sức khỏe và việc học.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m2_q050",
+      "q": "Sắp xếp các bước đúng để kiểm tra xem một thông tin trên mạng có đáng tin cậy không.",
+      "type": "drag-drop",
+      "options": [
+        "Xem ai là tác giả hoặc tổ chức đăng thông tin",
+        "Kiểm tra ngày đăng xem thông tin có mới không",
+        "Tìm thêm từ 2-3 nguồn khác để so sánh",
+        "Hỏi ba mẹ hoặc thầy cô nếu vẫn không chắc chắn"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Để kiểm tra thông tin: Xem tác giả → Kiểm tra ngày đăng → So sánh nhiều nguồn → Hỏi người lớn. Giống như thám tử điều tra — em cần nhiều bằng chứng trước khi tin!",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_2"
+    },
+    {
+      "id": "m3_q021",
+      "q": "URL là viết tắt của cụm từ nào?",
+      "type": "single-choice",
+      "options": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "United Resource Link",
+        "Universal Remote Location"
+      ],
+      "correct": 1,
+      "explanation": "URL = Uniform Resource Locator, nghĩa là 'Địa chỉ tài nguyên thống nhất'. Giống như địa chỉ nhà giúp bưu tá tìm đúng nhà, URL giúp trình duyệt tìm đúng trang web em muốn xem.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q022",
+      "q": "Bookmark (Dấu trang) trong trình duyệt web dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Xóa lịch sử duyệt web",
+        "Lưu lại địa chỉ trang web yêu thích để truy cập nhanh sau này",
+        "Chặn quảng cáo trên trang web",
+        "Tải trang web về máy tính"
+      ],
+      "correct": 1,
+      "explanation": "Bookmark giống như kẹp sách đánh dấu trang — em lưu lại trang web hay để lần sau mở nhanh mà không cần gõ lại địa chỉ. Rất tiện khi em có nhiều trang web thường xuyên truy cập!",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q023",
+      "q": "Tab trong trình duyệt web cho phép em mở nhiều trang web cùng lúc.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Tab giống như nhiều trang sách mở cùng lúc — em có thể mở Google ở tab này, YouTube ở tab kia và chuyển qua lại dễ dàng mà không cần đóng trang nào.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q024",
+      "q": "Khi em tải (download) một tệp tin từ Internet, tệp đó thường được lưu ở đâu?",
+      "type": "single-choice",
+      "options": [
+        "Trong thùng rác (Recycle Bin)",
+        "Trong thư mục Downloads (Tải xuống)",
+        "Trên Desktop (Màn hình chính)",
+        "Trong trình duyệt web"
+      ],
+      "correct": 1,
+      "explanation": "Khi tải tệp từ Internet, máy tính thường lưu vào thư mục Downloads (Tải xuống). Em có thể mở File Explorer và tìm thư mục Downloads để xem các tệp đã tải.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q025",
+      "q": "Google, Bing và Yahoo là gì?",
+      "type": "single-choice",
+      "options": [
+        "Hệ điều hành",
+        "Công cụ tìm kiếm (Search engines)",
+        "Mạng xã hội",
+        "Phần mềm chống vi-rút"
+      ],
+      "correct": 1,
+      "explanation": "Google, Bing và Yahoo là các công cụ tìm kiếm — giúp em tìm thông tin trên Internet bằng cách gõ từ khóa. Giống như thủ thư giúp em tìm sách trong thư viện khổng lồ của Internet.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q026",
+      "q": "Trường BCC (Blind Carbon Copy) trong email khác với CC ở điểm nào?",
+      "type": "single-choice",
+      "options": [
+        "BCC gửi email nhanh hơn CC",
+        "Người nhận BCC không thấy được danh sách người nhận khác",
+        "BCC chỉ gửi được cho một người",
+        "BCC tự động xóa email sau khi đọc"
+      ],
+      "correct": 1,
+      "explanation": "BCC (Blind Carbon Copy) giống như gửi thư bí mật — người nhận BCC nhận được email nhưng những người khác không biết họ cũng nhận được. CC thì mọi người đều thấy ai được gửi.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q027",
+      "q": "Attachment (Tệp đính kèm) trong email là gì?",
+      "type": "single-choice",
+      "options": [
+        "Chữ ký ở cuối email",
+        "Tệp tin (ảnh, tài liệu) được gửi kèm theo email",
+        "Địa chỉ email của người nhận",
+        "Tiêu đề của email"
+      ],
+      "correct": 1,
+      "explanation": "Attachment là tệp tin đính kèm theo email — có thể là ảnh, tài liệu Word, PDF... Giống như khi em gửi thư và bỏ thêm ảnh vào phong bì vậy.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q028",
+      "q": "Wi-Fi là công nghệ kết nối Internet không dây.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Wi-Fi cho phép máy tính, điện thoại, tablet kết nối Internet mà không cần dây cáp. Giống như radio nhận sóng từ đài phát — thiết bị của em nhận sóng Wi-Fi từ bộ phát (router).",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q029",
+      "q": "Những ứng dụng nào dùng để gọi video trực tuyến? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Zoom",
+        "Microsoft Teams",
+        "Google Meet",
+        "Microsoft Excel"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Zoom, Microsoft Teams và Google Meet đều là ứng dụng gọi video trực tuyến — em dùng chúng để học online, họp nhóm. Microsoft Excel là phần mềm bảng tính, không dùng để gọi video.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q030",
+      "q": "Sắp xếp các bước đúng để gửi một email có tệp đính kèm.",
+      "type": "drag-drop",
+      "options": [
+        "Nhấn nút Compose (Soạn email mới)",
+        "Nhập địa chỉ email người nhận và tiêu đề",
+        "Nhấn nút Attach (Đính kèm) và chọn tệp tin",
+        "Viết nội dung email và nhấn Send (Gửi)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự gửi email có đính kèm: Soạn email mới → Nhập người nhận và tiêu đề → Đính kèm tệp → Viết nội dung và gửi. Giống như viết thư: lấy phong bì → ghi địa chỉ → bỏ ảnh vào → viết thư và gửi.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q031",
+      "q": "Lịch sử duyệt web (Browsing History) lưu lại những gì?",
+      "type": "single-choice",
+      "options": [
+        "Mật khẩu của tất cả tài khoản",
+        "Danh sách các trang web em đã truy cập",
+        "Tất cả tệp tin trên máy tính",
+        "Số điện thoại của bạn bè"
+      ],
+      "correct": 1,
+      "explanation": "Lịch sử duyệt web ghi lại danh sách các trang web em đã truy cập, giống như nhật ký ghi lại những nơi em đã đến. Em có thể xóa lịch sử duyệt web để bảo vệ quyền riêng tư.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q032",
+      "q": "Thanh địa chỉ (Address bar) trên trình duyệt web dùng để nhập URL của trang web.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Thanh địa chỉ ở phía trên cùng trình duyệt là nơi em gõ địa chỉ trang web (URL) để truy cập. Em cũng có thể gõ từ khóa tìm kiếm vào đó.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q033",
+      "q": "Emoji và biểu tượng cảm xúc (emoticon) dùng để làm gì trong tin nhắn?",
+      "type": "single-choice",
+      "options": [
+        "Thay thế hoàn toàn văn bản",
+        "Thể hiện cảm xúc và làm tin nhắn sinh động hơn",
+        "Mã hóa tin nhắn bí mật",
+        "Tăng tốc độ gửi tin nhắn"
+      ],
+      "correct": 1,
+      "explanation": "Emoji giúp thể hiện cảm xúc trong tin nhắn — vui 😊, buồn 😢, yêu thích ❤️. Vì tin nhắn văn bản không có giọng nói hay nét mặt, emoji giúp người đọc hiểu cảm xúc của em hơn.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q034",
+      "q": "Những thành phần nào có trong một địa chỉ email? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Tên người dùng (username)",
+        "Ký hiệu @ (at)",
+        "Tên miền (domain) như gmail.com",
+        "Số điện thoại"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Địa chỉ email gồm 3 phần: tên người dùng + @ + tên miền. Ví dụ: hocsinh@gmail.com. Số điện thoại không phải thành phần của email.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q035",
+      "q": "Router (bộ định tuyến) có chức năng gì trong mạng Internet gia đình?",
+      "type": "single-choice",
+      "options": [
+        "Lưu trữ tệp tin",
+        "Phát sóng Wi-Fi và kết nối các thiết bị với Internet",
+        "Hiển thị trang web",
+        "Soạn thảo văn bản"
+      ],
+      "correct": 1,
+      "explanation": "Router giống như 'trạm phát sóng' trong nhà — nó nhận Internet từ nhà mạng và phát Wi-Fi cho tất cả thiết bị (máy tính, điện thoại, tablet) kết nối vào.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q036",
+      "q": "Khi tìm kiếm trên Google, em nên dùng từ khóa cụ thể thay vì câu dài.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Thay vì gõ 'Cho tôi biết con voi sống ở đâu', em nên gõ 'nơi sống con voi'. Từ khóa ngắn gọn, cụ thể giúp Google tìm kết quả chính xác hơn.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q037",
+      "q": "Sắp xếp các bước đúng để lưu bookmark một trang web trên trình duyệt.",
+      "type": "drag-drop",
+      "options": [
+        "Mở trang web em muốn lưu",
+        "Nhấn biểu tượng ngôi sao (☆) trên thanh địa chỉ",
+        "Đặt tên cho bookmark",
+        "Chọn thư mục lưu và nhấn Done (Xong)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự lưu bookmark: Mở trang web → Nhấn ngôi sao → Đặt tên → Chọn thư mục và lưu. Sau đó em có thể mở bookmark bất cứ lúc nào để truy cập nhanh trang web đó.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q038",
+      "q": "Tin nhắn tức thời (Instant Messaging) khác với email ở điểm nào?",
+      "type": "single-choice",
+      "options": [
+        "Tin nhắn tức thời chỉ gửi được hình ảnh",
+        "Tin nhắn tức thời được gửi và nhận ngay lập tức, giống như trò chuyện trực tiếp",
+        "Email nhanh hơn tin nhắn tức thời",
+        "Tin nhắn tức thời không cần Internet"
+      ],
+      "correct": 1,
+      "explanation": "Tin nhắn tức thời (như Zalo, Messenger) giống như nói chuyện trực tiếp — gửi và nhận ngay. Email giống như gửi thư — có thể mất thời gian người nhận mới đọc và trả lời.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q039",
+      "q": "Những trình duyệt web nào phổ biến hiện nay? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Google Chrome",
+        "Mozilla Firefox",
+        "Microsoft Edge",
+        "Microsoft Word"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Chrome, Firefox và Edge đều là trình duyệt web — phần mềm giúp em truy cập Internet. Microsoft Word là phần mềm soạn văn bản, không phải trình duyệt web.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q040",
+      "q": "Sắp xếp các bước đúng để tham gia một cuộc họp video trực tuyến trên Zoom.",
+      "type": "drag-drop",
+      "options": [
+        "Nhận đường link hoặc mã cuộc họp từ thầy cô",
+        "Mở ứng dụng Zoom trên máy tính",
+        "Nhập mã cuộc họp và nhấn Join (Tham gia)",
+        "Bật/tắt camera và microphone theo yêu cầu"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự tham gia Zoom: Nhận link/mã → Mở Zoom → Nhập mã và tham gia → Điều chỉnh camera/micro. Nhớ tắt micro khi không nói để không gây ồn cho mọi người nhé!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q041",
+      "q": "Bandwidth (Băng thông) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Kích thước màn hình máy tính",
+        "Tốc độ truyền dữ liệu qua mạng Internet",
+        "Dung lượng ổ cứng",
+        "Số lượng tab mở trên trình duyệt"
+      ],
+      "correct": 1,
+      "explanation": "Băng thông giống như độ rộng của ống nước — ống càng rộng thì nước chảy càng nhiều. Băng thông càng lớn thì Internet càng nhanh, tải video và trang web càng mượt.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q042",
+      "q": "Chế độ duyệt web ẩn danh (Incognito/Private) không lưu lại lịch sử duyệt web trên máy tính.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Chế độ ẩn danh không lưu lịch sử, cookie hay thông tin đăng nhập trên máy tính. Tuy nhiên, nhà mạng và trang web vẫn có thể biết em truy cập — ẩn danh không phải vô hình hoàn toàn!",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q043",
+      "q": "Khi gửi email, trường Subject (Tiêu đề) dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Nhập địa chỉ email người nhận",
+        "Tóm tắt ngắn gọn nội dung email",
+        "Đính kèm tệp tin",
+        "Chọn phông chữ cho email"
+      ],
+      "correct": 1,
+      "explanation": "Subject (Tiêu đề) giống như tên bài — giúp người nhận biết email nói về gì trước khi mở đọc. Ví dụ: 'Bài tập Toán tuần 5' rõ ràng hơn nhiều so với để trống tiêu đề.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q044",
+      "q": "Những hành vi nào nên làm khi tham gia lớp học trực tuyến? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Tắt micro khi không phát biểu",
+        "Mặc quần áo chỉnh tề",
+        "Chơi game trong khi thầy cô giảng bài",
+        "Giơ tay (hoặc dùng nút Raise Hand) khi muốn phát biểu"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Khi học trực tuyến: tắt micro khi không nói (tránh ồn), mặc chỉnh tề (tôn trọng), giơ tay khi muốn phát biểu. Chơi game trong giờ học là không tôn trọng thầy cô và bạn bè.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q045",
+      "q": "Sắp xếp các bước đúng để xóa lịch sử duyệt web trên Google Chrome.",
+      "type": "drag-drop",
+      "options": [
+        "Mở Google Chrome",
+        "Nhấn vào biểu tượng ba chấm (⋮) ở góc trên bên phải",
+        "Chọn History (Lịch sử) → Clear browsing data (Xóa dữ liệu duyệt web)",
+        "Chọn khoảng thời gian và nhấn Clear data (Xóa dữ liệu)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự xóa lịch sử Chrome: Mở Chrome → Nhấn ba chấm → Chọn History → Clear data → Xóa. Xóa lịch sử giúp bảo vệ quyền riêng tư của em.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q046",
+      "q": "Mạng LAN (Local Area Network) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Mạng Internet toàn cầu",
+        "Mạng kết nối các máy tính trong phạm vi nhỏ như nhà, trường học",
+        "Mạng xã hội",
+        "Mạng điện thoại di động"
+      ],
+      "correct": 1,
+      "explanation": "LAN là mạng cục bộ — kết nối các máy tính trong phạm vi nhỏ như nhà, lớp học, văn phòng. Giống như đường dây điện thoại nội bộ trong trường — chỉ kết nối trong phạm vi trường thôi.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q047",
+      "q": "Reply All (Trả lời tất cả) trong email sẽ gửi phản hồi cho tất cả người nhận trong email gốc.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Reply All gửi phản hồi cho tất cả mọi người trong email gốc (To và CC). Em nên cẩn thận khi dùng Reply All — chỉ dùng khi muốn mọi người đều đọc phản hồi của em.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q048",
+      "q": "Phần mở rộng (Extension) của trình duyệt web là gì?",
+      "type": "single-choice",
+      "options": [
+        "Dây cáp nối dài cho máy tính",
+        "Phần mềm nhỏ thêm tính năng mới cho trình duyệt",
+        "Màn hình phụ kết nối với máy tính",
+        "Bộ nhớ RAM bổ sung"
+      ],
+      "correct": 1,
+      "explanation": "Extension (tiện ích mở rộng) là phần mềm nhỏ cài thêm vào trình duyệt để có thêm tính năng — như chặn quảng cáo, dịch ngôn ngữ, kiểm tra chính tả. Giống như phụ kiện thêm cho trình duyệt.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q049",
+      "q": "Những loại tệp nào thường được đính kèm trong email? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Tệp PDF (.pdf)",
+        "Tệp hình ảnh (.jpg, .png)",
+        "Tệp Word (.docx)",
+        "Tệp hệ điều hành Windows (.iso)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "PDF, hình ảnh và tệp Word thường được đính kèm email vì nhẹ và phổ biến. Tệp .iso (hệ điều hành) quá lớn và không phù hợp gửi qua email thông thường.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m3_q050",
+      "q": "Sắp xếp các bước đúng để kết nối máy tính với mạng Wi-Fi.",
+      "type": "drag-drop",
+      "options": [
+        "Nhấn vào biểu tượng Wi-Fi trên thanh taskbar",
+        "Chọn tên mạng Wi-Fi muốn kết nối",
+        "Nhập mật khẩu Wi-Fi",
+        "Chờ kết nối thành công và kiểm tra Internet"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự kết nối Wi-Fi: Nhấn biểu tượng Wi-Fi → Chọn tên mạng → Nhập mật khẩu → Chờ kết nối. Sau khi kết nối, em thử mở trình duyệt để kiểm tra Internet nhé!",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_3"
+    },
+    {
+      "id": "m4_q021",
+      "q": "Taskbar (Thanh tác vụ) trên Windows nằm ở đâu và dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Nằm ở giữa màn hình, dùng để vẽ tranh",
+        "Nằm ở phía dưới màn hình, hiển thị các chương trình đang mở và nút Start",
+        "Nằm ở phía trên màn hình, dùng để gõ văn bản",
+        "Nằm ở bên phải màn hình, dùng để lưu tệp"
+      ],
+      "correct": 1,
+      "explanation": "Taskbar nằm ở dưới cùng màn hình Windows — nó hiển thị nút Start, các chương trình đang mở, đồng hồ và biểu tượng Wi-Fi, âm lượng. Giống như bảng điều khiển giúp em quản lý mọi thứ.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q022",
+      "q": "Desktop (Màn hình nền) là gì trên Windows?",
+      "type": "single-choice",
+      "options": [
+        "Phần cứng bên trong máy tính",
+        "Màn hình chính hiển thị sau khi đăng nhập, nơi có các biểu tượng (icon) và hình nền",
+        "Phần mềm soạn thảo văn bản",
+        "Thư mục lưu trữ tệp tin"
+      ],
+      "correct": 1,
+      "explanation": "Desktop là màn hình chính em thấy sau khi bật máy tính và đăng nhập. Trên đó có các biểu tượng (shortcut) để mở nhanh chương trình, giống như mặt bàn học nơi em để sách vở.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q023",
+      "q": "File Explorer (Trình quản lý tệp) trên Windows dùng để quản lý tệp tin và thư mục.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! File Explorer giống như tủ hồ sơ — em dùng nó để xem, tạo, sao chép, di chuyển và xóa tệp tin, thư mục trên máy tính. Nhấn tổ hợp phím Windows + E để mở nhanh File Explorer.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q024",
+      "q": "Phím tắt Ctrl + Z dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Lưu tệp tin",
+        "Hoàn tác (Undo) — quay lại thao tác trước đó",
+        "Sao chép văn bản",
+        "Đóng cửa sổ đang mở"
+      ],
+      "correct": 1,
+      "explanation": "Ctrl + Z là phím tắt Undo (Hoàn tác) — giúp em quay lại bước trước nếu làm sai. Giống như nút 'quay lại' trong trò chơi — rất hữu ích khi em lỡ xóa nhầm gì đó!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q025",
+      "q": "Những phím tắt nào dùng để sao chép và dán văn bản? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Ctrl + C (Sao chép)",
+        "Ctrl + V (Dán)",
+        "Ctrl + S (Lưu)",
+        "Ctrl + X (Cắt)"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Ctrl+C = Sao chép, Ctrl+V = Dán, Ctrl+X = Cắt (sao chép rồi xóa bản gốc). Ctrl+S là Lưu tệp, không phải thao tác sao chép/dán. Nhớ: C = Copy, V = Paste (dán), X = Cut (cắt).",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q026",
+      "q": "Control Panel (Bảng điều khiển) trên Windows dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Chơi game",
+        "Thay đổi cài đặt hệ thống như màn hình, âm thanh, mạng, máy in",
+        "Soạn thảo văn bản",
+        "Duyệt web"
+      ],
+      "correct": 1,
+      "explanation": "Control Panel giống như phòng điều khiển của máy tính — em có thể thay đổi cài đặt màn hình, âm thanh, kết nối mạng, thêm máy in và nhiều thứ khác. Trên Windows 10/11, Settings cũng có chức năng tương tự.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q027",
+      "q": "Khi nhấn chuột phải vào một tệp tin, menu ngữ cảnh (Context menu) sẽ hiện ra.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Nhấn chuột phải hiện ra menu ngữ cảnh với các tùy chọn như Sao chép, Cắt, Xóa, Đổi tên... Giống như khi em nhấn giữ trên điện thoại — hiện ra các lựa chọn để em thao tác.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q028",
+      "q": "Ribbon (Thanh công cụ dạng dải) trong Microsoft Office chứa gì?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ chứa nút Save",
+        "Các tab với nhiều nút lệnh được nhóm theo chức năng (Home, Insert, Layout...)",
+        "Chỉ chứa thanh địa chỉ web",
+        "Danh sách các tệp tin trên máy tính"
+      ],
+      "correct": 1,
+      "explanation": "Ribbon là thanh công cụ phía trên trong Word, Excel, PowerPoint — chứa các tab (Home, Insert, Layout...) với nhiều nút lệnh. Giống như hộp dụng cụ được sắp xếp gọn gàng theo từng ngăn.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q029",
+      "q": "Sắp xếp các bước đúng để tạo một thư mục mới trên Desktop.",
+      "type": "drag-drop",
+      "options": [
+        "Nhấn chuột phải vào vùng trống trên Desktop",
+        "Chọn New (Mới) từ menu",
+        "Chọn Folder (Thư mục)",
+        "Gõ tên thư mục và nhấn Enter"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự tạo thư mục: Chuột phải → New → Folder → Đặt tên. Em nên đặt tên thư mục rõ ràng như 'Bài tập Toán', 'Hình ảnh' để dễ tìm sau này.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q030",
+      "q": "Phím tắt Alt + Tab dùng để làm gì trên Windows?",
+      "type": "single-choice",
+      "options": [
+        "Tắt máy tính",
+        "Chuyển đổi giữa các cửa sổ chương trình đang mở",
+        "Mở trình duyệt web",
+        "Chụp ảnh màn hình"
+      ],
+      "correct": 1,
+      "explanation": "Alt + Tab giúp em chuyển nhanh giữa các chương trình đang mở — giống như lật qua lật lại giữa các trang sách. Rất tiện khi em vừa làm bài Word vừa tra cứu trên trình duyệt!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q031",
+      "q": "Notification Area (Vùng thông báo) trên Taskbar hiển thị những gì? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Biểu tượng Wi-Fi",
+        "Đồng hồ và ngày tháng",
+        "Biểu tượng âm lượng (loa)",
+        "Nội dung trang web đang mở"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Vùng thông báo (góc phải Taskbar) hiển thị: Wi-Fi, đồng hồ, âm lượng, pin (laptop) và các thông báo. Nội dung trang web hiển thị trong trình duyệt, không phải trên Taskbar.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q032",
+      "q": "Khi em kéo thả (drag and drop) một tệp tin từ thư mục này sang thư mục khác, tệp tin sẽ được di chuyển.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Kéo thả (drag and drop) là cách di chuyển tệp tin — nhấn giữ chuột vào tệp, kéo đến thư mục mới rồi thả ra. Giống như cầm sách từ ngăn này bỏ sang ngăn khác.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q033",
+      "q": "Phím Print Screen (PrtSc) trên bàn phím dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "In tài liệu ra máy in",
+        "Chụp ảnh toàn bộ màn hình máy tính",
+        "Tắt màn hình",
+        "Mở menu Start"
+      ],
+      "correct": 1,
+      "explanation": "Phím Print Screen chụp ảnh toàn bộ màn hình — giống như chụp ảnh bằng điện thoại nhưng cho màn hình máy tính. Sau khi nhấn, em có thể dán (Ctrl+V) vào Paint hoặc Word để xem ảnh.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q034",
+      "q": "Sắp xếp các bước đúng để đổi tên một tệp tin trên Windows.",
+      "type": "drag-drop",
+      "options": [
+        "Tìm tệp tin cần đổi tên trong File Explorer",
+        "Nhấn chuột phải vào tệp tin",
+        "Chọn Rename (Đổi tên) từ menu",
+        "Gõ tên mới và nhấn Enter"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự đổi tên: Tìm tệp → Chuột phải → Rename → Gõ tên mới → Enter. Em cũng có thể nhấn F2 sau khi chọn tệp để đổi tên nhanh hơn!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q035",
+      "q": "Task Manager (Trình quản lý tác vụ) trên Windows dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Soạn thảo văn bản",
+        "Xem và đóng các chương trình đang chạy, kiểm tra hiệu suất máy tính",
+        "Kết nối Internet",
+        "Cài đặt phần mềm mới"
+      ],
+      "correct": 1,
+      "explanation": "Task Manager giống như bảng theo dõi sức khỏe máy tính — em xem chương trình nào đang chạy, dùng bao nhiêu RAM/CPU, và đóng chương trình bị treo. Nhấn Ctrl+Shift+Esc để mở nhanh.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q036",
+      "q": "Phím tắt Ctrl + S dùng để lưu tệp tin đang làm việc.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Ctrl + S là phím tắt Save (Lưu) — em nên nhấn thường xuyên khi đang làm bài để không bị mất dữ liệu. Nhớ: S = Save. Lưu thường xuyên giống như cất đồ vào tủ — an toàn hơn!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q037",
+      "q": "Khi một chương trình bị treo (Not Responding), em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Rút phích cắm điện ngay lập tức",
+        "Mở Task Manager (Ctrl+Shift+Esc) và đóng chương trình bị treo",
+        "Nhấn nút nguồn liên tục",
+        "Chờ mãi cho đến khi chương trình tự hoạt động lại"
+      ],
+      "correct": 1,
+      "explanation": "Khi chương trình bị treo, mở Task Manager → chọn chương trình bị treo → nhấn End Task. Đừng rút điện vì có thể làm hỏng dữ liệu. Giống như khi cửa bị kẹt — em gọi người giúp mở, không đạp cửa!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q038",
+      "q": "Những thao tác nào em có thể làm với tệp tin trong File Explorer? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Sao chép (Copy)",
+        "Di chuyển (Move)",
+        "Xóa (Delete)",
+        "Kết nối Internet"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Trong File Explorer, em có thể sao chép, di chuyển, xóa, đổi tên tệp tin và thư mục. Kết nối Internet là chức năng của Settings/Network, không phải File Explorer.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q039",
+      "q": "Sắp xếp các bước đúng để sao chép một tệp tin từ máy tính vào USB.",
+      "type": "drag-drop",
+      "options": [
+        "Cắm USB vào cổng USB trên máy tính",
+        "Mở File Explorer và tìm tệp tin cần sao chép",
+        "Nhấn chuột phải → Copy (Sao chép)",
+        "Mở ổ USB và nhấn chuột phải → Paste (Dán)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự sao chép vào USB: Cắm USB → Tìm tệp → Copy → Mở USB → Paste. Em cũng có thể kéo thả tệp vào ổ USB. Nhớ 'Safely Remove' USB trước khi rút ra nhé!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q040",
+      "q": "Shortcut (Lối tắt) trên Desktop là gì?",
+      "type": "single-choice",
+      "options": [
+        "Bản sao đầy đủ của chương trình",
+        "Biểu tượng nhỏ giúp mở nhanh chương trình mà không cần tìm trong thư mục",
+        "Tệp tin bị hỏng",
+        "Thư mục chứa tất cả chương trình"
+      ],
+      "correct": 1,
+      "explanation": "Shortcut giống như biển chỉ đường — nó không phải chương trình thật mà chỉ là 'đường tắt' giúp em mở nhanh chương trình. Xóa shortcut không xóa chương trình gốc đâu nhé!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q041",
+      "q": "Phím tắt Windows + L dùng để khóa màn hình máy tính.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Windows + L khóa màn hình ngay lập tức — giống như khóa cửa phòng khi em ra ngoài. Rất hữu ích khi em cần rời máy tính một lúc mà không muốn ai khác sử dụng.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q042",
+      "q": "Hệ điều hành Windows có chức năng chính là gì?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ dùng để chơi game",
+        "Quản lý phần cứng, phần mềm và cho phép người dùng tương tác với máy tính",
+        "Chỉ dùng để kết nối Internet",
+        "Chỉ dùng để soạn văn bản"
+      ],
+      "correct": 1,
+      "explanation": "Hệ điều hành Windows quản lý mọi thứ: phần cứng (CPU, RAM, ổ cứng), phần mềm (chương trình), và giao diện để em tương tác. Giống như hiệu trưởng quản lý toàn bộ trường học.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q043",
+      "q": "Những phím tắt nào liên quan đến thao tác in ấn? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Ctrl + P (Mở hộp thoại In)",
+        "Ctrl + S (Lưu tệp)",
+        "Ctrl + Z (Hoàn tác)",
+        "Print Screen (Chụp màn hình)"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "explanation": "Ctrl+P mở hộp thoại in để in tài liệu ra giấy. Print Screen chụp ảnh màn hình (có thể in sau). Ctrl+S là lưu tệp, Ctrl+Z là hoàn tác — không liên quan trực tiếp đến in ấn.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q044",
+      "q": "Sắp xếp các bước đúng để thay đổi hình nền Desktop trên Windows.",
+      "type": "drag-drop",
+      "options": [
+        "Nhấn chuột phải vào vùng trống trên Desktop",
+        "Chọn Personalize (Cá nhân hóa)",
+        "Chọn mục Background (Hình nền)",
+        "Chọn hình ảnh yêu thích và nhấn Apply"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự đổi hình nền: Chuột phải Desktop → Personalize → Background → Chọn ảnh. Em có thể dùng ảnh có sẵn hoặc ảnh của mình làm hình nền!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q045",
+      "q": "Recycle Bin (Thùng rác) cho phép em khôi phục tệp tin đã xóa.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Khi xóa tệp từ ổ cứng, nó vào Thùng rác trước. Em có thể mở Thùng rác, nhấn chuột phải vào tệp và chọn Restore để khôi phục. Nhưng nếu đã 'Empty Recycle Bin' thì không lấy lại được!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q046",
+      "q": "Phím tắt Ctrl + A dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Mở ứng dụng mới",
+        "Chọn tất cả (Select All) nội dung trong tệp hoặc thư mục",
+        "Đóng cửa sổ hiện tại",
+        "Tạo thư mục mới"
+      ],
+      "correct": 1,
+      "explanation": "Ctrl + A = Select All (Chọn tất cả). Trong Word, nó chọn toàn bộ văn bản. Trong File Explorer, nó chọn tất cả tệp tin. Rất tiện khi em muốn sao chép hoặc xóa tất cả cùng lúc!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q047",
+      "q": "Khi máy tính chạy chậm, nguyên nhân có thể là gì?",
+      "type": "single-choice",
+      "options": [
+        "Màn hình quá sáng",
+        "Mở quá nhiều chương trình cùng lúc, RAM không đủ",
+        "Bàn phím bị bẩn",
+        "Chuột hết pin"
+      ],
+      "correct": 1,
+      "explanation": "Mở quá nhiều chương trình cùng lúc khiến RAM bị đầy và máy chạy chậm. Giống như em cầm quá nhiều sách cùng lúc sẽ đi chậm hơn. Đóng bớt chương trình không dùng để máy nhanh hơn!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q048",
+      "q": "Những cách nào để mở một chương trình trên Windows? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Nhấp đúp vào biểu tượng trên Desktop",
+        "Tìm trong menu Start",
+        "Gõ tên chương trình vào thanh tìm kiếm (Search)",
+        "Nhấn nút nguồn (Power)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Em có thể mở chương trình bằng: nhấp đúp icon Desktop, tìm trong Start menu, hoặc gõ tên vào Search. Nút nguồn dùng để bật/tắt máy tính, không phải mở chương trình.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q049",
+      "q": "Sắp xếp các bước đúng để in một tài liệu từ Microsoft Word.",
+      "type": "drag-drop",
+      "options": [
+        "Mở tài liệu cần in trong Microsoft Word",
+        "Nhấn Ctrl + P hoặc chọn File → Print",
+        "Chọn máy in và số bản in",
+        "Nhấn nút Print (In) để bắt đầu in"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự in tài liệu: Mở tài liệu → Ctrl+P → Chọn máy in, số bản → Nhấn Print. Em nên dùng Print Preview xem trước để không phí giấy in nhé!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m4_q050",
+      "q": "Windows Update giúp hệ điều hành được cập nhật với các bản vá bảo mật và tính năng mới.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Windows Update giống như tiêm phòng cho máy tính — nó sửa lỗi bảo mật, thêm tính năng mới và giúp máy tính hoạt động tốt hơn. Em nên để Windows tự động cập nhật để luôn được bảo vệ.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_4"
+    },
+    {
+      "id": "m5_q021",
+      "q": "Malware (phần mềm độc hại) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Phần mềm giúp máy tính chạy nhanh hơn",
+        "Phần mềm được tạo ra để gây hại cho máy tính hoặc đánh cắp thông tin",
+        "Phần mềm chống vi-rút",
+        "Phần mềm miễn phí trên Internet"
+      ],
+      "correct": 1,
+      "explanation": "Malware (Malicious Software) là phần mềm xấu được tạo ra để gây hại: vi-rút, trojan, spyware, ransomware... Giống như vi khuẩn gây bệnh cho cơ thể, malware gây bệnh cho máy tính.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q022",
+      "q": "Ransomware là loại phần mềm độc hại làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Xóa tất cả tệp tin trên máy tính",
+        "Khóa (mã hóa) dữ liệu của em và đòi tiền chuộc để mở khóa",
+        "Làm máy tính chạy nhanh hơn",
+        "Tự động cập nhật phần mềm"
+      ],
+      "correct": 1,
+      "explanation": "Ransomware giống như kẻ bắt cóc — nó khóa tất cả tệp tin của em và đòi tiền chuộc. Cách phòng tránh tốt nhất là sao lưu dữ liệu thường xuyên và không mở tệp từ nguồn lạ.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q023",
+      "q": "Sao lưu dữ liệu (Backup) có nghĩa là tạo bản sao dữ liệu để phòng trường hợp mất mát.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Backup giống như photocopy bài tập — nếu bản gốc bị mất hay hỏng, em vẫn còn bản sao. Em có thể backup vào USB, ổ cứng ngoài hoặc đám mây (Google Drive, OneDrive).",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q024",
+      "q": "Trojan (Trojan Horse) là loại phần mềm độc hại hoạt động như thế nào?",
+      "type": "single-choice",
+      "options": [
+        "Tự nhân bản và lây lan qua mạng",
+        "Giả dạng phần mềm hữu ích nhưng thực chất chứa mã độc bên trong",
+        "Hiển thị quảng cáo liên tục",
+        "Làm chậm kết nối Internet"
+      ],
+      "correct": 1,
+      "explanation": "Trojan giống như câu chuyện con ngựa gỗ thành Troy — bên ngoài trông vô hại (game miễn phí, phần mềm hay) nhưng bên trong chứa mã độc. Vì vậy em chỉ nên tải phần mềm từ nguồn chính thức!",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q025",
+      "q": "Những cách nào giúp bảo vệ máy tính khỏi vi-rút? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Cài đặt phần mềm chống vi-rút và cập nhật thường xuyên",
+        "Không mở tệp đính kèm từ email lạ",
+        "Tải phần mềm từ trang web không rõ nguồn gốc",
+        "Cập nhật hệ điều hành thường xuyên"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Bảo vệ máy tính: cài antivirus + cập nhật, không mở tệp lạ, cập nhật hệ điều hành. Tải phần mềm từ nguồn không rõ là cách dễ bị nhiễm vi-rút nhất!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q026",
+      "q": "Spyware (phần mềm gián điệp) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Phần mềm giúp tìm kiếm thông tin trên Internet",
+        "Phần mềm bí mật theo dõi hoạt động của em trên máy tính và gửi thông tin cho kẻ xấu",
+        "Phần mềm bảo vệ quyền riêng tư",
+        "Phần mềm chụp ảnh màn hình"
+      ],
+      "correct": 1,
+      "explanation": "Spyware giống như gián điệp — nó lén lút theo dõi mọi thứ em làm trên máy tính: gõ phím, duyệt web, mật khẩu... rồi gửi cho kẻ xấu. Phần mềm chống vi-rút tốt sẽ phát hiện và xóa spyware.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q027",
+      "q": "Mật khẩu '123456' là mật khẩu an toàn.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai! '123456' là một trong những mật khẩu yếu nhất và dễ đoán nhất thế giới. Kẻ xấu có thể đoán ra trong vài giây. Em nên dùng mật khẩu dài, có chữ hoa, chữ thường, số và ký tự đặc biệt.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q028",
+      "q": "Khi em sử dụng Wi-Fi công cộng (ở quán cà phê, sân bay), em nên cẩn thận điều gì?",
+      "type": "single-choice",
+      "options": [
+        "Không cần lo lắng gì vì Wi-Fi công cộng luôn an toàn",
+        "Không đăng nhập tài khoản ngân hàng hoặc nhập thông tin nhạy cảm",
+        "Tải càng nhiều phần mềm càng tốt",
+        "Chia sẻ mật khẩu Wi-Fi cho mọi người"
+      ],
+      "correct": 1,
+      "explanation": "Wi-Fi công cộng không an toàn vì kẻ xấu có thể theo dõi thông tin em gửi đi. Đừng đăng nhập ngân hàng hay nhập mật khẩu quan trọng khi dùng Wi-Fi công cộng. Giống như nói chuyện bí mật ở nơi đông người — ai cũng có thể nghe!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q029",
+      "q": "Sắp xếp các bước đúng khi máy tính bị nhiễm vi-rút.",
+      "type": "drag-drop",
+      "options": [
+        "Ngắt kết nối Internet (rút cáp mạng hoặc tắt Wi-Fi)",
+        "Chạy phần mềm chống vi-rút để quét toàn bộ máy",
+        "Xóa các tệp tin bị nhiễm theo hướng dẫn của phần mềm",
+        "Cập nhật phần mềm chống vi-rút và quét lại lần nữa"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Khi bị nhiễm vi-rút: Ngắt Internet (ngăn lây lan) → Quét vi-rút → Xóa tệp nhiễm → Cập nhật và quét lại. Báo cho ba mẹ biết để được giúp đỡ nhé!",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q030",
+      "q": "Pop-up (cửa sổ bật lên) trên trang web nói rằng 'Máy tính của bạn bị nhiễm vi-rút! Nhấn vào đây để sửa!' Em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Nhấn vào ngay để sửa máy tính",
+        "Đóng pop-up đó ngay lập tức vì đây thường là quảng cáo lừa đảo",
+        "Gọi số điện thoại hiển thị trên pop-up",
+        "Tải phần mềm mà pop-up gợi ý"
+      ],
+      "correct": 1,
+      "explanation": "Đây là trò lừa đảo phổ biến! Pop-up giả cảnh báo vi-rút để lừa em tải phần mềm độc hại hoặc gọi số lừa đảo. Đóng pop-up ngay và đừng nhấn vào bất cứ thứ gì trên đó.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q031",
+      "q": "Encryption (Mã hóa) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Xóa dữ liệu vĩnh viễn",
+        "Biến dữ liệu thành mã bí mật mà chỉ người có khóa mới đọc được",
+        "Nén tệp tin cho nhỏ lại",
+        "Sao chép dữ liệu sang USB"
+      ],
+      "correct": 1,
+      "explanation": "Mã hóa giống như viết thư bằng mật mã — chỉ người có 'chìa khóa giải mã' mới đọc được. HTTPS dùng mã hóa để bảo vệ thông tin khi em duyệt web, giữ cho kẻ xấu không đọc được.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q032",
+      "q": "Phần mềm chống vi-rút cần được cập nhật thường xuyên để nhận diện vi-rút mới.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Vi-rút mới xuất hiện mỗi ngày, nên phần mềm chống vi-rút cần cập nhật để nhận diện chúng. Giống như bác sĩ cần học về bệnh mới để chữa trị — antivirus cần 'học' về vi-rút mới.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q033",
+      "q": "Những dấu hiệu nào cho thấy máy tính có thể bị nhiễm vi-rút? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Máy tính chạy chậm bất thường",
+        "Xuất hiện nhiều quảng cáo pop-up lạ",
+        "Các chương trình tự mở hoặc tự đóng",
+        "Màn hình hiển thị hình nền đẹp"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Dấu hiệu nhiễm vi-rút: máy chậm bất thường, pop-up lạ, chương trình tự mở/đóng, tệp tin biến mất. Hình nền đẹp là bình thường, không phải dấu hiệu vi-rút.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q034",
+      "q": "Social Engineering (Kỹ thuật xã hội) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Xây dựng mạng xã hội",
+        "Kỹ thuật lừa đảo bằng cách thao túng tâm lý con người để lấy thông tin",
+        "Thiết kế giao diện trang web",
+        "Lập trình phần mềm"
+      ],
+      "correct": 1,
+      "explanation": "Social Engineering là khi kẻ xấu lừa em bằng cách giả vờ là người đáng tin (nhân viên ngân hàng, thầy cô) để lấy mật khẩu, thông tin cá nhân. Luôn xác nhận danh tính trước khi chia sẻ thông tin!",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q035",
+      "q": "Sắp xếp các bước đúng để tạo bản sao lưu (backup) dữ liệu quan trọng.",
+      "type": "drag-drop",
+      "options": [
+        "Chọn các tệp tin và thư mục quan trọng cần sao lưu",
+        "Chọn nơi lưu bản sao (USB, ổ cứng ngoài hoặc đám mây)",
+        "Sao chép dữ liệu vào nơi lưu đã chọn",
+        "Kiểm tra bản sao lưu có đầy đủ và mở được không"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự backup: Chọn tệp quan trọng → Chọn nơi lưu → Sao chép → Kiểm tra. Em nên backup thường xuyên (mỗi tuần) và lưu ở nhiều nơi khác nhau để an toàn nhất.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q036",
+      "q": "Adware là phần mềm hiển thị quảng cáo không mong muốn trên máy tính.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Adware (Advertising Software) tự động hiển thị quảng cáo pop-up, banner trên máy tính. Tuy không nguy hiểm như vi-rút nhưng rất phiền và có thể dẫn đến trang web độc hại.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q037",
+      "q": "Khi em nhận được cuộc gọi từ người tự xưng là nhân viên Microsoft nói máy tính em bị vi-rút, em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Làm theo hướng dẫn của họ ngay",
+        "Cho họ truy cập từ xa vào máy tính",
+        "Cúp máy vì đây là cuộc gọi lừa đảo và báo cho ba mẹ",
+        "Đưa thông tin thẻ ngân hàng để họ sửa máy"
+      ],
+      "correct": 2,
+      "explanation": "Microsoft không bao giờ gọi điện cho người dùng về vi-rút! Đây là trò lừa đảo phổ biến. Cúp máy ngay và báo cho ba mẹ. Đừng bao giờ cho người lạ truy cập máy tính hoặc đưa thông tin cá nhân.",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q038",
+      "q": "Những nơi nào em có thể lưu bản sao lưu (backup) dữ liệu? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "USB Flash Drive",
+        "Ổ cứng ngoài (External Hard Drive)",
+        "Google Drive hoặc OneDrive (đám mây)",
+        "Thùng rác (Recycle Bin)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Em có thể backup vào USB, ổ cứng ngoài hoặc đám mây. Thùng rác không phải nơi lưu backup — nó chỉ chứa tệp đã xóa và có thể bị dọn sạch bất cứ lúc nào.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q039",
+      "q": "Sắp xếp mức độ nguy hiểm của các loại phần mềm độc hại từ ít đến nhiều.",
+      "type": "drag-drop",
+      "options": [
+        "Adware (quảng cáo không mong muốn)",
+        "Spyware (phần mềm gián điệp)",
+        "Trojan (ngựa gỗ thành Troy)",
+        "Ransomware (mã hóa đòi tiền chuộc)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Mức độ nguy hiểm: Adware (phiền nhưng ít hại) → Spyware (theo dõi thông tin) → Trojan (mở cửa cho kẻ xấu) → Ransomware (khóa dữ liệu đòi tiền). Tất cả đều cần phòng tránh!",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q040",
+      "q": "Tường lửa (Firewall) chỉ cần thiết cho máy tính công ty, không cần cho máy tính ở nhà.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai! Mọi máy tính kết nối Internet đều cần tường lửa, kể cả máy tính ở nhà. Tường lửa bảo vệ máy tính khỏi các cuộc tấn công từ mạng. Windows có sẵn tường lửa — em nên để nó luôn bật.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q041",
+      "q": "Phishing qua tin nhắn SMS được gọi là gì?",
+      "type": "single-choice",
+      "options": [
+        "Emailing",
+        "Smishing",
+        "Vishing",
+        "Texting"
+      ],
+      "correct": 1,
+      "explanation": "Smishing = SMS + Phishing — lừa đảo qua tin nhắn SMS. Vishing = Voice + Phishing — lừa đảo qua cuộc gọi. Kẻ xấu gửi tin nhắn giả (trúng thưởng, ngân hàng) để lừa em nhấn link hoặc gọi lại.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q042",
+      "q": "Khi tạo mật khẩu, em nên tránh dùng thông tin cá nhân nào? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Ngày sinh của em",
+        "Tên thú cưng",
+        "Số điện thoại",
+        "Một câu ngẫu nhiên kết hợp số và ký tự đặc biệt"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Tránh dùng ngày sinh, tên thú cưng, số điện thoại làm mật khẩu vì kẻ xấu có thể dễ dàng tìm ra từ mạng xã hội. Câu ngẫu nhiên kết hợp số và ký tự đặc biệt là lựa chọn an toàn nhất.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q043",
+      "q": "Automatic Update (Cập nhật tự động) giúp máy tính luôn được bảo vệ với bản vá bảo mật mới nhất.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Cập nhật tự động giúp máy tính nhận bản vá bảo mật ngay khi có — giống như tự động tiêm vắc-xin mới. Em nên bật cập nhật tự động cho cả Windows và phần mềm chống vi-rút.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q044",
+      "q": "Sắp xếp các bước đúng để xử lý khi em nghi ngờ tài khoản email bị hack.",
+      "type": "drag-drop",
+      "options": [
+        "Báo cho ba mẹ hoặc thầy cô biết ngay",
+        "Đổi mật khẩu email ngay lập tức",
+        "Kiểm tra và xóa các email lạ đã gửi từ tài khoản",
+        "Bật xác thực hai bước (2FA) để bảo vệ thêm"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Khi nghi bị hack: Báo người lớn → Đổi mật khẩu → Kiểm tra email lạ → Bật 2FA. Hành động nhanh giúp giảm thiểu thiệt hại. Luôn nhờ ba mẹ giúp đỡ nhé!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q045",
+      "q": "Worm (sâu máy tính) khác với vi-rút ở điểm nào?",
+      "type": "single-choice",
+      "options": [
+        "Worm không gây hại cho máy tính",
+        "Worm tự lây lan qua mạng mà không cần người dùng mở tệp",
+        "Worm chỉ ảnh hưởng đến máy in",
+        "Worm là phần mềm hữu ích"
+      ],
+      "correct": 1,
+      "explanation": "Worm (sâu máy tính) tự lây lan qua mạng mà không cần em mở tệp — khác với vi-rút cần em mở tệp nhiễm. Worm giống như bệnh lây qua không khí — chỉ cần kết nối mạng là có thể bị nhiễm.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q046",
+      "q": "Em nên đăng xuất (Log out) khỏi tài khoản khi sử dụng máy tính công cộng.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Luôn đăng xuất khi dùng máy tính công cộng (thư viện, quán net) để người khác không vào được tài khoản của em. Giống như khóa cửa khi ra khỏi nhà — bảo vệ đồ đạc bên trong.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q047",
+      "q": "Những hành vi nào giúp bảo vệ quyền riêng tư trên mạng? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Đặt tài khoản mạng xã hội ở chế độ riêng tư (Private)",
+        "Không chia sẻ vị trí (location) trên mạng",
+        "Dùng mật khẩu mạnh và khác nhau cho mỗi tài khoản",
+        "Đăng ảnh nhà và trường học lên mạng"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bảo vệ quyền riêng tư: đặt tài khoản Private, không chia sẻ vị trí, dùng mật khẩu mạnh. Đăng ảnh nhà và trường lên mạng tiết lộ nơi em ở — không an toàn!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q048",
+      "q": "Khi em phát hiện một trang web giả mạo (phishing), em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Nhập thông tin để kiểm tra xem có thật không",
+        "Đóng trang web, không nhập thông tin và báo cho người lớn",
+        "Chia sẻ đường link cho bạn bè cùng xem",
+        "Tải phần mềm từ trang web đó"
+      ],
+      "correct": 1,
+      "explanation": "Khi phát hiện trang web giả: đóng ngay, không nhập bất kỳ thông tin nào và báo cho ba mẹ hoặc thầy cô. Đừng chia sẻ link vì bạn bè cũng có thể bị lừa!",
+      "difficulty": "dễ",
+      "domain": "networking",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q049",
+      "q": "Sắp xếp các lớp bảo vệ máy tính từ cơ bản đến nâng cao.",
+      "type": "drag-drop",
+      "options": [
+        "Đặt mật khẩu mạnh cho tài khoản",
+        "Cài đặt phần mềm chống vi-rút",
+        "Bật tường lửa (Firewall)",
+        "Bật xác thực hai bước (2FA) cho tài khoản quan trọng"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Các lớp bảo vệ: Mật khẩu mạnh (cơ bản) → Antivirus (quét vi-rút) → Firewall (chặn tấn công mạng) → 2FA (bảo vệ tài khoản thêm). Càng nhiều lớp bảo vệ, máy tính càng an toàn!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m5_q050",
+      "q": "Phần mềm chống vi-rút miễn phí không bảo vệ máy tính tốt bằng phần mềm trả phí.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Không hoàn toàn đúng! Nhiều phần mềm chống vi-rút miễn phí (như Windows Defender) bảo vệ rất tốt cho nhu cầu cơ bản. Phần mềm trả phí có thêm tính năng nâng cao nhưng miễn phí vẫn đủ dùng cho hầu hết mọi người.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_5"
+    },
+    {
+      "id": "m6_q021",
+      "q": "Trong Microsoft Word, để in đậm (Bold) một đoạn văn bản, em dùng phím tắt nào?",
+      "type": "single-choice",
+      "options": [
+        "Ctrl + I",
+        "Ctrl + B",
+        "Ctrl + U",
+        "Ctrl + D"
+      ],
+      "correct": 1,
+      "explanation": "Ctrl + B = Bold (In đậm). Nhớ: B = Bold. Ctrl+I = Italic (in nghiêng), Ctrl+U = Underline (gạch chân). Em chọn văn bản trước rồi nhấn phím tắt để định dạng.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q022",
+      "q": "Trong bảng tính Excel, ô (cell) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Toàn bộ trang tính",
+        "Giao điểm giữa một hàng (row) và một cột (column)",
+        "Thanh công cụ phía trên",
+        "Biểu đồ trong bảng tính"
+      ],
+      "correct": 1,
+      "explanation": "Ô (cell) là ô nhỏ nơi hàng và cột giao nhau — giống như ô vuông trong vở kẻ ô. Mỗi ô có địa chỉ riêng, ví dụ: A1 (cột A, hàng 1), B3 (cột B, hàng 3).",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q023",
+      "q": "Hàm SUM trong Excel dùng để tính tổng các số.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Hàm SUM cộng tất cả các số trong phạm vi em chọn. Ví dụ: =SUM(A1:A5) sẽ cộng tất cả số từ ô A1 đến A5. Giống như em cộng điểm tất cả các bài kiểm tra vậy!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q024",
+      "q": "Trong PowerPoint, Slide Transition (Hiệu ứng chuyển slide) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Hiệu ứng làm chữ nhấp nháy",
+        "Hiệu ứng chuyển đổi giữa các slide (trang trình chiếu)",
+        "Âm thanh nền của bài trình chiếu",
+        "Hình nền của slide"
+      ],
+      "correct": 1,
+      "explanation": "Slide Transition là hiệu ứng khi chuyển từ slide này sang slide khác — như mờ dần, trượt, xoay... Giống như cách lật trang sách — có thể lật nhanh, lật chậm hoặc lật kiểu đặc biệt.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q025",
+      "q": "Khi đánh giá một nguồn thông tin trên Internet, em nên xem xét điều gì? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Ai là tác giả hoặc tổ chức đăng thông tin",
+        "Thông tin có được cập nhật gần đây không",
+        "Trang web có đẹp và nhiều màu sắc không",
+        "Thông tin có được các nguồn khác xác nhận không"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Đánh giá nguồn tin: xem tác giả/tổ chức, ngày cập nhật, và kiểm tra từ nguồn khác. Trang web đẹp không có nghĩa là thông tin đúng — kẻ lừa đảo cũng có thể tạo trang web đẹp!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q026",
+      "q": "Spell Check (Kiểm tra chính tả) trong Word giúp em làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Dịch văn bản sang ngôn ngữ khác",
+        "Tìm và sửa lỗi chính tả trong văn bản",
+        "Thay đổi phông chữ",
+        "Chèn hình ảnh vào văn bản"
+      ],
+      "correct": 1,
+      "explanation": "Spell Check giống như thầy cô kiểm tra bài — nó gạch chân đỏ dưới từ sai chính tả và gợi ý từ đúng. Tuy nhiên, em vẫn nên đọc lại bài vì Spell Check không bắt được mọi lỗi.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q027",
+      "q": "Hàm AVERAGE trong Excel dùng để tính giá trị trung bình.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Hàm AVERAGE tính trung bình cộng. Ví dụ: =AVERAGE(A1:A5) cộng tất cả số từ A1 đến A5 rồi chia cho số ô. Giống như tính điểm trung bình các bài kiểm tra của em!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q028",
+      "q": "Speaker Notes (Ghi chú diễn giả) trong PowerPoint dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Hiển thị trên màn hình cho khán giả xem",
+        "Ghi chú riêng cho người trình bày, khán giả không thấy",
+        "Thêm âm thanh vào slide",
+        "Tạo hiệu ứng chuyển động"
+      ],
+      "correct": 1,
+      "explanation": "Speaker Notes là ghi chú bí mật cho người trình bày — chỉ em thấy trên máy tính, khán giả không thấy trên màn chiếu. Giống như tờ nhắc bài giúp em nhớ nội dung cần nói.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q029",
+      "q": "Sắp xếp các bước đúng để chèn hình ảnh vào tài liệu Word.",
+      "type": "drag-drop",
+      "options": [
+        "Đặt con trỏ chuột vào vị trí muốn chèn ảnh",
+        "Nhấn tab Insert (Chèn) trên Ribbon",
+        "Chọn Pictures (Hình ảnh)",
+        "Tìm và chọn hình ảnh, nhấn Insert"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự chèn ảnh: Đặt con trỏ → Insert → Pictures → Chọn ảnh → Insert. Em có thể thay đổi kích thước ảnh bằng cách kéo các góc sau khi chèn.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q030",
+      "q": "Trong Excel, công thức nào dùng để cộng giá trị ô A1 và ô B1?",
+      "type": "single-choice",
+      "options": [
+        "A1+B1",
+        "=A1+B1",
+        "SUM A1 B1",
+        "ADD(A1,B1)"
+      ],
+      "correct": 1,
+      "explanation": "Trong Excel, mọi công thức đều bắt đầu bằng dấu = (bằng). Vậy =A1+B1 là đúng. Nếu không có dấu =, Excel sẽ hiểu đó là văn bản chứ không phải công thức tính toán.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q031",
+      "q": "Animation (Hiệu ứng hoạt hình) trong PowerPoint làm cho các đối tượng trên slide chuyển động.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Animation làm chữ, hình ảnh, biểu đồ trên slide chuyển động — bay vào, mờ dần, phóng to... Giống như phim hoạt hình nhưng cho bài trình chiếu. Đừng dùng quá nhiều animation vì sẽ gây rối mắt!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q032",
+      "q": "Khi tìm kiếm thông tin cho bài tập, nguồn nào đáng tin cậy nhất?",
+      "type": "single-choice",
+      "options": [
+        "Bình luận trên YouTube",
+        "Trang web chính thức của tổ chức giáo dục (.edu) hoặc chính phủ (.gov)",
+        "Bài đăng trên Facebook",
+        "Tin nhắn từ bạn bè"
+      ],
+      "correct": 1,
+      "explanation": "Trang web .edu (giáo dục) và .gov (chính phủ) thường đáng tin cậy nhất vì được kiểm duyệt bởi chuyên gia. Bình luận YouTube, Facebook và tin nhắn bạn bè có thể chứa thông tin sai.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q033",
+      "q": "Page Layout (Bố cục trang) trong Word cho phép em thay đổi những gì? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Lề trang (Margins)",
+        "Hướng trang (Portrait/Landscape)",
+        "Kích thước giấy (Paper Size)",
+        "Nội dung văn bản"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Page Layout thay đổi bố cục trang: lề (margins), hướng trang (dọc/ngang), kích thước giấy. Nội dung văn bản được thay đổi bằng cách gõ và chỉnh sửa trực tiếp, không phải qua Page Layout.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q034",
+      "q": "Biểu đồ (Chart) trong Excel dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Viết văn bản dài",
+        "Hiển thị dữ liệu số dưới dạng hình ảnh trực quan (cột, tròn, đường...)",
+        "Gửi email",
+        "Chơi game"
+      ],
+      "correct": 1,
+      "explanation": "Biểu đồ biến số liệu khô khan thành hình ảnh dễ hiểu — biểu đồ cột so sánh, biểu đồ tròn thể hiện tỷ lệ, biểu đồ đường thể hiện xu hướng. Giống như vẽ tranh cho số liệu!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q035",
+      "q": "Sắp xếp các bước đúng để tạo biểu đồ trong Excel.",
+      "type": "drag-drop",
+      "options": [
+        "Nhập dữ liệu vào các ô trong bảng tính",
+        "Chọn (bôi đen) vùng dữ liệu cần tạo biểu đồ",
+        "Nhấn tab Insert → chọn loại biểu đồ (Chart)",
+        "Tùy chỉnh tiêu đề và màu sắc biểu đồ"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự tạo biểu đồ: Nhập dữ liệu → Chọn vùng dữ liệu → Insert Chart → Tùy chỉnh. Chọn loại biểu đồ phù hợp: cột để so sánh, tròn để thể hiện tỷ lệ phần trăm.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q036",
+      "q": "Slideshow Mode (Chế độ trình chiếu) trong PowerPoint hiển thị slide toàn màn hình.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Nhấn F5 hoặc nút Slideshow để bắt đầu trình chiếu toàn màn hình. Trong chế độ này, khán giả chỉ thấy slide, không thấy thanh công cụ hay ghi chú. Nhấn Esc để thoát.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q037",
+      "q": "Khi sắp xếp (Sort) dữ liệu trong Excel, em có thể sắp xếp theo thứ tự nào?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ từ A đến Z",
+        "Chỉ từ nhỏ đến lớn",
+        "Từ A-Z hoặc Z-A, từ nhỏ đến lớn hoặc lớn đến nhỏ",
+        "Không thể sắp xếp dữ liệu trong Excel"
+      ],
+      "correct": 2,
+      "explanation": "Excel cho phép sắp xếp linh hoạt: chữ từ A-Z hoặc Z-A, số từ nhỏ-lớn hoặc lớn-nhỏ, ngày từ cũ-mới hoặc mới-cũ. Giống như sắp xếp sách theo tên hoặc theo kích thước!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q038",
+      "q": "Để chèn bảng (Table) vào tài liệu Word, em vào tab nào?",
+      "type": "single-choice",
+      "options": [
+        "Home",
+        "Insert",
+        "Layout",
+        "View"
+      ],
+      "correct": 1,
+      "explanation": "Tab Insert (Chèn) chứa các công cụ chèn thêm vào tài liệu: bảng, hình ảnh, biểu đồ, link... Nhấn Insert → Table → chọn số hàng và cột em cần.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q039",
+      "q": "Những kỹ thuật tìm kiếm nào giúp em tìm thông tin chính xác hơn trên Google? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Dùng dấu ngoặc kép (\") để tìm cụm từ chính xác",
+        "Dùng dấu trừ (-) để loại bỏ từ không muốn",
+        "Gõ câu dài và phức tạp",
+        "Thêm tên trang web cụ thể (site:edu.vn)"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Kỹ thuật tìm kiếm nâng cao: \"cụm từ\" tìm chính xác, -từ loại bỏ kết quả, site:edu.vn tìm trong trang giáo dục. Câu dài phức tạp thường cho kết quả kém hơn từ khóa ngắn gọn.",
+      "difficulty": "khó",
+      "domain": "networking",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q040",
+      "q": "Sắp xếp các bước đúng để tạo bài trình chiếu PowerPoint đơn giản.",
+      "type": "drag-drop",
+      "options": [
+        "Mở PowerPoint và chọn mẫu (template) hoặc slide trống",
+        "Thêm tiêu đề và nội dung cho từng slide",
+        "Chèn hình ảnh, biểu đồ nếu cần",
+        "Thêm hiệu ứng chuyển slide và kiểm tra lại bài"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự tạo bài trình chiếu: Mở và chọn mẫu → Thêm nội dung → Chèn hình ảnh → Thêm hiệu ứng và kiểm tra. Nhớ: nội dung quan trọng hơn hiệu ứng — đừng dùng quá nhiều animation!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q041",
+      "q": "Undo (Ctrl+Z) và Redo (Ctrl+Y) trong các ứng dụng Office có chức năng gì?",
+      "type": "single-choice",
+      "options": [
+        "Undo lưu tệp, Redo xóa tệp",
+        "Undo quay lại thao tác trước, Redo làm lại thao tác vừa hoàn tác",
+        "Undo mở tệp mới, Redo đóng tệp",
+        "Undo in tài liệu, Redo hủy in"
+      ],
+      "correct": 1,
+      "explanation": "Undo (Ctrl+Z) = quay lại bước trước (nếu lỡ xóa nhầm). Redo (Ctrl+Y) = làm lại thao tác vừa undo. Giống như nút 'quay lại' và 'tiến tới' khi xem video — rất hữu ích khi làm bài!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q042",
+      "q": "Trong Excel, hàng (Row) chạy theo chiều ngang và được đánh số (1, 2, 3...).",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Hàng (Row) chạy ngang, đánh số 1, 2, 3... Cột (Column) chạy dọc, đánh chữ A, B, C... Ô A1 là giao điểm của cột A và hàng 1. Giống như tọa độ trên bản đồ!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q043",
+      "q": "Khi trích dẫn nguồn cho bài tập, em cần ghi những thông tin nào?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ cần ghi tên trang web",
+        "Tên tác giả, tên bài viết, tên trang web, ngày truy cập",
+        "Chỉ cần ghi ngày em làm bài",
+        "Không cần ghi gì cả"
+      ],
+      "correct": 1,
+      "explanation": "Trích dẫn đầy đủ gồm: tên tác giả, tên bài viết, tên trang web/sách, ngày truy cập. Giống như ghi địa chỉ đầy đủ để người khác tìm được nguồn thông tin em đã dùng.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q044",
+      "q": "Những loại biểu đồ nào có trong Excel? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Biểu đồ cột (Column/Bar Chart)",
+        "Biểu đồ tròn (Pie Chart)",
+        "Biểu đồ đường (Line Chart)",
+        "Biểu đồ âm thanh (Sound Chart)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Excel có nhiều loại biểu đồ: cột (so sánh), tròn (tỷ lệ phần trăm), đường (xu hướng theo thời gian). Không có 'biểu đồ âm thanh' trong Excel.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q045",
+      "q": "Sắp xếp các bước đúng để định dạng đoạn văn bản trong Word (căn giữa, đổi phông chữ, đổi màu).",
+      "type": "drag-drop",
+      "options": [
+        "Chọn (bôi đen) đoạn văn bản cần định dạng",
+        "Chọn phông chữ (Font) và cỡ chữ (Size) mong muốn",
+        "Chọn màu chữ (Font Color)",
+        "Chọn căn lề (Align Center/Left/Right)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự định dạng: Chọn văn bản → Đổi phông chữ → Đổi màu → Căn lề. Luôn chọn (bôi đen) văn bản trước khi định dạng — nếu không, Word không biết em muốn thay đổi phần nào!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q046",
+      "q": "Print Preview (Xem trước khi in) giúp em kiểm tra tài liệu trước khi in ra giấy.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Print Preview cho em xem tài liệu sẽ trông ra sao khi in — kiểm tra lề, cỡ chữ, hình ảnh có đúng không. Giống như thử quần áo trước khi mua — xem trước để không phí giấy in!",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q047",
+      "q": "Trong PowerPoint, em có thể thêm hyperlink (đường liên kết) vào slide để mở trang web hoặc chuyển đến slide khác.",
+      "type": "true-false",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng! Hyperlink trong PowerPoint cho phép em nhấn vào chữ hoặc hình để mở trang web, tệp tin hoặc nhảy đến slide khác. Rất hữu ích khi trình bày bài có nhiều phần liên kết!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q048",
+      "q": "Nguồn thông tin nào dưới đây KHÔNG đáng tin cậy cho bài nghiên cứu?",
+      "type": "single-choice",
+      "options": [
+        "Sách giáo khoa",
+        "Trang web của trường đại học (.edu)",
+        "Bài đăng ẩn danh trên diễn đàn (forum) không rõ tác giả",
+        "Bài báo khoa học đã được kiểm duyệt"
+      ],
+      "correct": 2,
+      "explanation": "Bài đăng ẩn danh trên diễn đàn không đáng tin vì không biết ai viết và không được kiểm duyệt. Sách giáo khoa, trang .edu và bài báo khoa học đều được chuyên gia kiểm tra nên đáng tin hơn.",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q049",
+      "q": "Những thao tác định dạng văn bản nào có trong Word? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "In đậm (Bold)",
+        "In nghiêng (Italic)",
+        "Gạch chân (Underline)",
+        "Kết nối Internet"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bold (đậm), Italic (nghiêng) và Underline (gạch chân) là các định dạng văn bản cơ bản trong Word. Kết nối Internet là chức năng của hệ điều hành, không phải định dạng văn bản.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_6"
+    },
+    {
+      "id": "m6_q050",
+      "q": "Sắp xếp các bước đúng để nghiên cứu một chủ đề cho bài tập.",
+      "type": "drag-drop",
+      "options": [
+        "Xác định chủ đề và câu hỏi cần trả lời",
+        "Tìm kiếm thông tin từ nhiều nguồn đáng tin cậy",
+        "Đọc, ghi chú và tổng hợp thông tin bằng lời của mình",
+        "Ghi rõ nguồn trích dẫn và hoàn thành bài tập"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Thứ tự nghiên cứu: Xác định chủ đề → Tìm kiếm từ nhiều nguồn → Đọc và ghi chú → Ghi nguồn trích dẫn. Luôn viết bằng lời của mình và ghi rõ nguồn — đừng sao chép (đạo văn)!",
+      "difficulty": "khó",
+      "domain": "networking",
       "module": "module_6"
     }
   ]
