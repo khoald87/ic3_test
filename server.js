@@ -13,6 +13,16 @@ const PORT = process.env.PORT || 3000;
 
 const QUESTIONS_FILE = path.join(__dirname, 'data', 'questions.json');
 
+// Auto-create data files if they don't exist (for fresh deployments)
+const ADMIN_CONFIG_FILE = path.join(__dirname, 'data', 'admin-config.json');
+const STUDENTS_FILE = path.join(__dirname, 'data', 'students.json');
+if (!fs.existsSync(ADMIN_CONFIG_FILE)) {
+    fs.writeFileSync(ADMIN_CONFIG_FILE, JSON.stringify({ pin: '1234' }, null, 2), 'utf8');
+}
+if (!fs.existsSync(STUDENTS_FILE)) {
+    fs.writeFileSync(STUDENTS_FILE, JSON.stringify({ students: {} }, null, 2), 'utf8');
+}
+
 const VALID_MODULES = ['module_1', 'module_2', 'module_3', 'module_4', 'module_5', 'module_6'];
 const VALID_DIFFICULTIES = ['dễ', 'trung bình', 'khó'];
 const VALID_TYPES = ['single-choice', 'true-false', 'multiple-choice', 'drag-drop'];
