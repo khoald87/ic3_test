@@ -26,7 +26,7 @@
   --bg-history: #F0F9FF;
   --text: #1E293B;
   --text-secondary: #64748B;
-  --text-muted: #94A3B8;
+  --text-muted: #64748B;
   --card-bg: #ffffff;
   --border: #F1F5F9;
   --border-medium: #E2E8F0;
@@ -326,7 +326,7 @@ body {
 }
 
 .timer-display.warning {
-  background: var(--red);
+  background: #DC2626;
   animation: pulse 1s infinite;
 }
 

@@ -22,6 +22,9 @@
 
     var modal = document.createElement('div');
     modal.className = 'sn-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-label', 'Nhập tên học sinh');
 
     modal.innerHTML =
       '<div class="sn-icon">👋</div>' +
@@ -29,7 +32,7 @@
       '<p class="sn-subtitle">Vui lòng nhập tên của em để bắt đầu</p>' +
       '<div class="sn-form">' +
         '<input type="text" id="snInput" class="sn-input" placeholder="Nhập tên của em..." maxlength="50" autocomplete="off" />' +
-        '<div id="snError" class="sn-error" style="display:none;">Vui lòng nhập tên của em</div>' +
+        '<div id="snError" class="sn-error" role="alert" style="display:none;">Vui lòng nhập tên của em</div>' +
         '<button id="snConfirm" class="sn-confirm-btn">✅ Xác nhận</button>' +
       '</div>';
 

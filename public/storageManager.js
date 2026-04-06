@@ -136,18 +136,53 @@
   }
 
   /**
-   * Lưu kết quả thi lên server
+   * Lấy lịch sử thi từ server
+   * @param {string} studentName
+   * @returns {Promise<Object[]|null>} mảng history hoặc null nếu lỗi
+   */
+  function getExamHistoryFromServer(studentName) {
+    if (!studentName) return Promise.resolve(null);
+    return fetch('/api/students/' + encodeURIComponent(studentName) + '/history')
+      .then(function (res) {
+        if (!res.ok) return null;
+        return res.json();
+      })
+      .then(function (data) {
+        if (data && Array.isArray(data.history)) return data.history;
+        return null;
+      })
+      .catch(function (e) {
+        console.warn('StorageManager: Không thể tải lịch sử từ server', e);
+        return null;
+      });
+  }
+
+  /**
+   * Lưu kết quả thi lên server (retry 1 lần nếu lỗi)
    * @param {string} studentName
    * @param {Object} result
+   * @returns {Promise<{success: boolean}>}
    */
   function saveExamResultToServer(studentName, result) {
-    if (!studentName || !result) return;
-    fetch('/api/students/save-result', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ studentName: studentName, result: result })
-    }).catch(function (e) {
-      console.warn('StorageManager: Không thể lưu kết quả thi lên server', e);
+    if (!studentName || !result) return Promise.resolve({ success: false });
+
+    function doSave() {
+      return fetch('/api/students/save-result', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ studentName: studentName, result: result })
+      }).then(function (res) {
+        if (!res.ok) throw new Error('Server responded with ' + res.status);
+        return { success: true };
+      });
+    }
+
+    return doSave().catch(function (e) {
+      console.warn('StorageManager: Lưu kết quả thất bại, thử lại...', e);
+      return doSave().catch(function (e2) {
+        console.warn('StorageManager: Retry thất bại, không thể lưu kết quả lên server', e2);
+        return { success: false };
+      });
     });
   }
 
@@ -173,6 +208,7 @@
   window.StorageManager = {
     saveExamResult: saveExamResult,
     getExamHistory: getExamHistory,
+    getExamHistoryFromServer: getExamHistoryFromServer,
     getModuleProgress: getModuleProgress,
     updateProgress: updateProgress,
     getProgressPercent: getProgressPercent,

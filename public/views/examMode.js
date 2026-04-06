@@ -20,6 +20,61 @@
   var startTime = 0;
   var containerRef = null;
 
+  // Navigation guard state (Yêu cầu 5.1, 5.2, 5.3)
+  var examInProgress = false;
+  var originalNavigateTo = null;
+
+  /**
+   * beforeunload handler — cảnh báo khi đóng tab/reload trong lúc thi
+   */
+  function beforeunloadHandler(e) {
+    if (!examInProgress) return;
+    e.preventDefault();
+    e.returnValue = 'Bạn có chắc muốn rời bài thi? Bài làm sẽ bị mất.';
+    return e.returnValue;
+  }
+
+  /**
+   * Gắn cảnh báo rời trang khi bắt đầu thi
+   */
+  function installExamGuards() {
+    examInProgress = true;
+
+    // 1. beforeunload — chặn đóng tab / reload
+    window.addEventListener('beforeunload', beforeunloadHandler);
+
+    // 2. Intercept Router.navigateTo — hiển thị confirm() khi điều hướng SPA
+    if (!originalNavigateTo) {
+      originalNavigateTo = window.Router.navigateTo;
+      window.Router.navigateTo = function (route) {
+        if (examInProgress) {
+          if (!confirm('Bạn có chắc muốn rời bài thi? Bài làm sẽ bị mất.')) {
+            return; // Hủy điều hướng
+          }
+          // Người dùng đồng ý rời — gỡ guards trước khi navigate
+          removeExamGuards();
+        }
+        originalNavigateTo(route);
+      };
+    }
+  }
+
+  /**
+   * Gỡ bỏ tất cả cảnh báo rời trang
+   */
+  function removeExamGuards() {
+    examInProgress = false;
+
+    // Gỡ beforeunload
+    window.removeEventListener('beforeunload', beforeunloadHandler);
+
+    // Khôi phục Router.navigateTo gốc
+    if (originalNavigateTo) {
+      window.Router.navigateTo = originalNavigateTo;
+      originalNavigateTo = null;
+    }
+  }
+
   /**
    * Render Exam Mode
    * @param {HTMLElement} container
@@ -35,6 +90,7 @@
     flagged = {};
     submitted = false;
     startTime = 0;
+    removeExamGuards();
     window.QuestionRenderer.resetAnswers();
     hideTimer();
 
@@ -91,6 +147,9 @@
     startTime = Date.now();
     submitted = false;
 
+    // Gắn cảnh báo rời trang (Yêu cầu 5.1, 5.2)
+    installExamGuards();
+
     timer = window.Timer.createTimer(50, function (remaining) {
       updateTimerDisplay(remaining);
     }, function () {
@@ -120,6 +179,7 @@
       var btn = document.createElement('button');
       btn.className = 'qnav-btn';
       btn.textContent = (i + 1);
+      btn.setAttribute('aria-label', 'Câu ' + (i + 1));
 
       if (i === currentIndex) btn.classList.add('current');
       if (window.QuestionRenderer.getAnswer(i) !== null) btn.classList.add('answered');
@@ -230,6 +290,10 @@
     submitted = true;
 
     if (timer) timer.stop();
+
+    // Gỡ cảnh báo rời trang khi nộp bài (Yêu cầu 5.3)
+    removeExamGuards();
+
     exitExamMode();
 
     var timeSpent = Math.round((Date.now() - startTime) / 1000);
@@ -246,7 +310,7 @@
     for (var i = 0; i < total; i++) {
       var q = exam.questions[i];
       var selected = window.QuestionRenderer.getAnswer(i);
-      var isCorrect = checkCorrect(selected, q.correct);
+      var isCorrect = window.QuestionRenderer.checkAnswer(i, q);
 
       if (isCorrect) correctCount++;
 
@@ -288,19 +352,6 @@
     }
 
     renderResult(container, result);
-  }
-
-  function checkCorrect(selected, correct) {
-    if (selected === null || selected === undefined) return false;
-    if (Array.isArray(correct)) {
-      if (!Array.isArray(selected)) return false;
-      if (selected.length !== correct.length) return false;
-      for (var i = 0; i < correct.length; i++) {
-        if (selected[i] !== correct[i]) return false;
-      }
-      return true;
-    }
-    return selected === correct;
   }
 
   /**

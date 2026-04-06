@@ -1,0 +1,458 @@
+[
+  {
+    "id": "m2_q021",
+    "q": "Screen time (thời gian sử dụng màn hình) quá nhiều có thể gây ra vấn đề gì?",
+    "type": "single-choice",
+    "options": [
+      "Giúp mắt khỏe hơn.",
+      "Mỏi mắt, đau đầu và khó ngủ.",
+      "Giúp em học giỏi hơn.",
+      "Không có ảnh hưởng gì."
+    ],
+    "correct": 1,
+    "explanation": "Nhìn màn hình quá lâu có thể khiến mắt mỏi, đau đầu và khó ngủ. Em nên nghỉ mắt mỗi 20 phút bằng cách nhìn xa 20 giây — gọi là quy tắc 20-20-20. Hãy cân bằng giữa dùng máy tính và vui chơi ngoài trời nhé!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q022",
+    "q": "Nội dung phù hợp với lứa tuổi (age-appropriate content) nghĩa là gì?",
+    "type": "single-choice",
+    "options": [
+      "Nội dung mà chỉ người lớn mới được xem.",
+      "Nội dung được thiết kế an toàn và phù hợp cho độ tuổi của em.",
+      "Nội dung có nhiều quảng cáo.",
+      "Nội dung chỉ có trên YouTube."
+    ],
+    "correct": 1,
+    "explanation": "Nội dung phù hợp lứa tuổi là những video, trò chơi, trang web được thiết kế an toàn cho trẻ em. Ví dụ: YouTube Kids có nội dung phù hợp cho em hơn YouTube thường. Nếu em thấy nội dung lạ hoặc đáng sợ, hãy báo ba mẹ ngay!",
+    "difficulty": "dễ",
+    "domain": "software",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q023",
+    "q": "Khi em thấy nội dung không phù hợp hoặc đáng sợ trên mạng, em nên làm gì?",
+    "type": "single-choice",
+    "options": [
+      "Chia sẻ cho bạn bè cùng xem.",
+      "Tiếp tục xem để biết thêm.",
+      "Tắt trang web ngay và báo cho ba mẹ hoặc thầy cô.",
+      "Chụp ảnh màn hình và đăng lên mạng xã hội."
+    ],
+    "correct": 2,
+    "explanation": "Khi gặp nội dung không phù hợp, em nên tắt ngay và báo cho người lớn. Đừng xem tiếp hay chia sẻ cho người khác. Ba mẹ và thầy cô sẽ giúp em xử lý tình huống này.",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q024",
+    "q": "Digital wellness (sức khỏe kỹ thuật số) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Sửa chữa máy tính khi bị hỏng.",
+      "Cách sử dụng công nghệ một cách cân bằng, lành mạnh để bảo vệ sức khỏe thể chất và tinh thần.",
+      "Cài đặt phần mềm diệt vi-rút.",
+      "Mua thiết bị công nghệ mới nhất."
+    ],
+    "correct": 1,
+    "explanation": "Digital wellness là sử dụng công nghệ một cách lành mạnh — không dùng quá nhiều, nghỉ ngơi đúng lúc, và cân bằng giữa thời gian trên mạng với hoạt động ngoài đời. Giống như ăn uống cân bằng vậy — dùng vừa đủ thì tốt!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q025",
+    "q": "Online reputation (danh tiếng trực tuyến) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Số lượng bạn bè trên mạng xã hội.",
+      "Hình ảnh và ấn tượng mà người khác có về em dựa trên những gì em đăng trên mạng.",
+      "Điểm số trong trò chơi trực tuyến.",
+      "Tốc độ Internet của em."
+    ],
+    "correct": 1,
+    "explanation": "Danh tiếng trực tuyến là cách người khác nhìn nhận em qua những gì em đăng trên mạng. Nếu em luôn viết lịch sự, chia sẻ điều tốt, mọi người sẽ có ấn tượng tốt. Hãy nhớ: những gì đăng lên mạng có thể tồn tại rất lâu!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q026",
+    "q": "Terms of Service (Điều khoản dịch vụ) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Hướng dẫn sử dụng máy tính.",
+      "Quy tắc và thỏa thuận mà em phải đồng ý khi sử dụng một ứng dụng hoặc trang web.",
+      "Mật khẩu để đăng nhập.",
+      "Phần mềm diệt vi-rút."
+    ],
+    "correct": 1,
+    "explanation": "Terms of Service (ToS) là bản quy tắc mà ứng dụng hoặc trang web yêu cầu em đồng ý trước khi sử dụng. Nó nói về quyền và trách nhiệm của em. Nhiều ứng dụng yêu cầu phải đủ 13 tuổi — em nên hỏi ba mẹ trước khi đồng ý nhé!",
+    "difficulty": "trung bình",
+    "domain": "software",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q027",
+    "q": "Parental controls (kiểm soát của phụ huynh) dùng để làm gì?",
+    "type": "single-choice",
+    "options": [
+      "Giúp ba mẹ chơi game trên máy tính của em.",
+      "Giúp ba mẹ giới hạn nội dung và thời gian sử dụng thiết bị để bảo vệ em.",
+      "Xóa tất cả dữ liệu trên máy tính.",
+      "Tăng tốc độ Internet."
+    ],
+    "correct": 1,
+    "explanation": "Parental controls giúp ba mẹ cài đặt giới hạn để bảo vệ em: chặn trang web không phù hợp, giới hạn thời gian dùng máy, kiểm soát ứng dụng. Đây không phải để phạt em mà để giữ em an toàn trên mạng!",
+    "difficulty": "dễ",
+    "domain": "software",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q028",
+    "q": "Khi chơi game trực tuyến, hành vi nào là chơi game có trách nhiệm?",
+    "type": "single-choice",
+    "options": [
+      "Chơi suốt đêm không nghỉ.",
+      "Chửi bới người chơi khác khi thua.",
+      "Đặt giới hạn thời gian chơi, tôn trọng người chơi khác và không chia sẻ thông tin cá nhân.",
+      "Chi thật nhiều tiền mua vật phẩm trong game."
+    ],
+    "correct": 2,
+    "explanation": "Chơi game có trách nhiệm là: đặt giới hạn thời gian, không nói xấu người khác, không chia sẻ thông tin cá nhân, và không chi tiền quá nhiều. Game là để giải trí — hãy chơi vui vẻ và biết dừng đúng lúc!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q029",
+    "q": "Digital divide (khoảng cách số) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Khoảng cách giữa hai máy tính.",
+      "Sự chênh lệch giữa những người có và không có khả năng tiếp cận công nghệ và Internet.",
+      "Khoảng cách giữa hai trang web.",
+      "Sự khác biệt giữa phần cứng và phần mềm."
+    ],
+    "correct": 1,
+    "explanation": "Digital divide là sự chênh lệch giữa người có máy tính, Internet và người không có. Một số bạn ở vùng xa có thể không có Internet để học trực tuyến. Mọi người đều xứng đáng được tiếp cận công nghệ!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q030",
+    "q": "Accessibility (khả năng tiếp cận) trong công nghệ giúp ai?",
+    "type": "single-choice",
+    "options": [
+      "Chỉ giúp người lớn tuổi.",
+      "Giúp người khuyết tật sử dụng máy tính và Internet dễ dàng hơn.",
+      "Chỉ giúp lập trình viên.",
+      "Giúp máy tính chạy nhanh hơn."
+    ],
+    "correct": 1,
+    "explanation": "Accessibility giúp người khuyết tật (khiếm thị, khiếm thính, khó vận động) sử dụng công nghệ. Ví dụ: phần mềm đọc màn hình cho người mù, phụ đề cho người điếc. Công nghệ nên dành cho tất cả mọi người!",
+    "difficulty": "trung bình",
+    "domain": "software",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q031",
+    "q": "E-waste (rác thải điện tử) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Email rác (spam).",
+      "Thiết bị điện tử cũ, hỏng bị vứt bỏ như điện thoại cũ, máy tính hỏng.",
+      "Tệp tin bị xóa trong thùng rác máy tính.",
+      "Vi-rút máy tính."
+    ],
+    "correct": 1,
+    "explanation": "E-waste là rác thải điện tử — điện thoại cũ, máy tính hỏng, pin cũ... Chúng chứa chất độc hại nên không được vứt bừa bãi. Em nên mang đến điểm thu gom rác điện tử để tái chế đúng cách, bảo vệ môi trường!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q032",
+    "q": "Sử dụng công nghệ có thể ảnh hưởng đến môi trường như thế nào?",
+    "type": "single-choice",
+    "options": [
+      "Công nghệ không ảnh hưởng gì đến môi trường.",
+      "Sản xuất và vứt bỏ thiết bị điện tử gây ô nhiễm, trung tâm dữ liệu tiêu tốn nhiều điện năng.",
+      "Công nghệ chỉ có lợi cho môi trường.",
+      "Chỉ có điện thoại mới gây ô nhiễm."
+    ],
+    "correct": 1,
+    "explanation": "Sản xuất thiết bị điện tử cần khai thác tài nguyên, vứt bỏ gây ô nhiễm, và các trung tâm dữ liệu (data center) tiêu tốn rất nhiều điện. Em có thể giúp bằng cách dùng thiết bị lâu hơn, tắt máy khi không dùng và tái chế đúng cách!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q033",
+    "q": "Digital identity (danh tính số) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Số sê-ri của máy tính.",
+      "Tập hợp thông tin về em trên mạng: tên tài khoản, ảnh đại diện, bài đăng và hoạt động trực tuyến.",
+      "Mã PIN của điện thoại.",
+      "Địa chỉ IP của máy tính."
+    ],
+    "correct": 1,
+    "explanation": "Danh tính số là 'con người trực tuyến' của em — gồm tên tài khoản, ảnh đại diện, bài đăng, bình luận. Hãy xây dựng danh tính số tích cực bằng cách đăng những điều tốt đẹp và lịch sự trên mạng nhé!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q034",
+    "q": "Kẻ lừa đảo trực tuyến thường dùng chiêu trò gì để lừa trẻ em?",
+    "type": "single-choice",
+    "options": [
+      "Gửi bài tập về nhà.",
+      "Hứa tặng quà miễn phí, thẻ game hoặc giả làm bạn bè để lấy thông tin cá nhân.",
+      "Gửi sách điện tử miễn phí từ thư viện.",
+      "Mời tham gia câu lạc bộ đọc sách."
+    ],
+    "correct": 1,
+    "explanation": "Kẻ lừa đảo thường hứa tặng quà, thẻ game miễn phí hoặc giả làm bạn bè để lừa em cho thông tin cá nhân. Nhớ quy tắc: nếu điều gì quá tốt để là thật, thì có thể đó là lừa đảo! Luôn hỏi ba mẹ trước.",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q035",
+    "q": "Khi sử dụng mạng xã hội, em nên đặt tài khoản ở chế độ nào?",
+    "type": "single-choice",
+    "options": [
+      "Công khai (Public) để có nhiều người theo dõi.",
+      "Riêng tư (Private) để chỉ bạn bè và gia đình mới xem được.",
+      "Không cần quan tâm đến cài đặt quyền riêng tư.",
+      "Chia sẻ mọi thứ cho tất cả mọi người."
+    ],
+    "correct": 1,
+    "explanation": "Em nên đặt tài khoản ở chế độ riêng tư (Private) để chỉ những người em biết mới xem được bài đăng. Điều này giúp bảo vệ thông tin cá nhân và hình ảnh của em khỏi người lạ trên mạng.",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q036",
+    "q": "Quy tắc 20-20-20 khi sử dụng màn hình là gì?",
+    "type": "single-choice",
+    "options": [
+      "Chơi game 20 phút, nghỉ 20 phút, chơi tiếp 20 phút.",
+      "Mỗi 20 phút nhìn màn hình, nhìn xa 20 feet (6 mét) trong 20 giây.",
+      "Dùng 20 ứng dụng trong 20 phút rồi tắt máy 20 phút.",
+      "Sạc pin 20 phút, dùng 20 phút, sạc lại 20 phút."
+    ],
+    "correct": 1,
+    "explanation": "Quy tắc 20-20-20 giúp bảo vệ mắt: cứ 20 phút nhìn màn hình, em hãy nhìn ra xa khoảng 6 mét trong 20 giây. Điều này giúp mắt được nghỉ ngơi và giảm mỏi mắt. Rất dễ nhớ phải không!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q037",
+    "q": "Nút 'Report' (Báo cáo) trên mạng xã hội dùng để làm gì?",
+    "type": "single-choice",
+    "options": [
+      "Gửi tin nhắn cho bạn bè.",
+      "Báo cáo nội dung xấu, không phù hợp hoặc nguy hiểm cho quản trị viên xử lý.",
+      "Tải nội dung về máy tính.",
+      "Chia sẻ bài viết cho nhiều người."
+    ],
+    "correct": 1,
+    "explanation": "Nút Report giúp em báo cáo nội dung xấu (bắt nạt, bạo lực, lừa đảo) cho quản trị viên của trang web hoặc ứng dụng. Họ sẽ kiểm tra và xóa nội dung vi phạm. Em hãy mạnh dạn báo cáo khi thấy điều không đúng!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q038",
+    "q": "Em nên nghỉ ngơi và vận động sau mỗi 30-60 phút sử dụng máy tính.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 0,
+    "explanation": "Đúng! Ngồi dùng máy tính quá lâu không tốt cho sức khỏe. Em nên đứng dậy, vươn vai, đi lại hoặc chơi ngoài trời sau mỗi 30-60 phút. Cơ thể em cần vận động để khỏe mạnh!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q039",
+    "q": "Trẻ em dưới 13 tuổi có thể tự đăng ký tài khoản mạng xã hội mà không cần sự đồng ý của phụ huynh.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 1,
+    "explanation": "Sai! Hầu hết mạng xã hội (Facebook, Instagram, TikTok) yêu cầu người dùng phải ít nhất 13 tuổi. Trẻ em dưới 13 tuổi cần sự đồng ý và giám sát của ba mẹ. Đây là quy định để bảo vệ em!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q040",
+    "q": "Tất cả các trò chơi trực tuyến miễn phí đều an toàn cho trẻ em.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 1,
+    "explanation": "Sai! Không phải game miễn phí nào cũng an toàn. Một số game có nội dung bạo lực, cho phép chat với người lạ, hoặc lừa em mua vật phẩm bằng tiền thật. Em nên hỏi ba mẹ trước khi chơi game mới!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q041",
+    "q": "Rác thải điện tử (e-waste) có thể được tái chế để lấy lại vật liệu quý.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 0,
+    "explanation": "Đúng! Thiết bị điện tử chứa vàng, bạc, đồng và nhiều vật liệu quý khác. Khi tái chế đúng cách, các vật liệu này được thu hồi và sử dụng lại, giúp giảm khai thác tài nguyên và bảo vệ môi trường.",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q042",
+    "q": "Những gì em đăng lên mạng có thể bị xóa hoàn toàn và không ai tìm lại được.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 1,
+    "explanation": "Sai! Ngay cả khi em xóa bài đăng, người khác có thể đã chụp ảnh màn hình hoặc lưu lại. Thông tin trên mạng rất khó xóa hoàn toàn. Hãy suy nghĩ kỹ trước khi đăng bất cứ điều gì!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q043",
+    "q": "Những hành vi nào thể hiện digital wellness (sức khỏe kỹ thuật số) tốt? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Đặt giới hạn thời gian sử dụng màn hình mỗi ngày.",
+      "Dùng điện thoại ngay trước khi đi ngủ.",
+      "Nghỉ ngơi và vận động thường xuyên.",
+      "Cân bằng giữa hoạt động trực tuyến và ngoài đời."
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "Digital wellness tốt gồm: giới hạn thời gian dùng màn hình, nghỉ ngơi thường xuyên, và cân bằng online/offline. Dùng điện thoại trước khi ngủ làm khó ngủ vì ánh sáng xanh ảnh hưởng đến giấc ngủ.",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q044",
+    "q": "Những cách nào giúp bảo vệ môi trường khi sử dụng công nghệ? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Tắt máy tính khi không sử dụng.",
+      "Vứt điện thoại cũ vào thùng rác thường.",
+      "Mang thiết bị cũ đến điểm tái chế rác điện tử.",
+      "Sử dụng thiết bị lâu hơn thay vì mua mới liên tục."
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "Bảo vệ môi trường: tắt máy khi không dùng (tiết kiệm điện), mang thiết bị cũ đi tái chế (không vứt bừa), và dùng lâu hơn (giảm rác). Không nên vứt thiết bị điện tử vào thùng rác thường vì chúng chứa chất độc hại!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q045",
+    "q": "Những dấu hiệu nào cho thấy một tin nhắn có thể là lừa đảo nhắm vào trẻ em? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Hứa tặng quà hoặc thẻ game miễn phí.",
+      "Yêu cầu em cho thông tin cá nhân hoặc mật khẩu.",
+      "Tin nhắn từ thầy cô gửi bài tập về nhà.",
+      "Tạo cảm giác gấp gáp, phải hành động ngay."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Dấu hiệu lừa đảo: hứa quà miễn phí, yêu cầu thông tin cá nhân, tạo cảm giác gấp gáp. Tin nhắn bài tập từ thầy cô qua kênh chính thức thì an toàn. Nếu nghi ngờ, hãy hỏi ba mẹ!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q046",
+    "q": "Những tính năng accessibility nào giúp người khuyết tật sử dụng máy tính? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Phần mềm đọc màn hình (Screen Reader) cho người khiếm thị.",
+      "Phụ đề (Subtitles) cho người khiếm thính.",
+      "Tăng tốc độ Internet.",
+      "Điều khiển bằng giọng nói cho người khó vận động."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Accessibility gồm: đọc màn hình cho người mù, phụ đề cho người điếc, điều khiển giọng nói cho người khó vận động. Tăng tốc Internet không phải tính năng accessibility. Công nghệ nên dành cho tất cả mọi người!",
+    "difficulty": "khó",
+    "domain": "software",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q047",
+    "q": "Sắp xếp các bước đúng khi em muốn báo cáo nội dung không phù hợp trên mạng.",
+    "type": "drag-drop",
+    "options": [
+      "Không tương tác (like, comment, share) với nội dung đó",
+      "Nhấn nút Report (Báo cáo) trên bài viết",
+      "Chọn lý do báo cáo phù hợp",
+      "Báo cho ba mẹ hoặc thầy cô biết"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Thứ tự đúng: Không tương tác → Nhấn Report → Chọn lý do → Báo người lớn. Quan trọng nhất là không like hay share nội dung xấu, vì điều đó sẽ lan truyền nó cho nhiều người hơn!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q048",
+    "q": "Sắp xếp các bước để cài đặt parental controls trên thiết bị.",
+    "type": "drag-drop",
+    "options": [
+      "Mở phần Settings (Cài đặt) trên thiết bị",
+      "Tìm mục Parental Controls hoặc Family Safety",
+      "Cùng ba mẹ thiết lập giới hạn thời gian và nội dung",
+      "Đặt mật khẩu để chỉ ba mẹ mới thay đổi được cài đặt"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Cài parental controls: Mở Settings → Tìm Parental Controls → Cùng ba mẹ thiết lập → Đặt mật khẩu bảo vệ. Em nên cùng ba mẹ làm việc này để hiểu tại sao cần giới hạn và thống nhất quy tắc!",
+    "difficulty": "khó",
+    "domain": "software",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q049",
+    "q": "Sắp xếp mức độ an toàn khi chia sẻ thông tin trên mạng từ AN TOÀN NHẤT đến NGUY HIỂM NHẤT.",
+    "type": "drag-drop",
+    "options": [
+      "Chia sẻ sở thích (thích đọc sách, thích vẽ)",
+      "Chia sẻ tên trường học",
+      "Chia sẻ số điện thoại",
+      "Chia sẻ địa chỉ nhà"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Từ an toàn đến nguy hiểm: Sở thích (không tiết lộ vị trí) → Tên trường (có thể tìm được em) → Số điện thoại (liên lạc trực tiếp) → Địa chỉ nhà (nguy hiểm nhất). Hãy bảo vệ thông tin cá nhân!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_2"
+  },
+  {
+    "id": "m2_q050",
+    "q": "Sắp xếp các bước đúng khi em nhận được tin nhắn từ người lạ trên mạng.",
+    "type": "drag-drop",
+    "options": [
+      "Không trả lời tin nhắn",
+      "Không nhấn vào đường link lạ trong tin nhắn",
+      "Chặn (Block) người gửi",
+      "Báo cho ba mẹ hoặc thầy cô biết"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Khi nhận tin nhắn từ người lạ: Không trả lời → Không nhấn link → Chặn người gửi → Báo người lớn. Người lạ trên mạng có thể không phải người tốt, dù họ nói gì. An toàn là trên hết!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_2"
+  }
+]
+

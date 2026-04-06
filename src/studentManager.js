@@ -4,34 +4,37 @@ const path = require('path');
 const STUDENTS_FILE = path.join(__dirname, '..', 'data', 'students.json');
 
 /**
- * Đọc file students.json, tự tạo nếu chưa tồn tại
- * @returns {Object}
+ * Đọc file students.json (async), tự tạo nếu chưa tồn tại
+ * @returns {Promise<Object>}
  */
-function readStudentsFile() {
+async function readStudentsFile() {
   try {
-    if (!fs.existsSync(STUDENTS_FILE)) {
+    try {
+      await fs.promises.access(STUDENTS_FILE);
+    } catch {
       const initial = { students: {} };
-      fs.writeFileSync(STUDENTS_FILE, JSON.stringify(initial, null, 2), 'utf8');
+      await fs.promises.writeFile(STUDENTS_FILE, JSON.stringify(initial, null, 2), 'utf8');
       return initial;
     }
-    const data = fs.readFileSync(STUDENTS_FILE, 'utf8');
+    const data = await fs.promises.readFile(STUDENTS_FILE, 'utf8');
     return JSON.parse(data);
   } catch (e) {
     if (e instanceof SyntaxError) {
       throw e;
     }
     const initial = { students: {} };
-    fs.writeFileSync(STUDENTS_FILE, JSON.stringify(initial, null, 2), 'utf8');
+    await fs.promises.writeFile(STUDENTS_FILE, JSON.stringify(initial, null, 2), 'utf8');
     return initial;
   }
 }
 
 /**
- * Ghi file students.json
+ * Ghi file students.json (async)
  * @param {Object} data
+ * @returns {Promise<void>}
  */
-function writeStudentsFile(data) {
-  fs.writeFileSync(STUDENTS_FILE, JSON.stringify(data, null, 2), 'utf8');
+async function writeStudentsFile(data) {
+  await fs.promises.writeFile(STUDENTS_FILE, JSON.stringify(data, null, 2), 'utf8');
 }
 
 /**
@@ -44,7 +47,36 @@ function normalizeStudentName(name) {
 }
 
 /**
- * Validate tên học sinh: 2-50 ký tự sau trim, không chỉ whitespace
+ * Kiểm tra chuỗi có chứa path traversal sequences không
+ * @param {string} str
+ * @returns {boolean} true nếu chứa path traversal
+ */
+function containsPathTraversal(str) {
+  // Check for ../, ./, ..\ , .\
+  if (str.indexOf('../') !== -1) return true;
+  if (str.indexOf('./') !== -1) return true;
+  if (str.indexOf('..\\') !== -1) return true;
+  if (str.indexOf('.\\') !== -1) return true;
+  return false;
+}
+
+/**
+ * Kiểm tra chuỗi có chứa ký tự điều khiển không (code point < 32, trừ space)
+ * Bao gồm null bytes (\0)
+ * @param {string} str
+ * @returns {boolean} true nếu chứa ký tự điều khiển
+ */
+function containsControlCharacters(str) {
+  for (var i = 0; i < str.length; i++) {
+    var code = str.charCodeAt(i);
+    if (code < 32) return true; // code point < 32 (space is 32, so excluded)
+  }
+  return false;
+}
+
+/**
+ * Validate tên học sinh: 2-50 ký tự sau trim, không chỉ whitespace,
+ * không chứa path traversal sequences hoặc ký tự điều khiển
  * @param {string} name
  * @returns {boolean}
  */
@@ -53,17 +85,19 @@ function validateStudentName(name) {
   var trimmed = name.trim();
   if (trimmed.length < 2 || trimmed.length > 50) return false;
   if (/^\s+$/.test(trimmed)) return false;
+  if (containsPathTraversal(trimmed)) return false;
+  if (containsControlCharacters(trimmed)) return false;
   return true;
 }
 
 /**
- * Lưu kết quả thi cho học sinh
+ * Lưu kết quả thi cho học sinh (async)
  * @param {string} studentName
  * @param {Object} result
- * @returns {{ success: boolean }}
+ * @returns {Promise<{ success: boolean }>}
  */
-function saveExamResult(studentName, result) {
-  var db = readStudentsFile();
+async function saveExamResult(studentName, result) {
+  var db = await readStudentsFile();
   var key = normalizeStudentName(studentName);
   var displayName = studentName.trim();
 
@@ -80,20 +114,20 @@ function saveExamResult(studentName, result) {
   db.students[key].examHistory.push(result);
   db.students[key].lastActiveAt = new Date().toISOString();
   db.students[key].displayName = displayName;
-  writeStudentsFile(db);
+  await writeStudentsFile(db);
   return { success: true };
 }
 
 /**
- * Lưu tiến trình ôn tập
+ * Lưu tiến trình ôn tập (async)
  * @param {string} studentName
  * @param {string} moduleId
  * @param {string} questionId
  * @param {boolean} isCorrect
- * @returns {{ success: boolean }}
+ * @returns {Promise<{ success: boolean }>}
  */
-function saveReviewProgress(studentName, moduleId, questionId, isCorrect) {
-  var db = readStudentsFile();
+async function saveReviewProgress(studentName, moduleId, questionId, isCorrect) {
+  var db = await readStudentsFile();
   var key = normalizeStudentName(studentName);
   var displayName = studentName.trim();
 
@@ -122,16 +156,16 @@ function saveReviewProgress(studentName, moduleId, questionId, isCorrect) {
   }
 
   db.students[key].lastActiveAt = new Date().toISOString();
-  writeStudentsFile(db);
+  await writeStudentsFile(db);
   return { success: true };
 }
 
 /**
- * Lấy danh sách học sinh với thống kê
- * @returns {Array}
+ * Lấy danh sách học sinh với thống kê (async)
+ * @returns {Promise<Array>}
  */
-function getStudentList() {
-  var db = readStudentsFile();
+async function getStudentList() {
+  var db = await readStudentsFile();
   var list = [];
 
   var keys = Object.keys(db.students);
@@ -169,12 +203,12 @@ function getStudentList() {
 }
 
 /**
- * Lấy lịch sử thi của học sinh
+ * Lấy lịch sử thi của học sinh (async)
  * @param {string} name
- * @returns {Array}
+ * @returns {Promise<Array>}
  */
-function getStudentHistory(name) {
-  var db = readStudentsFile();
+async function getStudentHistory(name) {
+  var db = await readStudentsFile();
   var key = normalizeStudentName(name);
   var student = db.students[key];
   if (!student) return [];
@@ -182,12 +216,12 @@ function getStudentHistory(name) {
 }
 
 /**
- * Lấy tiến trình ôn tập của học sinh
+ * Lấy tiến trình ôn tập của học sinh (async)
  * @param {string} name
- * @returns {Object}
+ * @returns {Promise<Object>}
  */
-function getStudentProgress(name) {
-  var db = readStudentsFile();
+async function getStudentProgress(name) {
+  var db = await readStudentsFile();
   var key = normalizeStudentName(name);
   var student = db.students[key];
   if (!student) return {};
@@ -195,30 +229,30 @@ function getStudentProgress(name) {
 }
 
 /**
- * Xóa dữ liệu 1 học sinh
+ * Xóa dữ liệu 1 học sinh (async)
  * @param {string} name
- * @returns {{ success: boolean, deleted: number }}
+ * @returns {Promise<{ success: boolean, deleted: number }>}
  */
-function deleteStudent(name) {
-  var db = readStudentsFile();
+async function deleteStudent(name) {
+  var db = await readStudentsFile();
   var key = normalizeStudentName(name);
   if (db.students[key]) {
     delete db.students[key];
-    writeStudentsFile(db);
+    await writeStudentsFile(db);
     return { success: true, deleted: 1 };
   }
   return { success: true, deleted: 0 };
 }
 
 /**
- * Xóa tất cả dữ liệu học sinh
- * @returns {{ success: boolean, deleted: number }}
+ * Xóa tất cả dữ liệu học sinh (async)
+ * @returns {Promise<{ success: boolean, deleted: number }>}
  */
-function deleteAllStudents() {
-  var db = readStudentsFile();
+async function deleteAllStudents() {
+  var db = await readStudentsFile();
   var count = Object.keys(db.students).length;
   db.students = {};
-  writeStudentsFile(db);
+  await writeStudentsFile(db);
   return { success: true, deleted: count };
 }
 
@@ -227,6 +261,8 @@ module.exports = {
   writeStudentsFile,
   normalizeStudentName,
   validateStudentName,
+  containsPathTraversal,
+  containsControlCharacters,
   saveExamResult,
   saveReviewProgress,
   getStudentList,

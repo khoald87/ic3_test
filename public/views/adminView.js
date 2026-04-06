@@ -43,7 +43,7 @@
         '<p class="admin-pin-subtitle">Nhập mã PIN để truy cập</p>' +
         '<div class="admin-pin-form">' +
           '<input type="password" id="adminPinInput" class="sn-input" placeholder="Nhập mã PIN..." maxlength="6" autocomplete="off" />' +
-          '<div id="adminPinError" class="sn-error" style="display:none;">Mã PIN không đúng</div>' +
+          '<div id="adminPinError" class="sn-error" role="alert" style="display:none;">Mã PIN không đúng</div>' +
           '<button id="adminPinBtn" class="sn-confirm-btn">🔓 Xác nhận</button>' +
         '</div>' +
       '</div>';
@@ -374,7 +374,7 @@
       '<div class="admin-pin-change-form">' +
         '<input type="password" id="currentPinInput" class="sn-input" placeholder="Mã PIN hiện tại" maxlength="6" />' +
         '<input type="password" id="newPinInput" class="sn-input" placeholder="Mã PIN mới (4-6 chữ số)" maxlength="6" />' +
-        '<div id="changePinMsg" class="admin-pin-msg" style="display:none;"></div>' +
+        '<div id="changePinMsg" class="admin-pin-msg" role="alert" style="display:none;"></div>' +
         '<button id="changePinBtn" class="sn-confirm-btn">💾 Đổi mã PIN</button>' +
       '</div>';
     contentArea.appendChild(card);

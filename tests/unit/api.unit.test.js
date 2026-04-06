@@ -134,6 +134,16 @@ beforeAll(async () => {
     try {
       const db = readQuestionsFile();
       const config = req.body || {};
+
+      // Validate totalQuestions: must be integer in [1, 100]
+      if (config.totalQuestions !== undefined) {
+        const tq = config.totalQuestions;
+        if (!Number.isInteger(tq) || tq < 1 || tq > 100) {
+          console.warn(`[exam/generate] Invalid totalQuestions value: ${JSON.stringify(tq)}. Using default 45.`);
+          config.totalQuestions = 45;
+        }
+      }
+
       const exam = generateExam(db.questions, config);
       exam.questions = shuffleExam(exam.questions);
       return res.status(200).json(exam);
@@ -425,5 +435,83 @@ describe('POST /api/exam/generate', () => {
     expect(exam.typeDistribution).toHaveProperty('multiple-choice');
     expect(exam.typeDistribution).toHaveProperty('drag-drop');
     expect(Array.isArray(exam.modulesCovered)).toBe(true);
+  });
+
+  it('falls back to default 45 when totalQuestions is negative', async () => {
+    const res = await fetch(`${baseUrl}/api/exam/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ totalQuestions: -5 })
+    });
+    expect(res.status).toBe(200);
+    const exam = await res.json();
+    expect(exam.totalQuestions).toBe(45);
+  });
+
+  it('falls back to default 45 when totalQuestions is 0', async () => {
+    const res = await fetch(`${baseUrl}/api/exam/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ totalQuestions: 0 })
+    });
+    expect(res.status).toBe(200);
+    const exam = await res.json();
+    expect(exam.totalQuestions).toBe(45);
+  });
+
+  it('falls back to default 45 when totalQuestions exceeds 100', async () => {
+    const res = await fetch(`${baseUrl}/api/exam/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ totalQuestions: 150 })
+    });
+    expect(res.status).toBe(200);
+    const exam = await res.json();
+    expect(exam.totalQuestions).toBe(45);
+  });
+
+  it('falls back to default 45 when totalQuestions is a float', async () => {
+    const res = await fetch(`${baseUrl}/api/exam/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ totalQuestions: 10.5 })
+    });
+    expect(res.status).toBe(200);
+    const exam = await res.json();
+    expect(exam.totalQuestions).toBe(45);
+  });
+
+  it('falls back to default 45 when totalQuestions is a string', async () => {
+    const res = await fetch(`${baseUrl}/api/exam/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ totalQuestions: "abc" })
+    });
+    expect(res.status).toBe(200);
+    const exam = await res.json();
+    expect(exam.totalQuestions).toBe(45);
+  });
+
+  it('accepts valid totalQuestions at boundary 1', async () => {
+    const res = await fetch(`${baseUrl}/api/exam/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ totalQuestions: 1 })
+    });
+    expect(res.status).toBe(200);
+    const exam = await res.json();
+    expect(exam.totalQuestions).toBeGreaterThanOrEqual(1);
+    expect(exam.totalQuestions).toBeLessThanOrEqual(6); // may include type-guarantee picks
+  });
+
+  it('accepts valid totalQuestions at boundary 100', async () => {
+    const res = await fetch(`${baseUrl}/api/exam/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ totalQuestions: 100 })
+    });
+    expect(res.status).toBe(200);
+    const exam = await res.json();
+    expect(exam.totalQuestions).toBeLessThanOrEqual(100);
   });
 });

@@ -1,0 +1,457 @@
+[
+    {
+      "id": "m1_q021",
+      "q": "Máy tính bảng (Tablet) khác máy tính xách tay (Laptop) ở điểm nào?",
+      "type": "single-choice",
+      "options": [
+        "Tablet không thể kết nối Internet.",
+        "Tablet thường dùng màn hình cảm ứng và không có bàn phím rời gắn sẵn.",
+        "Laptop không có màn hình.",
+        "Tablet mạnh hơn Laptop."
+      ],
+      "correct": 1,
+      "explanation": "Tablet thường mỏng nhẹ, dùng màn hình cảm ứng và không có bàn phím gắn sẵn. Laptop có bàn phím và màn hình gập lại được. Cả hai đều kết nối Internet được nhé!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q022",
+      "q": "Máy tính để bàn (Desktop) có ưu điểm gì so với Laptop?",
+      "type": "single-choice",
+      "options": [
+        "Desktop nhỏ gọn hơn, dễ mang đi.",
+        "Desktop thường mạnh hơn và dễ nâng cấp linh kiện hơn.",
+        "Desktop có pin nên dùng được khi mất điện.",
+        "Desktop không cần màn hình riêng."
+      ],
+      "correct": 1,
+      "explanation": "Máy tính để bàn thường mạnh hơn và dễ thay thế, nâng cấp linh kiện (RAM, ổ cứng, card đồ họa). Nhưng nó to và cần cắm điện, không mang đi được như Laptop.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q023",
+      "q": "Màn hình cảm ứng (Touchscreen) hoạt động bằng cách nào?",
+      "type": "single-choice",
+      "options": [
+        "Em phải dùng chuột để điều khiển.",
+        "Em chạm tay trực tiếp lên màn hình để điều khiển.",
+        "Em phải nói vào micro để ra lệnh.",
+        "Em phải dùng bàn phím để gõ lệnh."
+      ],
+      "correct": 1,
+      "explanation": "Màn hình cảm ứng cho phép em chạm, vuốt, kéo thả trực tiếp trên màn hình. Điện thoại, tablet và một số laptop đều có màn hình cảm ứng. Rất tiện lợi phải không nào!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q024",
+      "q": "Cổng USB-C khác cổng USB-A ở điểm nào?",
+      "type": "single-choice",
+      "options": [
+        "USB-C nhỏ hơn, hình bầu dục và cắm được cả hai chiều.",
+        "USB-A nhỏ hơn USB-C.",
+        "USB-C chỉ dùng để sạc pin, không truyền dữ liệu.",
+        "USB-A nhanh hơn USB-C."
+      ],
+      "correct": 0,
+      "explanation": "USB-C có đầu cắm nhỏ, hình bầu dục và cắm chiều nào cũng được — rất tiện! USB-A là loại đầu cắm hình chữ nhật quen thuộc, chỉ cắm được một chiều. USB-C ngày càng phổ biến trên điện thoại và laptop mới.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q025",
+      "q": "SSD (Solid State Drive) khác HDD (Hard Disk Drive) như thế nào?",
+      "type": "single-choice",
+      "options": [
+        "SSD dùng đĩa quay để lưu dữ liệu, HDD dùng chip nhớ.",
+        "SSD nhanh hơn, bền hơn và không có bộ phận chuyển động.",
+        "HDD nhanh hơn SSD.",
+        "SSD và HDD hoàn toàn giống nhau."
+      ],
+      "correct": 1,
+      "explanation": "SSD dùng chip nhớ nên nhanh hơn, nhẹ hơn và bền hơn vì không có bộ phận quay. HDD dùng đĩa từ quay nên chậm hơn nhưng thường rẻ hơn. Giống như xe đạp điện (SSD) nhanh hơn xe đạp thường (HDD) vậy!",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q026",
+      "q": "Cloud Computing (Điện toán đám mây) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Máy tính đặt trên mây trời.",
+        "Sử dụng dịch vụ lưu trữ và xử lý dữ liệu qua Internet thay vì trên máy tính cá nhân.",
+        "Một loại phần mềm diệt vi-rút.",
+        "Cách kết nối Bluetooth."
+      ],
+      "correct": 1,
+      "explanation": "Điện toán đám mây cho phép em lưu tệp, chạy phần mềm qua Internet mà không cần cài trên máy tính. Ví dụ: Google Drive, Google Docs — em làm bài trên mạng và truy cập từ bất kỳ thiết bị nào!",
+      "difficulty": "trung bình",
+      "domain": "networking",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q027",
+      "q": "Smartwatch (đồng hồ thông minh) có thể làm được những gì?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ xem giờ, không làm gì khác.",
+        "Xem giờ, đếm bước chân, nhận thông báo và theo dõi sức khỏe.",
+        "Thay thế hoàn toàn máy tính.",
+        "Chỉ dùng để chơi game."
+      ],
+      "correct": 1,
+      "explanation": "Đồng hồ thông minh không chỉ xem giờ mà còn đếm bước chân, đo nhịp tim, nhận tin nhắn, cuộc gọi và nhiều tính năng khác. Nó là một thiết bị thông minh nhỏ gọn đeo trên tay!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q028",
+      "q": "Mã QR (QR Code) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Một loại mật khẩu bảo mật.",
+        "Mã hình vuông chứa thông tin, có thể quét bằng camera điện thoại.",
+        "Một loại vi-rút máy tính.",
+        "Tên một phần mềm chỉnh sửa ảnh."
+      ],
+      "correct": 1,
+      "explanation": "Mã QR là hình vuông có nhiều ô đen trắng, chứa thông tin như đường link, số điện thoại. Em dùng camera điện thoại quét mã QR để mở trang web, thanh toán hoặc xem thông tin nhanh chóng.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q029",
+      "q": "Độ phân giải màn hình (Screen Resolution) cao hơn có nghĩa là gì?",
+      "type": "single-choice",
+      "options": [
+        "Màn hình to hơn.",
+        "Hình ảnh hiển thị sắc nét và chi tiết hơn.",
+        "Máy tính chạy nhanh hơn.",
+        "Màn hình sáng hơn."
+      ],
+      "correct": 1,
+      "explanation": "Độ phân giải cao nghĩa là màn hình có nhiều điểm ảnh (pixel) hơn, nên hình ảnh rõ nét và chi tiết hơn. Ví dụ: Full HD (1920x1080) sắc nét hơn HD (1280x720). Giống như tranh vẽ càng nhiều chi tiết thì càng đẹp!",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q030",
+      "q": "Khi pin laptop sắp hết, em nên làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Tiếp tục sử dụng cho đến khi máy tự tắt.",
+        "Lưu bài đang làm và cắm sạc ngay.",
+        "Rút pin ra và lắp lại.",
+        "Tắt màn hình để tiết kiệm pin."
+      ],
+      "correct": 1,
+      "explanation": "Khi pin sắp hết, em nên lưu bài ngay và cắm sạc. Nếu máy tắt đột ngột, em có thể mất bài đang làm. Giống như khi bình nước sắp hết, em nên đổ thêm nước trước khi hết sạch!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q031",
+      "q": "Loa thông minh (Smart Speaker) như Google Home hay Amazon Echo có thể làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ phát nhạc, không làm gì khác.",
+        "Nghe lệnh giọng nói để phát nhạc, trả lời câu hỏi, điều khiển thiết bị thông minh.",
+        "Thay thế máy tính hoàn toàn.",
+        "Chỉ dùng làm đồng hồ báo thức."
+      ],
+      "correct": 1,
+      "explanation": "Loa thông minh có trợ lý ảo bên trong, nghe giọng nói của em để phát nhạc, trả lời câu hỏi, đặt báo thức, điều khiển đèn thông minh và nhiều thứ khác. Em chỉ cần nói 'Hey Google' hoặc 'Alexa'!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q032",
+      "q": "Máy in phun (Inkjet) khác máy in laser (Laser Printer) ở điểm nào?",
+      "type": "single-choice",
+      "options": [
+        "Máy in phun dùng mực nước, máy in laser dùng bột mực (toner).",
+        "Máy in laser chỉ in được đen trắng.",
+        "Máy in phun nhanh hơn máy in laser.",
+        "Cả hai hoàn toàn giống nhau."
+      ],
+      "correct": 0,
+      "explanation": "Máy in phun phun mực nước lên giấy, thường rẻ hơn và in ảnh màu đẹp. Máy in laser dùng bột mực và nhiệt, in nhanh hơn và phù hợp in nhiều văn bản. Giống như bút dạ (inkjet) và bút chì (laser) — mỗi loại có ưu điểm riêng!",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q033",
+      "q": "Thiết bị Bluetooth là thiết bị kết nối không dây ở khoảng cách gần.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 0,
+      "explanation": "Đúng! Bluetooth kết nối không dây các thiết bị ở khoảng cách gần (thường dưới 10 mét). Ví dụ: tai nghe Bluetooth, loa Bluetooth, bàn phím không dây. Nó không cần Internet để hoạt động!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q034",
+      "q": "Android là hệ điều hành dùng cho máy tính để bàn.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 1,
+      "explanation": "Sai! Android là hệ điều hành chủ yếu dùng cho điện thoại và máy tính bảng, do Google phát triển. Máy tính để bàn thường dùng Windows hoặc macOS. Mỗi loại thiết bị có hệ điều hành phù hợp riêng.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q035",
+      "q": "iOS là hệ điều hành của hãng nào?",
+      "type": "single-choice",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Apple",
+        "Samsung"
+      ],
+      "correct": 2,
+      "explanation": "iOS là hệ điều hành của Apple, dùng trên iPhone và iPad. Google có Android, Microsoft có Windows. Mỗi hãng có hệ điều hành riêng cho thiết bị của mình.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q036",
+      "q": "ChromeOS là hệ điều hành được thiết kế chủ yếu để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Chơi game nặng.",
+        "Làm việc chủ yếu trên trình duyệt web và ứng dụng đám mây.",
+        "Chỉnh sửa video chuyên nghiệp.",
+        "Lập trình phần mềm phức tạp."
+      ],
+      "correct": 1,
+      "explanation": "ChromeOS của Google được thiết kế cho Chromebook — máy tính nhẹ, chủ yếu dùng trình duyệt Chrome và ứng dụng đám mây. Rất phù hợp cho học sinh vì khởi động nhanh, dễ dùng và giá rẻ!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q037",
+      "q": "GPU (Graphics Processing Unit) dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Lưu trữ dữ liệu vĩnh viễn.",
+        "Xử lý hình ảnh, video và đồ họa trên màn hình.",
+        "Kết nối Internet.",
+        "Phát âm thanh qua loa."
+      ],
+      "correct": 1,
+      "explanation": "GPU (card đồ họa) chuyên xử lý hình ảnh và video. Khi em chơi game hoặc xem phim, GPU làm cho hình ảnh mượt mà và đẹp. Nếu CPU là bộ não thì GPU là 'họa sĩ' của máy tính!",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q038",
+      "q": "Những thiết bị nào dưới đây sử dụng màn hình cảm ứng? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Điện thoại thông minh (Smartphone)",
+        "Máy tính bảng (Tablet)",
+        "Máy in laser",
+        "Máy ATM rút tiền"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Điện thoại, tablet và máy ATM đều dùng màn hình cảm ứng để em chạm và thao tác. Máy in laser không có màn hình cảm ứng (một số máy in mới có, nhưng máy in laser thông thường thì không).",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q039",
+      "q": "Những hệ điều hành nào dưới đây dùng cho điện thoại thông minh? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Android",
+        "Windows 11",
+        "iOS",
+        "macOS"
+      ],
+      "correct": [0, 2],
+      "explanation": "Android (Google) và iOS (Apple) là hai hệ điều hành phổ biến nhất cho điện thoại. Windows 11 dùng cho máy tính, macOS dùng cho máy Mac của Apple. Mỗi thiết bị có hệ điều hành phù hợp riêng!",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q040",
+      "q": "Những loại cổng kết nối nào phổ biến trên máy tính? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "USB-A",
+        "USB-C",
+        "HDMI",
+        "Bluetooth"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "USB-A, USB-C và HDMI là các cổng kết nối vật lý trên máy tính. Bluetooth là kết nối không dây, không phải cổng vật lý. HDMI dùng để kết nối màn hình hoặc TV.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q041",
+      "q": "SSD nhanh hơn HDD vì SSD không có bộ phận cơ học chuyển động.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 0,
+      "explanation": "Đúng! SSD dùng chip nhớ điện tử nên đọc/ghi dữ liệu rất nhanh. HDD có đĩa từ quay bên trong nên chậm hơn. Giống như tìm bài trong sách điện tử (SSD) nhanh hơn lật từng trang sách giấy (HDD)!",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q042",
+      "q": "Mã QR chỉ có thể chứa đường link trang web, không chứa được thông tin khác.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 1,
+      "explanation": "Sai! Mã QR có thể chứa nhiều loại thông tin: đường link, văn bản, số điện thoại, thông tin Wi-Fi, thông tin thanh toán và nhiều thứ khác. Nó rất đa năng!",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q043",
+      "q": "Pin laptop có thể sạc lại nhiều lần nhưng sẽ yếu dần theo thời gian.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 0,
+      "explanation": "Đúng! Pin laptop là pin sạc lại được, nhưng sau nhiều lần sạc (thường vài trăm lần), pin sẽ yếu dần và giữ điện ít hơn. Giống như pin đồ chơi sạc lại — dùng lâu sẽ hết nhanh hơn lúc mới.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q044",
+      "q": "Sắp xếp các thiết bị từ nhỏ nhất đến lớn nhất.",
+      "type": "drag-drop",
+      "options": [
+        "Đồng hồ thông minh (Smartwatch)",
+        "Điện thoại thông minh (Smartphone)",
+        "Máy tính bảng (Tablet)",
+        "Máy tính xách tay (Laptop)"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Thứ tự từ nhỏ đến lớn: Smartwatch (đeo tay) → Smartphone (bỏ túi) → Tablet (cầm tay) → Laptop (để bàn/đùi). Mỗi thiết bị có kích thước phù hợp cho mục đích sử dụng khác nhau!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q045",
+      "q": "Sắp xếp các loại bộ nhớ/lưu trữ theo tốc độ truy cập từ nhanh nhất đến chậm nhất.",
+      "type": "drag-drop",
+      "options": [
+        "RAM",
+        "SSD",
+        "HDD",
+        "USB Flash Drive"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "RAM nhanh nhất vì là bộ nhớ tạm thời gắn trực tiếp với CPU. SSD nhanh thứ hai nhờ chip nhớ. HDD chậm hơn vì có đĩa quay. USB thường chậm nhất. Giống như: chạy (RAM) > xe đạp điện (SSD) > xe đạp (HDD) > đi bộ (USB)!",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q046",
+      "q": "Sắp xếp các bước đúng để quét mã QR bằng điện thoại.",
+      "type": "drag-drop",
+      "options": [
+        "Mở ứng dụng camera hoặc ứng dụng quét QR",
+        "Hướng camera vào mã QR",
+        "Chờ điện thoại nhận diện mã QR",
+        "Nhấn vào đường link hoặc thông tin hiện ra"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Quét mã QR rất đơn giản: Mở camera → Hướng vào mã QR → Chờ nhận diện → Nhấn vào kết quả. Hầu hết điện thoại mới đều quét QR được ngay từ camera mà không cần cài thêm ứng dụng!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q047",
+      "q": "Sắp xếp đúng thứ tự các bước để kết nối tai nghe Bluetooth với điện thoại.",
+      "type": "drag-drop",
+      "options": [
+        "Bật Bluetooth trên điện thoại",
+        "Bật chế độ ghép nối (pairing) trên tai nghe",
+        "Tìm tên tai nghe trong danh sách thiết bị Bluetooth",
+        "Nhấn vào tên tai nghe để kết nối"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Kết nối Bluetooth: Bật Bluetooth trên điện thoại → Bật pairing trên tai nghe → Tìm tên tai nghe → Nhấn kết nối. Giống như bắt tay làm quen — cả hai bên đều phải sẵn sàng!",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q048",
+      "q": "Thiết bị nào dưới đây KHÔNG phải là thiết bị thông minh (smart device)?",
+      "type": "single-choice",
+      "options": [
+        "Đồng hồ thông minh (Smartwatch)",
+        "Loa thông minh (Smart Speaker)",
+        "Bàn là (Iron)",
+        "Điện thoại thông minh (Smartphone)"
+      ],
+      "correct": 2,
+      "explanation": "Bàn là thông thường không phải thiết bị thông minh vì nó không kết nối Internet hay có phần mềm bên trong. Smartwatch, Smart Speaker và Smartphone đều có thể kết nối mạng và chạy ứng dụng.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q049",
+      "q": "Những thiết bị nào dưới đây là thiết bị lưu trữ dữ liệu? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Ổ cứng SSD",
+        "Thẻ nhớ SD",
+        "Webcam",
+        "USB Flash Drive"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "SSD, thẻ nhớ SD và USB Flash Drive đều dùng để lưu trữ dữ liệu. Webcam là thiết bị nhập (quay video/chụp ảnh), không phải thiết bị lưu trữ.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q050",
+      "q": "Phần mềm nào dưới đây là hệ điều hành? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Windows 11",
+        "Microsoft Word",
+        "macOS",
+        "Google Chrome"
+      ],
+      "correct": [0, 2],
+      "explanation": "Windows 11 và macOS là hệ điều hành — phần mềm chạy máy tính. Microsoft Word là phần mềm soạn văn bản, Google Chrome là trình duyệt web. Hệ điều hành giống như nền móng nhà, còn Word và Chrome là đồ nội thất bên trong!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    }
+]

@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 
 /**
  * Unit tests cho Storage Manager
@@ -158,6 +158,130 @@ describe('StorageManager', () => {
       mockLS.getItem.mockImplementation(() => { throw new Error('SecurityError'); });
       expect(SM.getExamHistory()).toEqual([]);
       expect(SM.getModuleProgress('module_1').answeredCorrectly).toEqual([]);
+    });
+  });
+
+  describe('getExamHistoryFromServer', () => {
+    let originalFetch;
+
+    beforeEach(() => {
+      originalFetch = globalThis.fetch;
+    });
+
+    afterEach(() => {
+      globalThis.fetch = originalFetch;
+    });
+
+    it('trả về null khi studentName rỗng', async () => {
+      const result = await SM.getExamHistoryFromServer('');
+      expect(result).toBeNull();
+    });
+
+    it('trả về null khi studentName null', async () => {
+      const result = await SM.getExamHistoryFromServer(null);
+      expect(result).toBeNull();
+    });
+
+    it('trả về mảng history khi server phản hồi thành công', async () => {
+      const mockHistory = [
+        { examId: 'e1', score: 800, date: '2024-01-01' },
+        { examId: 'e2', score: 700, date: '2024-01-02' }
+      ];
+      globalThis.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve({ history: mockHistory })
+      });
+
+      const result = await SM.getExamHistoryFromServer('Nguyen Van A');
+      expect(result).toEqual(mockHistory);
+      expect(globalThis.fetch).toHaveBeenCalledWith(
+        '/api/students/' + encodeURIComponent('Nguyen Van A') + '/history'
+      );
+    });
+
+    it('trả về null khi server trả lỗi (non-ok)', async () => {
+      globalThis.fetch = vi.fn().mockResolvedValue({
+        ok: false,
+        status: 500
+      });
+
+      const result = await SM.getExamHistoryFromServer('Test');
+      expect(result).toBeNull();
+    });
+
+    it('trả về null khi fetch throw (network error)', async () => {
+      globalThis.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
+
+      const result = await SM.getExamHistoryFromServer('Test');
+      expect(result).toBeNull();
+    });
+
+    it('trả về null khi response không có mảng history', async () => {
+      globalThis.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve({ data: 'something else' })
+      });
+
+      const result = await SM.getExamHistoryFromServer('Test');
+      expect(result).toBeNull();
+    });
+  });
+
+  describe('saveExamResultToServer', () => {
+    let originalFetch;
+
+    beforeEach(() => {
+      originalFetch = globalThis.fetch;
+    });
+
+    afterEach(() => {
+      globalThis.fetch = originalFetch;
+    });
+
+    it('trả về { success: false } khi studentName rỗng', async () => {
+      const result = await SM.saveExamResultToServer('', { examId: 'e1' });
+      expect(result).toEqual({ success: false });
+    });
+
+    it('trả về { success: false } khi result null', async () => {
+      const result = await SM.saveExamResultToServer('Test', null);
+      expect(result).toEqual({ success: false });
+    });
+
+    it('trả về { success: true } khi lưu thành công', async () => {
+      globalThis.fetch = vi.fn().mockResolvedValue({ ok: true });
+
+      const result = await SM.saveExamResultToServer('Test', { examId: 'e1', score: 800 });
+      expect(result).toEqual({ success: true });
+      expect(globalThis.fetch).toHaveBeenCalledTimes(1);
+    });
+
+    it('retry 1 lần khi lần đầu thất bại, lần 2 thành công', async () => {
+      globalThis.fetch = vi.fn()
+        .mockRejectedValueOnce(new Error('Network error'))
+        .mockResolvedValueOnce({ ok: true });
+
+      const result = await SM.saveExamResultToServer('Test', { examId: 'e1' });
+      expect(result).toEqual({ success: true });
+      expect(globalThis.fetch).toHaveBeenCalledTimes(2);
+    });
+
+    it('trả về { success: false } khi cả 2 lần đều thất bại', async () => {
+      globalThis.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
+
+      const result = await SM.saveExamResultToServer('Test', { examId: 'e1' });
+      expect(result).toEqual({ success: false });
+      expect(globalThis.fetch).toHaveBeenCalledTimes(2);
+    });
+
+    it('retry khi server trả non-ok status', async () => {
+      globalThis.fetch = vi.fn()
+        .mockResolvedValueOnce({ ok: false, status: 500 })
+        .mockResolvedValueOnce({ ok: true });
+
+      const result = await SM.saveExamResultToServer('Test', { examId: 'e1' });
+      expect(result).toEqual({ success: true });
+      expect(globalThis.fetch).toHaveBeenCalledTimes(2);
     });
   });
 });

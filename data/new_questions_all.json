@@ -1,0 +1,451 @@
+[
+    {
+      "id": "m1_q021",
+      "q": "Hệ điều hành (Operating System) là gì?",
+      "type": "single-choice",
+      "options": [
+        "Một loại phần cứng bên trong máy tính.",
+        "Phần mềm quản lý toàn bộ hoạt động của máy tính, giúp phần cứng và phần mềm làm việc cùng nhau.",
+        "Một trang web để tải phần mềm.",
+        "Một thiết bị kết nối Internet."
+      ],
+      "correct": 1,
+      "explanation": "Hệ điều hành (như Windows, macOS) giống như người quản lý lớp học — nó điều phối mọi thứ trong máy tính, giúp phần cứng (màn hình, bàn phím) và phần mềm (Word, Chrome) làm việc ăn ý với nhau.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q022",
+      "q": "GPU (Graphics Processing Unit) có chức năng chính là gì?",
+      "type": "single-choice",
+      "options": [
+        "Lưu trữ dữ liệu vĩnh viễn.",
+        "Xử lý hình ảnh, video và đồ họa trên màn hình.",
+        "Kết nối máy tính với Internet.",
+        "Quản lý bàn phím và chuột."
+      ],
+      "correct": 1,
+      "explanation": "GPU là bộ xử lý đồ họa — nó chuyên vẽ hình ảnh, video lên màn hình cho em xem. Khi em chơi game hoặc xem phim, GPU làm việc rất chăm chỉ để hình ảnh mượt mà và đẹp mắt.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q023",
+      "q": "SSD (Solid State Drive) khác với HDD (Hard Disk Drive) như thế nào?",
+      "type": "single-choice",
+      "options": [
+        "SSD dùng đĩa quay để lưu dữ liệu, HDD dùng chip nhớ.",
+        "SSD nhanh hơn và không có bộ phận chuyển động, HDD dùng đĩa quay nên chậm hơn.",
+        "SSD chỉ lưu được ít dữ liệu, HDD lưu được nhiều hơn gấp trăm lần.",
+        "SSD và HDD hoàn toàn giống nhau."
+      ],
+      "correct": 1,
+      "explanation": "SSD dùng chip nhớ điện tử nên nhanh và yên lặng, giống thẻ nhớ điện thoại. HDD dùng đĩa quay bên trong nên chậm hơn nhưng thường rẻ hơn. SSD giúp máy tính khởi động và mở chương trình nhanh hơn nhiều!",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q024",
+      "q": "Cổng USB trên máy tính dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Chỉ dùng để sạc điện thoại.",
+        "Kết nối các thiết bị ngoại vi như chuột, bàn phím, USB, máy in với máy tính.",
+        "Chỉ dùng để kết nối Internet.",
+        "Chỉ dùng để kết nối màn hình."
+      ],
+      "correct": 1,
+      "explanation": "Cổng USB (Universal Serial Bus) là cổng đa năng — em có thể cắm chuột, bàn phím, USB, máy in, sạc điện thoại và nhiều thiết bị khác. Nó giống như ổ cắm điện đa năng của máy tính vậy!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q025",
+      "q": "Khi cài đặt phần mềm mới, em nên tải từ đâu là an toàn nhất?",
+      "type": "single-choice",
+      "options": [
+        "Từ bất kỳ trang web nào trên Internet.",
+        "Từ trang web chính thức của nhà sản xuất hoặc cửa hàng ứng dụng (App Store, Microsoft Store).",
+        "Từ email của người lạ gửi đến.",
+        "Từ quảng cáo pop-up trên trang web."
+      ],
+      "correct": 1,
+      "explanation": "Luôn tải phần mềm từ trang web chính thức hoặc cửa hàng ứng dụng uy tín. Phần mềm từ nguồn không rõ ràng có thể chứa vi-rút. Giống như mua đồ ăn — em nên mua ở cửa hàng uy tín, không nhận đồ từ người lạ.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q026",
+      "q": "Smartphone (điện thoại thông minh) có thể làm được những gì giống máy tính?",
+      "type": "multiple-choice",
+      "options": [
+        "Lướt web và gửi email",
+        "Chụp ảnh và quay video",
+        "Cài đặt và chạy ứng dụng",
+        "Thay thế hoàn toàn máy tính để bàn trong mọi công việc"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Smartphone có thể lướt web, gửi email, chụp ảnh, quay video và cài ứng dụng giống máy tính. Tuy nhiên, nó không thể thay thế hoàn toàn máy tính để bàn trong mọi công việc vì màn hình nhỏ và sức mạnh xử lý hạn chế hơn.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q027",
+      "q": "Control Panel (Bảng điều khiển) trong Windows dùng để làm gì?",
+      "type": "single-choice",
+      "options": [
+        "Chơi game trên máy tính.",
+        "Thay đổi các cài đặt của máy tính như màn hình, âm thanh, mạng, máy in.",
+        "Soạn thảo văn bản.",
+        "Tải nhạc từ Internet."
+      ],
+      "correct": 1,
+      "explanation": "Control Panel giống như bảng điều khiển của ngôi nhà — em có thể chỉnh độ sáng màn hình, âm lượng, kết nối máy in, thay đổi ngôn ngữ và nhiều cài đặt khác của máy tính.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q028",
+      "q": "Máy quét (Scanner) là thiết bị nhập hay thiết bị xuất?",
+      "type": "true-false",
+      "options": ["Thiết bị nhập (Input)", "Thiết bị xuất (Output)"],
+      "correct": 0,
+      "explanation": "Máy quét là thiết bị nhập vì nó đưa thông tin vào máy tính — quét hình ảnh hoặc tài liệu giấy và chuyển thành tệp tin số. Giống như chụp ảnh tài liệu để đưa vào máy tính vậy!",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q029",
+      "q": "Khi gỡ cài đặt (uninstall) một phần mềm, điều gì sẽ xảy ra?",
+      "type": "single-choice",
+      "options": [
+        "Phần mềm bị xóa khỏi máy tính và không sử dụng được nữa.",
+        "Phần mềm chỉ bị ẩn đi nhưng vẫn chiếm bộ nhớ.",
+        "Máy tính sẽ bị hỏng.",
+        "Tất cả phần mềm khác cũng bị xóa theo."
+      ],
+      "correct": 0,
+      "explanation": "Gỡ cài đặt (uninstall) sẽ xóa phần mềm khỏi máy tính, giải phóng bộ nhớ. Các phần mềm khác không bị ảnh hưởng. Em nên gỡ những phần mềm không dùng nữa để máy tính chạy nhanh hơn.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q030",
+      "q": "Sắp xếp các thiết bị theo thứ tự từ nhỏ gọn nhất đến lớn nhất.",
+      "type": "drag-drop",
+      "options": [
+        "Smartphone (Điện thoại thông minh)",
+        "Máy tính bảng (Tablet)",
+        "Laptop (Máy tính xách tay)",
+        "Desktop (Máy tính để bàn)"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Thứ tự từ nhỏ đến lớn: Smartphone → Tablet → Laptop → Desktop. Smartphone bỏ túi được, tablet cầm tay, laptop mang theo trong cặp, còn desktop thì để cố định trên bàn.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q031",
+      "q": "Cập nhật phần mềm (Software Update) có tác dụng gì?",
+      "type": "single-choice",
+      "options": [
+        "Làm máy tính chạy chậm hơn.",
+        "Sửa lỗi, cải thiện tính năng và tăng cường bảo mật cho phần mềm.",
+        "Xóa hết dữ liệu trong máy tính.",
+        "Thay đổi hệ điều hành sang loại khác."
+      ],
+      "correct": 1,
+      "explanation": "Cập nhật phần mềm giống như tiêm vắc-xin cho máy tính — nó sửa lỗi, thêm tính năng mới và vá các lỗ hổng bảo mật. Em nên cập nhật phần mềm thường xuyên để máy tính hoạt động tốt và an toàn.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q032",
+      "q": "Thiết bị nào dưới đây KHÔNG phải là thiết bị ngoại vi (peripheral)?",
+      "type": "single-choice",
+      "options": [
+        "Chuột (Mouse)",
+        "CPU (Bộ xử lý trung tâm)",
+        "Máy in (Printer)",
+        "Loa (Speaker)"
+      ],
+      "correct": 1,
+      "explanation": "CPU nằm bên trong máy tính và là bộ phận chính, không phải thiết bị ngoại vi. Thiết bị ngoại vi là những thứ kết nối thêm vào máy tính từ bên ngoài như chuột, máy in, loa, bàn phím.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q033",
+      "q": "Hệ điều hành Windows là phần mềm ứng dụng.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 1,
+      "explanation": "Sai! Windows là phần mềm hệ thống (System Software), không phải phần mềm ứng dụng. Phần mềm hệ thống quản lý máy tính, còn phần mềm ứng dụng (như Word, Chrome) giúp em làm công việc cụ thể.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q034",
+      "q": "Cổng HDMI trên máy tính thường dùng để kết nối với thiết bị nào?",
+      "type": "single-choice",
+      "options": [
+        "Máy in",
+        "Màn hình hoặc TV để hiển thị hình ảnh và âm thanh",
+        "Bàn phím",
+        "USB Flash Drive"
+      ],
+      "correct": 1,
+      "explanation": "Cổng HDMI (High-Definition Multimedia Interface) truyền cả hình ảnh và âm thanh chất lượng cao. Em dùng nó để kết nối máy tính với màn hình rời hoặc TV, giống như nối ống nước để truyền nước từ chỗ này sang chỗ kia.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q035",
+      "q": "Những thành phần nào là phần cứng (hardware) của máy tính? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "RAM (Bộ nhớ tạm)",
+        "Microsoft Word",
+        "Ổ cứng SSD",
+        "Google Chrome"
+      ],
+      "correct": [0, 2],
+      "explanation": "RAM và ổ cứng SSD là phần cứng — những bộ phận vật lý em có thể chạm vào. Microsoft Word và Google Chrome là phần mềm — chương trình chạy trên máy tính mà em không thể cầm nắm được.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q036",
+      "q": "Laptop (máy tính xách tay) có ưu điểm gì so với Desktop (máy tính để bàn)?",
+      "type": "single-choice",
+      "options": [
+        "Laptop luôn mạnh hơn Desktop.",
+        "Laptop nhỏ gọn, có pin và dễ mang theo.",
+        "Laptop không cần hệ điều hành.",
+        "Laptop không bao giờ bị hỏng."
+      ],
+      "correct": 1,
+      "explanation": "Ưu điểm lớn nhất của laptop là nhỏ gọn, có pin riêng nên em có thể mang đi học, đi chơi. Desktop thường mạnh hơn nhưng phải để cố định trên bàn và cần cắm điện liên tục.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q037",
+      "q": "Quản lý tệp tin và thư mục là chức năng của phần mềm nào?",
+      "type": "single-choice",
+      "options": [
+        "Trình duyệt web (Web Browser)",
+        "Hệ điều hành (Operating System)",
+        "Phần mềm chống vi-rút (Antivirus)",
+        "Phần mềm chỉnh sửa ảnh"
+      ],
+      "correct": 1,
+      "explanation": "Hệ điều hành quản lý tệp tin và thư mục thông qua File Explorer (Windows) hoặc Finder (macOS). Nó giúp em tạo, sao chép, di chuyển, xóa tệp tin — giống như thủ thư quản lý sách trong thư viện.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q038",
+      "q": "Sắp xếp các bước đúng để gỡ cài đặt (uninstall) một phần mềm trên Windows.",
+      "type": "drag-drop",
+      "options": [
+        "Mở Settings (Cài đặt) hoặc Control Panel",
+        "Chọn mục Apps (Ứng dụng)",
+        "Tìm phần mềm cần gỡ trong danh sách",
+        "Nhấn Uninstall (Gỡ cài đặt) và xác nhận"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Thứ tự gỡ phần mềm: Mở Settings → Chọn Apps → Tìm phần mềm → Nhấn Uninstall. Đừng xóa thư mục phần mềm trực tiếp vì sẽ để lại rác trong máy tính!",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q039",
+      "q": "Tai nghe (Headphone) vừa là thiết bị nhập vừa là thiết bị xuất nếu có kèm micro.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 0,
+      "explanation": "Đúng! Tai nghe có micro (headset) vừa là thiết bị xuất (phát âm thanh cho em nghe) vừa là thiết bị nhập (micro thu giọng nói đưa vào máy tính). Nếu chỉ có tai nghe không micro thì chỉ là thiết bị xuất thôi.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q040",
+      "q": "Ví dụ nào dưới đây là hệ điều hành?",
+      "type": "single-choice",
+      "options": [
+        "Microsoft Word",
+        "Google Chrome",
+        "Windows 11",
+        "Minecraft"
+      ],
+      "correct": 2,
+      "explanation": "Windows 11 là hệ điều hành — phần mềm quản lý toàn bộ máy tính. Word là phần mềm soạn văn bản, Chrome là trình duyệt web, Minecraft là game. Các hệ điều hành khác gồm macOS, Linux, Android, iOS.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q041",
+      "q": "Những thiết bị nào có thể kết nối qua cổng USB? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Chuột (Mouse)",
+        "USB Flash Drive",
+        "Máy in (Printer)",
+        "Ổ cắm điện tường"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Chuột, USB Flash Drive và máy in đều có thể kết nối qua cổng USB. Ổ cắm điện tường là thiết bị điện trong nhà, không liên quan đến cổng USB của máy tính.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q042",
+      "q": "Sắp xếp các bước để cài đặt phần mềm mới từ Microsoft Store.",
+      "type": "drag-drop",
+      "options": [
+        "Mở Microsoft Store trên máy tính",
+        "Tìm kiếm phần mềm cần cài đặt",
+        "Nhấn nút Install (Cài đặt)",
+        "Chờ tải về và cài đặt xong, rồi mở phần mềm"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Thứ tự cài phần mềm từ Store: Mở Store → Tìm kiếm → Nhấn Install → Chờ xong và mở. Cài từ Store an toàn vì Microsoft đã kiểm tra phần mềm trước khi đưa lên.",
+      "difficulty": "trung bình",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q043",
+      "q": "Màn hình cảm ứng (Touchscreen) vừa là thiết bị nhập vừa là thiết bị xuất.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 0,
+      "explanation": "Đúng! Màn hình cảm ứng hiển thị hình ảnh (thiết bị xuất) và nhận lệnh khi em chạm vào (thiết bị nhập). Nó kết hợp cả hai chức năng trong một thiết bị, rất tiện lợi!",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q044",
+      "q": "Bộ nhớ nào lưu trữ dữ liệu tạm thời và mất dữ liệu khi tắt máy?",
+      "type": "single-choice",
+      "options": [
+        "Ổ cứng HDD",
+        "Ổ cứng SSD",
+        "RAM",
+        "USB Flash Drive"
+      ],
+      "correct": 2,
+      "explanation": "RAM là bộ nhớ tạm thời — dữ liệu sẽ biến mất khi tắt máy. Ổ cứng HDD, SSD và USB đều lưu dữ liệu lâu dài. RAM giống bảng trắng (xóa khi hết giờ), ổ cứng giống vở ghi (giữ lại mãi).",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q045",
+      "q": "Phần mềm nào dùng để tạo bảng tính, tính toán và vẽ biểu đồ?",
+      "type": "single-choice",
+      "options": [
+        "Microsoft PowerPoint",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Paint"
+      ],
+      "correct": 1,
+      "explanation": "Microsoft Excel chuyên về bảng tính — em dùng nó để nhập số liệu, tính toán bằng công thức và vẽ biểu đồ. PowerPoint làm slide, Word soạn văn bản, Paint vẽ hình.",
+      "difficulty": "dễ",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q046",
+      "q": "Thiết bị ngoại vi nào giúp chuyển tài liệu giấy thành tệp tin số trên máy tính?",
+      "type": "single-choice",
+      "options": [
+        "Máy in (Printer)",
+        "Máy quét (Scanner)",
+        "Loa (Speaker)",
+        "Webcam"
+      ],
+      "correct": 1,
+      "explanation": "Máy quét (Scanner) chụp hình tài liệu giấy và chuyển thành tệp tin số (ảnh hoặc PDF) trên máy tính. Máy in thì ngược lại — in tệp tin từ máy tính ra giấy.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q047",
+      "q": "Những hệ điều hành nào dưới đây dùng cho điện thoại thông minh? Chọn tất cả đáp án đúng.",
+      "type": "multiple-choice",
+      "options": [
+        "Android",
+        "Windows 11",
+        "iOS",
+        "Microsoft Excel"
+      ],
+      "correct": [0, 2],
+      "explanation": "Android (của Google) và iOS (của Apple) là hai hệ điều hành phổ biến nhất cho điện thoại. Windows 11 dùng cho máy tính, còn Microsoft Excel là phần mềm ứng dụng, không phải hệ điều hành.",
+      "difficulty": "khó",
+      "domain": "software",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q048",
+      "q": "CPU càng nhanh thì máy tính xử lý công việc càng nhanh.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 0,
+      "explanation": "Đúng! CPU nhanh hơn (tốc độ GHz cao hơn, nhiều nhân hơn) giúp máy tính xử lý công việc nhanh hơn. Giống như người chạy nhanh hơn sẽ đến đích sớm hơn vậy.",
+      "difficulty": "trung bình",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q049",
+      "q": "Khi máy tính chạy chậm, nguyên nhân có thể là gì?",
+      "type": "single-choice",
+      "options": [
+        "Mở quá nhiều chương trình cùng lúc, RAM không đủ.",
+        "Màn hình quá sáng.",
+        "Bàn phím bị bẩn.",
+        "Loa bật quá to."
+      ],
+      "correct": 0,
+      "explanation": "Khi mở quá nhiều chương trình, RAM phải làm việc quá sức nên máy chạy chậm. Giống như em ôm quá nhiều sách cùng lúc sẽ đi chậm hơn. Đóng bớt chương trình không dùng sẽ giúp máy nhanh hơn.",
+      "difficulty": "khó",
+      "domain": "hardware",
+      "module": "module_1"
+    },
+    {
+      "id": "m1_q050",
+      "q": "Phần cứng (Hardware) là những bộ phận em có thể chạm vào được.",
+      "type": "true-false",
+      "options": ["Đúng", "Sai"],
+      "correct": 0,
+      "explanation": "Đúng! Phần cứng là các bộ phận vật lý của máy tính mà em có thể nhìn thấy và chạm vào: màn hình, bàn phím, chuột, CPU, RAM... Phần mềm thì ngược lại — là chương trình chạy bên trong mà em không chạm được.",
+      "difficulty": "dễ",
+      "domain": "hardware",
+      "module": "module_1"
+    },

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "m3_q021",
+    "q": "LAN (Local Area Network) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Mạng kết nối các máy tính trên toàn thế giới.",
+      "Mạng kết nối các máy tính trong một khu vực nhỏ như nhà, trường học hoặc văn phòng.",
+      "Một loại cáp mạng.",
+      "Phần mềm kết nối Internet."
+    ],
+    "correct": 1,
+    "explanation": "LAN (Local Area Network) là mạng cục bộ — kết nối các máy tính trong phạm vi nhỏ như nhà em, phòng máy ở trường. Giống như một nhóm bạn trong lớp có thể nói chuyện với nhau dễ dàng!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q022",
+    "q": "WAN (Wide Area Network) khác LAN ở điểm nào?",
+    "type": "single-choice",
+    "options": [
+      "WAN chỉ kết nối 2 máy tính.",
+      "WAN kết nối các mạng ở khoảng cách xa, có thể trên toàn thế giới.",
+      "WAN chậm hơn LAN vì dùng cáp USB.",
+      "WAN và LAN hoàn toàn giống nhau."
+    ],
+    "correct": 1,
+    "explanation": "WAN (Wide Area Network) là mạng diện rộng — kết nối các mạng LAN ở xa nhau, thậm chí ở các quốc gia khác nhau. Internet chính là WAN lớn nhất thế giới! LAN giống như nói chuyện trong lớp, WAN giống như gọi điện cho bạn ở thành phố khác.",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q023",
+    "q": "Mạng di động 5G nhanh hơn 4G bao nhiêu lần?",
+    "type": "single-choice",
+    "options": [
+      "Chậm hơn 4G.",
+      "Nhanh gấp khoảng 10-100 lần so với 4G.",
+      "Nhanh gấp 2 lần.",
+      "Tốc độ giống hệt 4G."
+    ],
+    "correct": 1,
+    "explanation": "5G nhanh hơn 4G rất nhiều — có thể nhanh gấp 10 đến 100 lần! Với 5G, em có thể tải phim trong vài giây thay vì vài phút. Các thế hệ mạng di động: 3G (chậm) → 4G (nhanh) → 5G (siêu nhanh)!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q024",
+    "q": "Hotspot (điểm phát sóng) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Một loại vi-rút máy tính.",
+      "Tính năng chia sẻ kết nối Internet từ điện thoại cho thiết bị khác qua Wi-Fi.",
+      "Một trang web phổ biến.",
+      "Phần cứng bên trong máy tính."
+    ],
+    "correct": 1,
+    "explanation": "Hotspot cho phép điện thoại của em biến thành một 'trạm phát Wi-Fi' nhỏ, chia sẻ Internet cho laptop hoặc tablet. Rất tiện khi không có Wi-Fi! Nhưng nhớ rằng nó sẽ dùng dữ liệu di động (3G/4G/5G) của điện thoại.",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q025",
+    "q": "VPN (Virtual Private Network) dùng để làm gì?",
+    "type": "single-choice",
+    "options": [
+      "Tăng dung lượng ổ cứng.",
+      "Tạo kết nối mạng riêng tư và bảo mật, mã hóa dữ liệu khi dùng Internet.",
+      "Chơi game nhanh hơn.",
+      "Thay thế phần mềm diệt vi-rút."
+    ],
+    "correct": 1,
+    "explanation": "VPN tạo một 'đường hầm' bảo mật trên Internet — mã hóa dữ liệu của em để người khác không thể đọc được. Giống như gửi thư trong phong bì kín thay vì bưu thiếp mà ai cũng đọc được!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q026",
+    "q": "Podcast là gì?",
+    "type": "single-choice",
+    "options": [
+      "Một loại máy tính mới.",
+      "Chương trình âm thanh hoặc video được phát trực tuyến, em có thể nghe bất cứ lúc nào.",
+      "Phần mềm chỉnh sửa ảnh.",
+      "Một loại mạng xã hội."
+    ],
+    "correct": 1,
+    "explanation": "Podcast giống như chương trình radio trên Internet — em có thể nghe về khoa học, truyện cổ tích, tiếng Anh... bất cứ lúc nào, ở đâu. Chỉ cần điện thoại và tai nghe là em có thể học hỏi nhiều điều thú vị!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q027",
+    "q": "Blog là gì?",
+    "type": "single-choice",
+    "options": [
+      "Phần mềm diệt vi-rút.",
+      "Trang web cá nhân nơi người viết chia sẻ bài viết, hình ảnh và suy nghĩ.",
+      "Một loại mạng LAN.",
+      "Thiết bị lưu trữ dữ liệu."
+    ],
+    "correct": 1,
+    "explanation": "Blog giống như nhật ký trực tuyến — người viết chia sẻ bài viết về sở thích, kiến thức, trải nghiệm. Em có thể đọc blog về khoa học, nấu ăn, du lịch... Một số bạn nhỏ cũng viết blog chia sẻ về cuộc sống của mình!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q028",
+    "q": "Wiki là gì?",
+    "type": "single-choice",
+    "options": [
+      "Một loại vi-rút máy tính.",
+      "Trang web mà nhiều người cùng đóng góp và chỉnh sửa nội dung, ví dụ Wikipedia.",
+      "Phần mềm chơi game.",
+      "Một loại kết nối mạng."
+    ],
+    "correct": 1,
+    "explanation": "Wiki là trang web mà nhiều người cùng viết và chỉnh sửa. Wikipedia là wiki nổi tiếng nhất — bách khoa toàn thư trực tuyến mà ai cũng có thể đóng góp. Nhưng vì ai cũng sửa được nên em cần kiểm tra thông tin từ nhiều nguồn!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q029",
+    "q": "Video streaming (phát video trực tuyến) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Tải video về máy tính rồi mới xem.",
+      "Xem video trực tiếp qua Internet mà không cần tải về trước.",
+      "Quay video bằng webcam.",
+      "Gửi video qua email."
+    ],
+    "correct": 1,
+    "explanation": "Streaming là xem video trực tiếp qua Internet — không cần tải về trước. YouTube, Netflix, Disney+ đều là dịch vụ streaming. Giống như xem TV nhưng em chọn được muốn xem gì và xem lúc nào!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q030",
+    "q": "Online forum (diễn đàn trực tuyến) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Phần mềm chỉnh sửa văn bản.",
+      "Nơi trên mạng để mọi người thảo luận, đặt câu hỏi và chia sẻ ý kiến về một chủ đề.",
+      "Một loại email.",
+      "Phần cứng máy tính."
+    ],
+    "correct": 1,
+    "explanation": "Forum là nơi mọi người thảo luận trực tuyến về các chủ đề khác nhau. Em có thể đặt câu hỏi và nhận câu trả lời từ nhiều người. Giống như bảng tin ở trường nhưng trên mạng — ai cũng có thể đọc và góp ý!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q031",
+    "q": "NFC (Near Field Communication) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Mạng Internet tốc độ cao.",
+      "Công nghệ kết nối không dây ở khoảng cách rất gần (vài cm), dùng để thanh toán hoặc chia sẻ dữ liệu.",
+      "Một loại cáp mạng.",
+      "Phần mềm bảo mật."
+    ],
+    "correct": 1,
+    "explanation": "NFC cho phép hai thiết bị giao tiếp khi chạm gần nhau (vài cm). Em thấy NFC khi ba mẹ chạm điện thoại vào máy thanh toán, hoặc chạm thẻ xe buýt. Nó nhanh và tiện lợi nhưng chỉ hoạt động ở khoảng cách rất gần!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q032",
+    "q": "File sharing (chia sẻ tệp tin) qua mạng là gì?",
+    "type": "single-choice",
+    "options": [
+      "In tệp tin ra giấy và đưa cho bạn.",
+      "Gửi hoặc cho phép người khác truy cập tệp tin của em qua Internet hoặc mạng nội bộ.",
+      "Xóa tệp tin khỏi máy tính.",
+      "Nén tệp tin để tiết kiệm dung lượng."
+    ],
+    "correct": 1,
+    "explanation": "File sharing là chia sẻ tệp tin qua mạng — em có thể gửi bài tập cho bạn qua Google Drive, email, hoặc AirDrop. Rất tiện lợi nhưng em chỉ nên chia sẻ với người em biết và tin tưởng!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q033",
+    "q": "Messaging apps (ứng dụng nhắn tin) khác email ở điểm nào?",
+    "type": "single-choice",
+    "options": [
+      "Messaging apps chỉ gửi được hình ảnh, không gửi được chữ.",
+      "Messaging apps cho phép trò chuyện tức thì (real-time), còn email thường chậm hơn và trang trọng hơn.",
+      "Email nhanh hơn messaging apps.",
+      "Messaging apps và email hoàn toàn giống nhau."
+    ],
+    "correct": 1,
+    "explanation": "Messaging apps (Zalo, Messenger) cho phép chat tức thì — tin nhắn đến ngay lập tức. Email thường dùng cho nội dung dài hơn, trang trọng hơn và không cần trả lời ngay. Giống như nói chuyện trực tiếp (chat) so với gửi thư (email)!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q034",
+    "q": "Khi tham gia video conferencing (họp video trực tuyến), em nên làm gì?",
+    "type": "single-choice",
+    "options": [
+      "Bật micro suốt buổi họp dù không nói.",
+      "Tắt micro khi không nói, bật camera, ngồi ở nơi yên tĩnh và lắng nghe.",
+      "Chơi game trong khi họp.",
+      "Ăn uống và nói chuyện riêng."
+    ],
+    "correct": 1,
+    "explanation": "Phép lịch sự khi họp video: tắt micro khi không nói (tránh tiếng ồn), bật camera để mọi người thấy em, ngồi nơi yên tĩnh và tập trung lắng nghe. Giống như ngồi trong lớp học — em cần chú ý và tôn trọng người đang nói!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q035",
+    "q": "Online learning platform (nền tảng học trực tuyến) là gì?",
+    "type": "single-choice",
+    "options": [
+      "Phần mềm chơi game giáo dục.",
+      "Trang web hoặc ứng dụng cho phép em học bài, xem video bài giảng và làm bài tập qua Internet.",
+      "Mạng xã hội dành cho học sinh.",
+      "Phần mềm chỉnh sửa ảnh."
+    ],
+    "correct": 1,
+    "explanation": "Online learning platform là nơi em học trực tuyến — xem bài giảng, làm bài tập, thi trắc nghiệm qua Internet. Ví dụ: Google Classroom, Khan Academy, Zoom. Em có thể học mọi lúc, mọi nơi chỉ cần có Internet!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q036",
+    "q": "Có những loại mạng xã hội nào phổ biến?",
+    "type": "single-choice",
+    "options": [
+      "Chỉ có Facebook là mạng xã hội duy nhất.",
+      "Mạng chia sẻ ảnh (Instagram), mạng video ngắn (TikTok), mạng nhắn tin (Zalo), mạng chuyên nghiệp (LinkedIn).",
+      "Mạng xã hội chỉ dùng để chơi game.",
+      "Mạng xã hội và email là một."
+    ],
+    "correct": 1,
+    "explanation": "Có nhiều loại mạng xã hội: chia sẻ ảnh (Instagram), video ngắn (TikTok), nhắn tin (Zalo, Messenger), chuyên nghiệp (LinkedIn), chia sẻ video (YouTube). Mỗi loại có mục đích khác nhau!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q037",
+    "q": "3G, 4G, 5G là các thế hệ mạng di động, trong đó số càng lớn thì tốc độ càng nhanh.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 0,
+    "explanation": "Đúng! G là viết tắt của Generation (thế hệ). 3G là thế hệ 3, 4G là thế hệ 4, 5G là thế hệ 5. Mỗi thế hệ mới nhanh hơn thế hệ trước. 5G là nhanh nhất hiện nay!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q038",
+    "q": "Khi dùng hotspot từ điện thoại, dữ liệu di động (3G/4G/5G) sẽ bị tiêu tốn.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 0,
+    "explanation": "Đúng! Khi em bật hotspot, điện thoại chia sẻ Internet di động cho thiết bị khác. Dữ liệu di động sẽ bị dùng nhiều hơn và pin cũng hết nhanh hơn. Hãy cẩn thận để không hết gói cước nhé!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q039",
+    "q": "Wikipedia luôn chính xác 100% vì có nhiều người kiểm tra nội dung.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 1,
+    "explanation": "Sai! Vì ai cũng có thể chỉnh sửa Wikipedia nên đôi khi có thông tin chưa chính xác. Em nên dùng Wikipedia để tìm hiểu ban đầu, nhưng luôn kiểm tra lại từ sách giáo khoa hoặc nguồn đáng tin cậy khác.",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q040",
+    "q": "Video streaming cần kết nối Internet liên tục để xem được.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 0,
+    "explanation": "Đúng! Streaming nghĩa là xem trực tiếp qua mạng, nên cần Internet liên tục. Nếu mất mạng, video sẽ dừng lại. Một số ứng dụng cho phép tải video về trước để xem offline (không cần mạng).",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q041",
+    "q": "NFC chỉ hoạt động khi hai thiết bị ở rất gần nhau (vài cm).",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 0,
+    "explanation": "Đúng! NFC (Near Field Communication) chỉ hoạt động ở khoảng cách rất gần — thường dưới 4 cm. Đó là lý do em phải chạm điện thoại vào máy thanh toán chứ không thể đứng xa. Điều này cũng giúp NFC an toàn hơn!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q042",
+    "q": "Email phù hợp hơn messaging apps khi gửi nội dung trang trọng hoặc chính thức.",
+    "type": "true-false",
+    "options": ["Đúng", "Sai"],
+    "correct": 0,
+    "explanation": "Đúng! Email phù hợp cho nội dung trang trọng như gửi bài tập cho thầy cô, liên hệ công việc. Messaging apps (Zalo, Messenger) phù hợp cho trò chuyện nhanh với bạn bè, gia đình. Mỗi công cụ có lúc phù hợp riêng!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q043",
+    "q": "Những phương tiện truyền thông nào là truyền thông trực tuyến? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Podcast",
+      "Sách giấy",
+      "Blog",
+      "Video streaming (YouTube)"
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "Podcast, blog và video streaming đều là truyền thông trực tuyến — cần Internet để truy cập. Sách giấy là truyền thông truyền thống, không cần Internet. Ngày nay có rất nhiều cách để học và giải trí trực tuyến!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q044",
+    "q": "Những quy tắc nào nên tuân thủ khi tham gia video conferencing? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Tắt micro khi không nói để tránh tiếng ồn.",
+      "Ngồi ở nơi yên tĩnh, có ánh sáng tốt.",
+      "Chơi game trong khi người khác đang nói.",
+      "Giơ tay hoặc dùng nút 'Raise Hand' khi muốn phát biểu."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Quy tắc họp video: tắt micro khi không nói, ngồi nơi yên tĩnh có ánh sáng, giơ tay khi muốn nói. Chơi game trong khi họp là không tôn trọng người khác. Hãy tập trung như khi ngồi trong lớp học!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q045",
+    "q": "Những ứng dụng nào dùng để chia sẻ tệp tin qua mạng? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Google Drive",
+      "Calculator (Máy tính)",
+      "OneDrive",
+      "AirDrop"
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "Google Drive, OneDrive và AirDrop đều dùng để chia sẻ tệp tin. Calculator là ứng dụng máy tính bỏ túi, không chia sẻ tệp được. Google Drive và OneDrive lưu trên đám mây, AirDrop chia sẻ trực tiếp giữa thiết bị Apple!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q046",
+    "q": "Những nền tảng nào là online learning platform? Chọn tất cả đáp án đúng.",
+    "type": "multiple-choice",
+    "options": [
+      "Google Classroom",
+      "Instagram",
+      "Khan Academy",
+      "Microsoft Teams (dùng cho học trực tuyến)"
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "Google Classroom, Khan Academy và Microsoft Teams đều dùng để học trực tuyến. Instagram là mạng xã hội chia sẻ ảnh, không phải nền tảng học tập. Có rất nhiều nền tảng giúp em học mọi lúc mọi nơi!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q047",
+    "q": "Sắp xếp các thế hệ mạng di động từ chậm nhất đến nhanh nhất.",
+    "type": "drag-drop",
+    "options": [
+      "2G",
+      "3G",
+      "4G (LTE)",
+      "5G"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Thứ tự từ chậm đến nhanh: 2G → 3G → 4G → 5G. Mỗi thế hệ mới nhanh hơn nhiều lần. 2G chỉ gọi điện và nhắn tin, 3G lướt web, 4G xem video HD, 5G xem video 4K và chơi game trực tuyến mượt mà!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q048",
+    "q": "Sắp xếp phạm vi kết nối từ GẦN NHẤT đến XA NHẤT.",
+    "type": "drag-drop",
+    "options": [
+      "NFC (vài cm)",
+      "Bluetooth (khoảng 10 mét)",
+      "Wi-Fi (khoảng 30-50 mét)",
+      "Mạng di động 4G/5G (nhiều km)"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Từ gần đến xa: NFC (vài cm, phải chạm) → Bluetooth (10m, trong phòng) → Wi-Fi (30-50m, trong nhà) → 4G/5G (nhiều km, khắp nơi). Mỗi loại kết nối phù hợp cho mục đích khác nhau!",
+    "difficulty": "khó",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q049",
+    "q": "Sắp xếp các bước để kết nối laptop với Wi-Fi.",
+    "type": "drag-drop",
+    "options": [
+      "Nhấn vào biểu tượng Wi-Fi trên thanh taskbar",
+      "Chọn tên mạng Wi-Fi muốn kết nối",
+      "Nhập mật khẩu Wi-Fi",
+      "Nhấn Connect (Kết nối) và chờ kết nối thành công"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Kết nối Wi-Fi: Nhấn biểu tượng Wi-Fi → Chọn tên mạng → Nhập mật khẩu → Nhấn Connect. Sau khi kết nối thành công, biểu tượng Wi-Fi sẽ hiện đầy sóng. Rất đơn giản phải không!",
+    "difficulty": "dễ",
+    "domain": "networking",
+    "module": "module_3"
+  },
+  {
+    "id": "m3_q050",
+    "q": "Sắp xếp các bước để tham gia một buổi học trực tuyến qua Zoom.",
+    "type": "drag-drop",
+    "options": [
+      "Nhận đường link hoặc mã phòng họp từ thầy cô",
+      "Mở ứng dụng Zoom hoặc nhấn vào đường link",
+      "Nhập tên và kiểm tra camera, micro",
+      "Nhấn Join Meeting (Tham gia) và chờ thầy cô cho vào phòng"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Tham gia Zoom: Nhận link → Mở Zoom → Nhập tên, kiểm tra camera/micro → Nhấn Join. Hãy vào phòng sớm vài phút để kiểm tra thiết bị và sẵn sàng cho buổi học nhé!",
+    "difficulty": "trung bình",
+    "domain": "networking",
+    "module": "module_3"
+  }
+]

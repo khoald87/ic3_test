@@ -75,6 +75,7 @@
       var label = document.createElement('label');
       label.className = 'option-label';
       label.id = 'label-' + index + '-' + i;
+      label.setAttribute('tabindex', '0');
 
       var input = document.createElement('input');
       input.type = 'radio';
@@ -108,6 +109,7 @@
       var label = document.createElement('label');
       label.className = 'option-label';
       label.id = 'label-' + index + '-' + i;
+      label.setAttribute('tabindex', '0');
 
       var input = document.createElement('input');
       input.type = 'radio';
@@ -141,6 +143,7 @@
       var label = document.createElement('label');
       label.className = 'option-label';
       label.id = 'label-' + index + '-' + i;
+      label.setAttribute('tabindex', '0');
 
       var input = document.createElement('input');
       input.type = 'checkbox';
@@ -170,7 +173,7 @@
 
 
   /**
-   * Render drag-drop — HTML5 Drag and Drop API với fallback dropdown
+   * Render drag-drop — HTML5 Drag and Drop API + Touch Events với fallback dropdown
    */
   function renderDragDrop(question, index, options) {
     var wrapper = document.createElement('div');
@@ -180,7 +183,7 @@
     var supportsDragDrop = ('draggable' in document.createElement('div'));
 
     if (supportsDragDrop && !options.disabled) {
-      // HTML5 Drag and Drop
+      // HTML5 Drag and Drop + Touch Events
       var instruction = document.createElement('p');
       instruction.className = 'drag-instruction';
       instruction.textContent = '📌 Kéo thả để sắp xếp đúng thứ tự:';
@@ -190,6 +193,15 @@
       list.className = 'drag-list';
       list.setAttribute('data-question-index', index);
 
+      // Touch state cho drag-drop trên mobile
+      var touchState = {
+        dragging: null,       // Element đang được kéo
+        placeholder: null,    // Placeholder element
+        startY: 0,            // Vị trí Y ban đầu khi chạm
+        offsetY: 0,           // Offset từ top của item đến điểm chạm
+        active: false         // Đang trong quá trình kéo
+      };
+
       for (var i = 0; i < question.options.length; i++) {
         var item = document.createElement('div');
         item.className = 'drag-item';
@@ -197,6 +209,7 @@
         item.setAttribute('data-original-index', i);
         item.textContent = question.options[i];
 
+        // === HTML5 Drag Events (desktop) ===
         item.addEventListener('dragstart', function (e) {
           e.dataTransfer.setData('text/plain', this.getAttribute('data-original-index'));
           this.classList.add('dragging');
@@ -206,9 +219,85 @@
           this.classList.remove('dragging');
         });
 
+        // === Touch Events (mobile) ===
+        item.addEventListener('touchstart', function (e) {
+          var touch = e.touches[0];
+          var rect = this.getBoundingClientRect();
+
+          touchState.dragging = this;
+          touchState.startY = touch.clientY;
+          touchState.offsetY = touch.clientY - rect.top;
+          touchState.active = true;
+
+          // Visual feedback
+          this.classList.add('dragging');
+          this.style.opacity = '0.7';
+          this.style.transform = 'scale(1.03)';
+          this.style.zIndex = '1000';
+          this.style.position = 'relative';
+        }, { passive: true });
+
         list.appendChild(item);
       }
 
+      // Touch move — di chuyển item theo ngón tay và reorder
+      list.addEventListener('touchmove', function (e) {
+        if (!touchState.active || !touchState.dragging) return;
+        e.preventDefault(); // Ngăn page scroll khi đang kéo
+
+        var touch = e.touches[0];
+        var dragItem = touchState.dragging;
+
+        // Di chuyển item theo ngón tay
+        var deltaY = touch.clientY - touchState.startY;
+        dragItem.style.transform = 'translateY(' + deltaY + 'px) scale(1.03)';
+
+        // Tìm item đang hover và reorder
+        var afterElement = getDragAfterElement(list, touch.clientY);
+        if (afterElement == null) {
+          if (list.lastElementChild !== dragItem) {
+            list.appendChild(dragItem);
+            // Reset startY sau khi reorder để tránh nhảy
+            touchState.startY = touch.clientY;
+            dragItem.style.transform = 'scale(1.03)';
+          }
+        } else if (afterElement !== dragItem) {
+          list.insertBefore(dragItem, afterElement);
+          // Reset startY sau khi reorder
+          touchState.startY = touch.clientY;
+          dragItem.style.transform = 'scale(1.03)';
+        }
+      }, { passive: false });
+
+      // Touch end — finalize order và remove visual feedback
+      list.addEventListener('touchend', function () {
+        if (!touchState.active || !touchState.dragging) return;
+
+        var dragItem = touchState.dragging;
+
+        // Remove visual feedback
+        dragItem.classList.remove('dragging');
+        dragItem.style.opacity = '';
+        dragItem.style.transform = '';
+        dragItem.style.zIndex = '';
+        dragItem.style.position = '';
+
+        // Cập nhật answers theo thứ tự hiện tại
+        var items = list.querySelectorAll('.drag-item');
+        var order = [];
+        for (var j = 0; j < items.length; j++) {
+          order.push(parseInt(items[j].getAttribute('data-original-index')));
+        }
+        answers[index] = order;
+
+        // Reset touch state
+        touchState.dragging = null;
+        touchState.active = false;
+        touchState.startY = 0;
+        touchState.offsetY = 0;
+      });
+
+      // === HTML5 Drag Events (desktop) ===
       list.addEventListener('dragover', function (e) {
         e.preventDefault();
         var dragging = list.querySelector('.dragging');

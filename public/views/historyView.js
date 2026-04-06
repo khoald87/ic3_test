@@ -28,9 +28,9 @@
 
   /**
    * Render danh sách lịch sử bài thi
+   * Ưu tiên tải từ server khi có student name, fallback localStorage
    */
   function renderHistoryList(container) {
-    var history = window.StorageManager.getExamHistory();
     var studentName = sessionStorage.getItem('ic3_student_name');
 
     // Header
@@ -59,8 +59,58 @@
       return;
     }
 
+    // Show loading while fetching from server
+    var contentArea = document.createElement('div');
+    contentArea.className = 'history-content-area';
+    contentArea.innerHTML =
+      '<div style="text-align:center;padding:40px 0;color:#64748B;">' +
+        '<div style="font-size:2rem;margin-bottom:12px;">⏳</div>' +
+        '<p>Đang tải lịch sử từ server...</p>' +
+      '</div>';
+    container.appendChild(contentArea);
+
+    // Try server first, fallback to localStorage
+    window.StorageManager.getExamHistoryFromServer(studentName)
+      .then(function (serverHistory) {
+        if (serverHistory && serverHistory.length > 0) {
+          // Server returned data — use it
+          displayHistoryData(contentArea, serverHistory, false);
+        } else if (serverHistory && serverHistory.length === 0) {
+          // Server returned empty array — no exams yet
+          displayHistoryData(contentArea, [], false);
+        } else {
+          // Server returned null (error/offline) — fallback to localStorage
+          var localHistory = window.StorageManager.getExamHistory();
+          displayHistoryData(contentArea, localHistory, true);
+        }
+      });
+  }
+
+  /**
+   * Hiển thị dữ liệu lịch sử thi (từ server hoặc localStorage)
+   * @param {HTMLElement} contentArea - container để render vào
+   * @param {Object[]} history - danh sách bài thi
+   * @param {boolean} isOffline - true nếu đang dùng dữ liệu localStorage fallback
+   */
+  function displayHistoryData(contentArea, history, isOffline) {
+    contentArea.innerHTML = '';
+
+    // Offline banner
+    if (isOffline) {
+      var banner = document.createElement('div');
+      banner.className = 'offline-banner';
+      banner.setAttribute('role', 'alert');
+      banner.innerHTML =
+        '<span style="margin-right:8px;">📡</span>' +
+        'Đang hiển thị dữ liệu offline';
+      banner.style.cssText =
+        'background:#FEF3C7;color:#92400E;padding:10px 16px;border-radius:8px;' +
+        'margin-bottom:16px;font-size:0.9rem;display:flex;align-items:center;';
+      contentArea.appendChild(banner);
+    }
+
     if (!history || history.length === 0) {
-      container.innerHTML +=
+      contentArea.innerHTML +=
         '<div class="empty-state">' +
           '<div class="empty-state-icon">📭</div>' +
           '<p>Chưa có bài thi nào. Hãy thử thi thử nhé!</p>' +
@@ -71,14 +121,14 @@
 
     // Score chart
     if (history.length >= 2) {
-      renderScoreChart(container, history);
+      renderScoreChart(contentArea, history);
     }
 
     // Results heading
     var resultsHeading = document.createElement('h3');
     resultsHeading.style.cssText = 'font-size:1.5rem;font-weight:700;color:#1E293B;margin-bottom:24px;';
     resultsHeading.textContent = 'Kết quả bài thi gần đây';
-    container.appendChild(resultsHeading);
+    contentArea.appendChild(resultsHeading);
 
     // History list — card grid
     var list = document.createElement('div');
@@ -120,7 +170,7 @@
       list.appendChild(item);
     }
 
-    container.appendChild(list);
+    contentArea.appendChild(list);
   }
 
   /**
